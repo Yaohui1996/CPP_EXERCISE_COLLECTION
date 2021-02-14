@@ -6997,8 +6997,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter5/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_06_09">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_09" prefix_auto="0" extension_auto="0"/>
+			<Target title="_06_25">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_25" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -7011,14 +7011,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_09"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_25"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_06_09/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_09" prefix_auto="0" extension_auto="0"/>
+			<Target title="_06_25/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_25" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -7031,7 +7031,127 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_09/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_25/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_24">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_24"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_24/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_24/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_22">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_22"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_22/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_22/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_12">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_12/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_12/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
@@ -7072,6 +7192,366 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_18">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_18"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_18/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_18/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_20">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_20"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_20/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_20/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_17">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_17"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_17/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_17/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_16">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_16"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_16/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_16/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_21">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_21"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_21/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_21/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_13">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_13/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_13/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_09">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_09"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_09/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_09/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_26">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_26"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_26/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_26/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_02">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_02/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_02/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
@@ -7157,6 +7637,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_06_10">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_10/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_06_07">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_07" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
@@ -7192,6 +7712,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_23">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_23"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_23/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_23/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
@@ -7237,8 +7797,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_06_02">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_02" prefix_auto="0" extension_auto="0"/>
+			<Target title="_06_15">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_15" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -7251,14 +7811,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_02"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_15"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_06_02/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_02" prefix_auto="0" extension_auto="0"/>
+			<Target title="_06_15/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_15" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -7271,7 +7831,127 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_02/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_15/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_19">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_19"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_19/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_19/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_11">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_11/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_14">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_14"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_06_14/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/_06_14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 _06_14/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
@@ -7888,8 +8568,8 @@
 			<Option target="_05_25"/>
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/Chapter6.h">
-			<Option target="_06_09"/>
 			<Option target="_06_08"/>
+			<Option target="_06_09"/>
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_01.cpp">
 			<Option target="_06_01"/>
@@ -7917,6 +8597,57 @@
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_09.cpp">
 			<Option target="_06_09"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_10.cpp">
+			<Option target="_06_10"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_11.cpp">
+			<Option target="_06_11"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_12.cpp">
+			<Option target="_06_12"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_13.cpp">
+			<Option target="_06_13"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_14.cpp">
+			<Option target="_06_14"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_15.cpp">
+			<Option target="_06_15"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_16.cpp">
+			<Option target="_06_16"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_17.cpp">
+			<Option target="_06_17"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_18.cpp">
+			<Option target="_06_18"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_19.cpp">
+			<Option target="_06_19"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_20.cpp">
+			<Option target="_06_20"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_21.cpp">
+			<Option target="_06_21"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_22.cpp">
+			<Option target="_06_22"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_23.cpp">
+			<Option target="_06_23"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_24.cpp">
+			<Option target="_06_24"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_25.cpp">
+			<Option target="_06_25"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_26.cpp">
+			<Option target="_06_26"/>
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/fact.cpp">
 			<Option target="_06_09"/>

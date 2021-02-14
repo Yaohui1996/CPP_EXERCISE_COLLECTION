@@ -131,19 +131,64 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Chapter6/CMakeFiles/_06_09.dir/rule:
-	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_09.dir/rule
-.PHONY : Chapter6/CMakeFiles/_06_09.dir/rule
+Chapter6/CMakeFiles/_06_25.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_25.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_25.dir/rule
 
 # Convenience name for target.
-_06_09: Chapter6/CMakeFiles/_06_09.dir/rule
+_06_25: Chapter6/CMakeFiles/_06_25.dir/rule
 
-.PHONY : _06_09
+.PHONY : _06_25
 
 # fast build rule for target.
-_06_09/fast:
-	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_09.dir/build.make Chapter6/CMakeFiles/_06_09.dir/build
-.PHONY : _06_09/fast
+_06_25/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_25.dir/build.make Chapter6/CMakeFiles/_06_25.dir/build
+.PHONY : _06_25/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_24.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_24.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_24.dir/rule
+
+# Convenience name for target.
+_06_24: Chapter6/CMakeFiles/_06_24.dir/rule
+
+.PHONY : _06_24
+
+# fast build rule for target.
+_06_24/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_24.dir/build.make Chapter6/CMakeFiles/_06_24.dir/build
+.PHONY : _06_24/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_22.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_22.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_22.dir/rule
+
+# Convenience name for target.
+_06_22: Chapter6/CMakeFiles/_06_22.dir/rule
+
+.PHONY : _06_22
+
+# fast build rule for target.
+_06_22/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_22.dir/build.make Chapter6/CMakeFiles/_06_22.dir/build
+.PHONY : _06_22/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_12.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_12.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_12.dir/rule
+
+# Convenience name for target.
+_06_12: Chapter6/CMakeFiles/_06_12.dir/rule
+
+.PHONY : _06_12
+
+# fast build rule for target.
+_06_12/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_12.dir/build.make Chapter6/CMakeFiles/_06_12.dir/build
+.PHONY : _06_12/fast
 
 # Convenience name for target.
 Chapter6/CMakeFiles/_06_08.dir/rule:
@@ -159,6 +204,141 @@ _06_08: Chapter6/CMakeFiles/_06_08.dir/rule
 _06_08/fast:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_08.dir/build.make Chapter6/CMakeFiles/_06_08.dir/build
 .PHONY : _06_08/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_18.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_18.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_18.dir/rule
+
+# Convenience name for target.
+_06_18: Chapter6/CMakeFiles/_06_18.dir/rule
+
+.PHONY : _06_18
+
+# fast build rule for target.
+_06_18/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_18.dir/build.make Chapter6/CMakeFiles/_06_18.dir/build
+.PHONY : _06_18/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_20.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_20.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_20.dir/rule
+
+# Convenience name for target.
+_06_20: Chapter6/CMakeFiles/_06_20.dir/rule
+
+.PHONY : _06_20
+
+# fast build rule for target.
+_06_20/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_20.dir/build.make Chapter6/CMakeFiles/_06_20.dir/build
+.PHONY : _06_20/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_17.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_17.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_17.dir/rule
+
+# Convenience name for target.
+_06_17: Chapter6/CMakeFiles/_06_17.dir/rule
+
+.PHONY : _06_17
+
+# fast build rule for target.
+_06_17/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_17.dir/build.make Chapter6/CMakeFiles/_06_17.dir/build
+.PHONY : _06_17/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_16.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_16.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_16.dir/rule
+
+# Convenience name for target.
+_06_16: Chapter6/CMakeFiles/_06_16.dir/rule
+
+.PHONY : _06_16
+
+# fast build rule for target.
+_06_16/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_16.dir/build.make Chapter6/CMakeFiles/_06_16.dir/build
+.PHONY : _06_16/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_21.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_21.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_21.dir/rule
+
+# Convenience name for target.
+_06_21: Chapter6/CMakeFiles/_06_21.dir/rule
+
+.PHONY : _06_21
+
+# fast build rule for target.
+_06_21/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_21.dir/build.make Chapter6/CMakeFiles/_06_21.dir/build
+.PHONY : _06_21/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_13.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_13.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_13.dir/rule
+
+# Convenience name for target.
+_06_13: Chapter6/CMakeFiles/_06_13.dir/rule
+
+.PHONY : _06_13
+
+# fast build rule for target.
+_06_13/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_13.dir/build.make Chapter6/CMakeFiles/_06_13.dir/build
+.PHONY : _06_13/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_09.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_09.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_09.dir/rule
+
+# Convenience name for target.
+_06_09: Chapter6/CMakeFiles/_06_09.dir/rule
+
+.PHONY : _06_09
+
+# fast build rule for target.
+_06_09/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_09.dir/build.make Chapter6/CMakeFiles/_06_09.dir/build
+.PHONY : _06_09/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_26.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_26.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_26.dir/rule
+
+# Convenience name for target.
+_06_26: Chapter6/CMakeFiles/_06_26.dir/rule
+
+.PHONY : _06_26
+
+# fast build rule for target.
+_06_26/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_26.dir/build.make Chapter6/CMakeFiles/_06_26.dir/build
+.PHONY : _06_26/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_02.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_02.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_02.dir/rule
+
+# Convenience name for target.
+_06_02: Chapter6/CMakeFiles/_06_02.dir/rule
+
+.PHONY : _06_02
+
+# fast build rule for target.
+_06_02/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_02.dir/build.make Chapter6/CMakeFiles/_06_02.dir/build
+.PHONY : _06_02/fast
 
 # Convenience name for target.
 Chapter6/CMakeFiles/_06_06.dir/rule:
@@ -191,6 +371,21 @@ _06_03/fast:
 .PHONY : _06_03/fast
 
 # Convenience name for target.
+Chapter6/CMakeFiles/_06_10.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_10.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_10.dir/rule
+
+# Convenience name for target.
+_06_10: Chapter6/CMakeFiles/_06_10.dir/rule
+
+.PHONY : _06_10
+
+# fast build rule for target.
+_06_10/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_10.dir/build.make Chapter6/CMakeFiles/_06_10.dir/build
+.PHONY : _06_10/fast
+
+# Convenience name for target.
 Chapter6/CMakeFiles/_06_07.dir/rule:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_07.dir/rule
 .PHONY : Chapter6/CMakeFiles/_06_07.dir/rule
@@ -204,6 +399,21 @@ _06_07: Chapter6/CMakeFiles/_06_07.dir/rule
 _06_07/fast:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_07.dir/build.make Chapter6/CMakeFiles/_06_07.dir/build
 .PHONY : _06_07/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_23.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_23.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_23.dir/rule
+
+# Convenience name for target.
+_06_23: Chapter6/CMakeFiles/_06_23.dir/rule
+
+.PHONY : _06_23
+
+# fast build rule for target.
+_06_23/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_23.dir/build.make Chapter6/CMakeFiles/_06_23.dir/build
+.PHONY : _06_23/fast
 
 # Convenience name for target.
 Chapter6/CMakeFiles/_06_05.dir/rule:
@@ -221,19 +431,64 @@ _06_05/fast:
 .PHONY : _06_05/fast
 
 # Convenience name for target.
-Chapter6/CMakeFiles/_06_02.dir/rule:
-	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_02.dir/rule
-.PHONY : Chapter6/CMakeFiles/_06_02.dir/rule
+Chapter6/CMakeFiles/_06_15.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_15.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_15.dir/rule
 
 # Convenience name for target.
-_06_02: Chapter6/CMakeFiles/_06_02.dir/rule
+_06_15: Chapter6/CMakeFiles/_06_15.dir/rule
 
-.PHONY : _06_02
+.PHONY : _06_15
 
 # fast build rule for target.
-_06_02/fast:
-	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_02.dir/build.make Chapter6/CMakeFiles/_06_02.dir/build
-.PHONY : _06_02/fast
+_06_15/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_15.dir/build.make Chapter6/CMakeFiles/_06_15.dir/build
+.PHONY : _06_15/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_19.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_19.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_19.dir/rule
+
+# Convenience name for target.
+_06_19: Chapter6/CMakeFiles/_06_19.dir/rule
+
+.PHONY : _06_19
+
+# fast build rule for target.
+_06_19/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_19.dir/build.make Chapter6/CMakeFiles/_06_19.dir/build
+.PHONY : _06_19/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_11.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_11.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_11.dir/rule
+
+# Convenience name for target.
+_06_11: Chapter6/CMakeFiles/_06_11.dir/rule
+
+.PHONY : _06_11
+
+# fast build rule for target.
+_06_11/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_11.dir/build.make Chapter6/CMakeFiles/_06_11.dir/build
+.PHONY : _06_11/fast
+
+# Convenience name for target.
+Chapter6/CMakeFiles/_06_14.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_14.dir/rule
+.PHONY : Chapter6/CMakeFiles/_06_14.dir/rule
+
+# Convenience name for target.
+_06_14: Chapter6/CMakeFiles/_06_14.dir/rule
+
+.PHONY : _06_14
+
+# fast build rule for target.
+_06_14/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_14.dir/build.make Chapter6/CMakeFiles/_06_14.dir/build
+.PHONY : _06_14/fast
 
 # Convenience name for target.
 Chapter6/CMakeFiles/_06_04.dir/rule:
@@ -508,6 +763,465 @@ _06_09.cpp.s:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_09.dir/build.make Chapter6/CMakeFiles/_06_09.dir/_06_09.cpp.s
 .PHONY : _06_09.cpp.s
 
+_06_10.o: _06_10.cpp.o
+
+.PHONY : _06_10.o
+
+# target to build an object file
+_06_10.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_10.dir/build.make Chapter6/CMakeFiles/_06_10.dir/_06_10.cpp.o
+.PHONY : _06_10.cpp.o
+
+_06_10.i: _06_10.cpp.i
+
+.PHONY : _06_10.i
+
+# target to preprocess a source file
+_06_10.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_10.dir/build.make Chapter6/CMakeFiles/_06_10.dir/_06_10.cpp.i
+.PHONY : _06_10.cpp.i
+
+_06_10.s: _06_10.cpp.s
+
+.PHONY : _06_10.s
+
+# target to generate assembly for a file
+_06_10.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_10.dir/build.make Chapter6/CMakeFiles/_06_10.dir/_06_10.cpp.s
+.PHONY : _06_10.cpp.s
+
+_06_11.o: _06_11.cpp.o
+
+.PHONY : _06_11.o
+
+# target to build an object file
+_06_11.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_11.dir/build.make Chapter6/CMakeFiles/_06_11.dir/_06_11.cpp.o
+.PHONY : _06_11.cpp.o
+
+_06_11.i: _06_11.cpp.i
+
+.PHONY : _06_11.i
+
+# target to preprocess a source file
+_06_11.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_11.dir/build.make Chapter6/CMakeFiles/_06_11.dir/_06_11.cpp.i
+.PHONY : _06_11.cpp.i
+
+_06_11.s: _06_11.cpp.s
+
+.PHONY : _06_11.s
+
+# target to generate assembly for a file
+_06_11.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_11.dir/build.make Chapter6/CMakeFiles/_06_11.dir/_06_11.cpp.s
+.PHONY : _06_11.cpp.s
+
+_06_12.o: _06_12.cpp.o
+
+.PHONY : _06_12.o
+
+# target to build an object file
+_06_12.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_12.dir/build.make Chapter6/CMakeFiles/_06_12.dir/_06_12.cpp.o
+.PHONY : _06_12.cpp.o
+
+_06_12.i: _06_12.cpp.i
+
+.PHONY : _06_12.i
+
+# target to preprocess a source file
+_06_12.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_12.dir/build.make Chapter6/CMakeFiles/_06_12.dir/_06_12.cpp.i
+.PHONY : _06_12.cpp.i
+
+_06_12.s: _06_12.cpp.s
+
+.PHONY : _06_12.s
+
+# target to generate assembly for a file
+_06_12.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_12.dir/build.make Chapter6/CMakeFiles/_06_12.dir/_06_12.cpp.s
+.PHONY : _06_12.cpp.s
+
+_06_13.o: _06_13.cpp.o
+
+.PHONY : _06_13.o
+
+# target to build an object file
+_06_13.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_13.dir/build.make Chapter6/CMakeFiles/_06_13.dir/_06_13.cpp.o
+.PHONY : _06_13.cpp.o
+
+_06_13.i: _06_13.cpp.i
+
+.PHONY : _06_13.i
+
+# target to preprocess a source file
+_06_13.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_13.dir/build.make Chapter6/CMakeFiles/_06_13.dir/_06_13.cpp.i
+.PHONY : _06_13.cpp.i
+
+_06_13.s: _06_13.cpp.s
+
+.PHONY : _06_13.s
+
+# target to generate assembly for a file
+_06_13.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_13.dir/build.make Chapter6/CMakeFiles/_06_13.dir/_06_13.cpp.s
+.PHONY : _06_13.cpp.s
+
+_06_14.o: _06_14.cpp.o
+
+.PHONY : _06_14.o
+
+# target to build an object file
+_06_14.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_14.dir/build.make Chapter6/CMakeFiles/_06_14.dir/_06_14.cpp.o
+.PHONY : _06_14.cpp.o
+
+_06_14.i: _06_14.cpp.i
+
+.PHONY : _06_14.i
+
+# target to preprocess a source file
+_06_14.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_14.dir/build.make Chapter6/CMakeFiles/_06_14.dir/_06_14.cpp.i
+.PHONY : _06_14.cpp.i
+
+_06_14.s: _06_14.cpp.s
+
+.PHONY : _06_14.s
+
+# target to generate assembly for a file
+_06_14.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_14.dir/build.make Chapter6/CMakeFiles/_06_14.dir/_06_14.cpp.s
+.PHONY : _06_14.cpp.s
+
+_06_15.o: _06_15.cpp.o
+
+.PHONY : _06_15.o
+
+# target to build an object file
+_06_15.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_15.dir/build.make Chapter6/CMakeFiles/_06_15.dir/_06_15.cpp.o
+.PHONY : _06_15.cpp.o
+
+_06_15.i: _06_15.cpp.i
+
+.PHONY : _06_15.i
+
+# target to preprocess a source file
+_06_15.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_15.dir/build.make Chapter6/CMakeFiles/_06_15.dir/_06_15.cpp.i
+.PHONY : _06_15.cpp.i
+
+_06_15.s: _06_15.cpp.s
+
+.PHONY : _06_15.s
+
+# target to generate assembly for a file
+_06_15.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_15.dir/build.make Chapter6/CMakeFiles/_06_15.dir/_06_15.cpp.s
+.PHONY : _06_15.cpp.s
+
+_06_16.o: _06_16.cpp.o
+
+.PHONY : _06_16.o
+
+# target to build an object file
+_06_16.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_16.dir/build.make Chapter6/CMakeFiles/_06_16.dir/_06_16.cpp.o
+.PHONY : _06_16.cpp.o
+
+_06_16.i: _06_16.cpp.i
+
+.PHONY : _06_16.i
+
+# target to preprocess a source file
+_06_16.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_16.dir/build.make Chapter6/CMakeFiles/_06_16.dir/_06_16.cpp.i
+.PHONY : _06_16.cpp.i
+
+_06_16.s: _06_16.cpp.s
+
+.PHONY : _06_16.s
+
+# target to generate assembly for a file
+_06_16.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_16.dir/build.make Chapter6/CMakeFiles/_06_16.dir/_06_16.cpp.s
+.PHONY : _06_16.cpp.s
+
+_06_17.o: _06_17.cpp.o
+
+.PHONY : _06_17.o
+
+# target to build an object file
+_06_17.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_17.dir/build.make Chapter6/CMakeFiles/_06_17.dir/_06_17.cpp.o
+.PHONY : _06_17.cpp.o
+
+_06_17.i: _06_17.cpp.i
+
+.PHONY : _06_17.i
+
+# target to preprocess a source file
+_06_17.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_17.dir/build.make Chapter6/CMakeFiles/_06_17.dir/_06_17.cpp.i
+.PHONY : _06_17.cpp.i
+
+_06_17.s: _06_17.cpp.s
+
+.PHONY : _06_17.s
+
+# target to generate assembly for a file
+_06_17.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_17.dir/build.make Chapter6/CMakeFiles/_06_17.dir/_06_17.cpp.s
+.PHONY : _06_17.cpp.s
+
+_06_18.o: _06_18.cpp.o
+
+.PHONY : _06_18.o
+
+# target to build an object file
+_06_18.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_18.dir/build.make Chapter6/CMakeFiles/_06_18.dir/_06_18.cpp.o
+.PHONY : _06_18.cpp.o
+
+_06_18.i: _06_18.cpp.i
+
+.PHONY : _06_18.i
+
+# target to preprocess a source file
+_06_18.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_18.dir/build.make Chapter6/CMakeFiles/_06_18.dir/_06_18.cpp.i
+.PHONY : _06_18.cpp.i
+
+_06_18.s: _06_18.cpp.s
+
+.PHONY : _06_18.s
+
+# target to generate assembly for a file
+_06_18.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_18.dir/build.make Chapter6/CMakeFiles/_06_18.dir/_06_18.cpp.s
+.PHONY : _06_18.cpp.s
+
+_06_19.o: _06_19.cpp.o
+
+.PHONY : _06_19.o
+
+# target to build an object file
+_06_19.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_19.dir/build.make Chapter6/CMakeFiles/_06_19.dir/_06_19.cpp.o
+.PHONY : _06_19.cpp.o
+
+_06_19.i: _06_19.cpp.i
+
+.PHONY : _06_19.i
+
+# target to preprocess a source file
+_06_19.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_19.dir/build.make Chapter6/CMakeFiles/_06_19.dir/_06_19.cpp.i
+.PHONY : _06_19.cpp.i
+
+_06_19.s: _06_19.cpp.s
+
+.PHONY : _06_19.s
+
+# target to generate assembly for a file
+_06_19.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_19.dir/build.make Chapter6/CMakeFiles/_06_19.dir/_06_19.cpp.s
+.PHONY : _06_19.cpp.s
+
+_06_20.o: _06_20.cpp.o
+
+.PHONY : _06_20.o
+
+# target to build an object file
+_06_20.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_20.dir/build.make Chapter6/CMakeFiles/_06_20.dir/_06_20.cpp.o
+.PHONY : _06_20.cpp.o
+
+_06_20.i: _06_20.cpp.i
+
+.PHONY : _06_20.i
+
+# target to preprocess a source file
+_06_20.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_20.dir/build.make Chapter6/CMakeFiles/_06_20.dir/_06_20.cpp.i
+.PHONY : _06_20.cpp.i
+
+_06_20.s: _06_20.cpp.s
+
+.PHONY : _06_20.s
+
+# target to generate assembly for a file
+_06_20.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_20.dir/build.make Chapter6/CMakeFiles/_06_20.dir/_06_20.cpp.s
+.PHONY : _06_20.cpp.s
+
+_06_21.o: _06_21.cpp.o
+
+.PHONY : _06_21.o
+
+# target to build an object file
+_06_21.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_21.dir/build.make Chapter6/CMakeFiles/_06_21.dir/_06_21.cpp.o
+.PHONY : _06_21.cpp.o
+
+_06_21.i: _06_21.cpp.i
+
+.PHONY : _06_21.i
+
+# target to preprocess a source file
+_06_21.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_21.dir/build.make Chapter6/CMakeFiles/_06_21.dir/_06_21.cpp.i
+.PHONY : _06_21.cpp.i
+
+_06_21.s: _06_21.cpp.s
+
+.PHONY : _06_21.s
+
+# target to generate assembly for a file
+_06_21.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_21.dir/build.make Chapter6/CMakeFiles/_06_21.dir/_06_21.cpp.s
+.PHONY : _06_21.cpp.s
+
+_06_22.o: _06_22.cpp.o
+
+.PHONY : _06_22.o
+
+# target to build an object file
+_06_22.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_22.dir/build.make Chapter6/CMakeFiles/_06_22.dir/_06_22.cpp.o
+.PHONY : _06_22.cpp.o
+
+_06_22.i: _06_22.cpp.i
+
+.PHONY : _06_22.i
+
+# target to preprocess a source file
+_06_22.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_22.dir/build.make Chapter6/CMakeFiles/_06_22.dir/_06_22.cpp.i
+.PHONY : _06_22.cpp.i
+
+_06_22.s: _06_22.cpp.s
+
+.PHONY : _06_22.s
+
+# target to generate assembly for a file
+_06_22.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_22.dir/build.make Chapter6/CMakeFiles/_06_22.dir/_06_22.cpp.s
+.PHONY : _06_22.cpp.s
+
+_06_23.o: _06_23.cpp.o
+
+.PHONY : _06_23.o
+
+# target to build an object file
+_06_23.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_23.dir/build.make Chapter6/CMakeFiles/_06_23.dir/_06_23.cpp.o
+.PHONY : _06_23.cpp.o
+
+_06_23.i: _06_23.cpp.i
+
+.PHONY : _06_23.i
+
+# target to preprocess a source file
+_06_23.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_23.dir/build.make Chapter6/CMakeFiles/_06_23.dir/_06_23.cpp.i
+.PHONY : _06_23.cpp.i
+
+_06_23.s: _06_23.cpp.s
+
+.PHONY : _06_23.s
+
+# target to generate assembly for a file
+_06_23.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_23.dir/build.make Chapter6/CMakeFiles/_06_23.dir/_06_23.cpp.s
+.PHONY : _06_23.cpp.s
+
+_06_24.o: _06_24.cpp.o
+
+.PHONY : _06_24.o
+
+# target to build an object file
+_06_24.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_24.dir/build.make Chapter6/CMakeFiles/_06_24.dir/_06_24.cpp.o
+.PHONY : _06_24.cpp.o
+
+_06_24.i: _06_24.cpp.i
+
+.PHONY : _06_24.i
+
+# target to preprocess a source file
+_06_24.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_24.dir/build.make Chapter6/CMakeFiles/_06_24.dir/_06_24.cpp.i
+.PHONY : _06_24.cpp.i
+
+_06_24.s: _06_24.cpp.s
+
+.PHONY : _06_24.s
+
+# target to generate assembly for a file
+_06_24.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_24.dir/build.make Chapter6/CMakeFiles/_06_24.dir/_06_24.cpp.s
+.PHONY : _06_24.cpp.s
+
+_06_25.o: _06_25.cpp.o
+
+.PHONY : _06_25.o
+
+# target to build an object file
+_06_25.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_25.dir/build.make Chapter6/CMakeFiles/_06_25.dir/_06_25.cpp.o
+.PHONY : _06_25.cpp.o
+
+_06_25.i: _06_25.cpp.i
+
+.PHONY : _06_25.i
+
+# target to preprocess a source file
+_06_25.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_25.dir/build.make Chapter6/CMakeFiles/_06_25.dir/_06_25.cpp.i
+.PHONY : _06_25.cpp.i
+
+_06_25.s: _06_25.cpp.s
+
+.PHONY : _06_25.s
+
+# target to generate assembly for a file
+_06_25.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_25.dir/build.make Chapter6/CMakeFiles/_06_25.dir/_06_25.cpp.s
+.PHONY : _06_25.cpp.s
+
+_06_26.o: _06_26.cpp.o
+
+.PHONY : _06_26.o
+
+# target to build an object file
+_06_26.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_26.dir/build.make Chapter6/CMakeFiles/_06_26.dir/_06_26.cpp.o
+.PHONY : _06_26.cpp.o
+
+_06_26.i: _06_26.cpp.i
+
+.PHONY : _06_26.i
+
+# target to preprocess a source file
+_06_26.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_26.dir/build.make Chapter6/CMakeFiles/_06_26.dir/_06_26.cpp.i
+.PHONY : _06_26.cpp.i
+
+_06_26.s: _06_26.cpp.s
+
+.PHONY : _06_26.s
+
+# target to generate assembly for a file
+_06_26.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_26.dir/build.make Chapter6/CMakeFiles/_06_26.dir/_06_26.cpp.s
+.PHONY : _06_26.cpp.s
+
 fact.o: fact.cpp.o
 
 .PHONY : fact.o
@@ -579,6 +1293,23 @@ help:
 	@echo "... _06_07"
 	@echo "... _06_08"
 	@echo "... _06_09"
+	@echo "... _06_10"
+	@echo "... _06_11"
+	@echo "... _06_12"
+	@echo "... _06_13"
+	@echo "... _06_14"
+	@echo "... _06_15"
+	@echo "... _06_16"
+	@echo "... _06_17"
+	@echo "... _06_18"
+	@echo "... _06_19"
+	@echo "... _06_20"
+	@echo "... _06_21"
+	@echo "... _06_22"
+	@echo "... _06_23"
+	@echo "... _06_24"
+	@echo "... _06_25"
+	@echo "... _06_26"
 	@echo "... _06_01.o"
 	@echo "... _06_01.i"
 	@echo "... _06_01.s"
@@ -606,6 +1337,57 @@ help:
 	@echo "... _06_09.o"
 	@echo "... _06_09.i"
 	@echo "... _06_09.s"
+	@echo "... _06_10.o"
+	@echo "... _06_10.i"
+	@echo "... _06_10.s"
+	@echo "... _06_11.o"
+	@echo "... _06_11.i"
+	@echo "... _06_11.s"
+	@echo "... _06_12.o"
+	@echo "... _06_12.i"
+	@echo "... _06_12.s"
+	@echo "... _06_13.o"
+	@echo "... _06_13.i"
+	@echo "... _06_13.s"
+	@echo "... _06_14.o"
+	@echo "... _06_14.i"
+	@echo "... _06_14.s"
+	@echo "... _06_15.o"
+	@echo "... _06_15.i"
+	@echo "... _06_15.s"
+	@echo "... _06_16.o"
+	@echo "... _06_16.i"
+	@echo "... _06_16.s"
+	@echo "... _06_17.o"
+	@echo "... _06_17.i"
+	@echo "... _06_17.s"
+	@echo "... _06_18.o"
+	@echo "... _06_18.i"
+	@echo "... _06_18.s"
+	@echo "... _06_19.o"
+	@echo "... _06_19.i"
+	@echo "... _06_19.s"
+	@echo "... _06_20.o"
+	@echo "... _06_20.i"
+	@echo "... _06_20.s"
+	@echo "... _06_21.o"
+	@echo "... _06_21.i"
+	@echo "... _06_21.s"
+	@echo "... _06_22.o"
+	@echo "... _06_22.i"
+	@echo "... _06_22.s"
+	@echo "... _06_23.o"
+	@echo "... _06_23.i"
+	@echo "... _06_23.s"
+	@echo "... _06_24.o"
+	@echo "... _06_24.i"
+	@echo "... _06_24.s"
+	@echo "... _06_25.o"
+	@echo "... _06_25.i"
+	@echo "... _06_25.s"
+	@echo "... _06_26.o"
+	@echo "... _06_26.i"
+	@echo "... _06_26.s"
 	@echo "... fact.o"
 	@echo "... fact.i"
 	@echo "... fact.s"

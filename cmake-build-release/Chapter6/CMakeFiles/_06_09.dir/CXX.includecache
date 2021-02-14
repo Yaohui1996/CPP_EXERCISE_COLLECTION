@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/Chapter6.h
+
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_09.cpp
+iostream
+-
+Chapter6.h
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/Chapter6.h
+
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/fact.cpp
+Chapter6.h
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/Chapter6.h
+
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/factMain.cpp
+iostream
+-
+Chapter6.h
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/Chapter6.h
+
