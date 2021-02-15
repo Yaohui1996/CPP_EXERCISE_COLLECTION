@@ -13,3 +13,6 @@
 ![sum_i=0^n_2^i_<=inline](README.assets/sum_i=0^n_2^i_<=inline.png)
 
 ![$_sum_i=0^n_2^i_texte](README.assets/$_sum_i=0^n_2^i_texte.png)
+
+![](README.assets/gif-20210215123105929.latex)
+
