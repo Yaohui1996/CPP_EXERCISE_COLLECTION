@@ -5,7 +5,7 @@
 		<Option title="Chapter5"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Chapter1\;CMake Files\Chapter2\;CMake Files\Chapter3\;CMake Files\Chapter4\;CMake Files\Chapter5\;CMake Files\Chapter6\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Chapter1\;CMake Files\Chapter2\;CMake Files\Chapter3\;CMake Files\Chapter4\;CMake Files\Chapter5\;CMake Files\Chapter6\;CMake Files\Chpater7\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug/Chapter5"/>
@@ -1113,6 +1113,9 @@
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Chapter6\"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chpater7\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

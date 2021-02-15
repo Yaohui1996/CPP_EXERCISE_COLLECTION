@@ -3120,6 +3120,32 @@ _06_01/fast:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_01.dir/build.make Chapter6/CMakeFiles/_06_01.dir/build
 .PHONY : _06_01/fast
 
+#=============================================================================
+# Target rules for targets named _07_02
+
+# Build rule for target.
+_07_02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _07_02
+.PHONY : _07_02
+
+# fast build rule for target.
+_07_02/fast:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_02.dir/build.make Chpater7/CMakeFiles/_07_02.dir/build
+.PHONY : _07_02/fast
+
+#=============================================================================
+# Target rules for targets named _07_01
+
+# Build rule for target.
+_07_01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _07_01
+.PHONY : _07_01
+
+# fast build rule for target.
+_07_01/fast:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_01.dir/build.make Chpater7/CMakeFiles/_07_01.dir/build
+.PHONY : _07_01/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -3358,6 +3384,8 @@ help:
 	@echo "... _06_54"
 	@echo "... _06_55"
 	@echo "... _06_56"
+	@echo "... _07_01"
+	@echo "... _07_02"
 .PHONY : help
 
 

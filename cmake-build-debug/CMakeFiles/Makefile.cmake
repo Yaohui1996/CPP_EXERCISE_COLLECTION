@@ -40,6 +40,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Chapter4/CMakeLists.txt"
   "../Chapter5/CMakeLists.txt"
   "../Chapter6/CMakeLists.txt"
+  "../Chpater7/CMakeLists.txt"
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
@@ -60,6 +61,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Chapter4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chpater7/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -294,4 +296,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Chapter6/CMakeFiles/_06_14.dir/DependInfo.cmake"
   "Chapter6/CMakeFiles/_06_04.dir/DependInfo.cmake"
   "Chapter6/CMakeFiles/_06_01.dir/DependInfo.cmake"
+  "Chpater7/CMakeFiles/_07_02.dir/DependInfo.cmake"
+  "Chpater7/CMakeFiles/_07_01.dir/DependInfo.cmake"
   )

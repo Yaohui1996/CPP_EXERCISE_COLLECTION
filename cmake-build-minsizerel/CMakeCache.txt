@@ -263,6 +263,12 @@ Chapter6_BINARY_DIR:STATIC=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-b
 //Value Computed by CMake
 Chapter6_SOURCE_DIR:STATIC=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6
 
+//Value Computed by CMake
+Chapter7_BINARY_DIR:STATIC=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel/Chpater7
+
+//Value Computed by CMake
+Chapter7_SOURCE_DIR:STATIC=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7
+
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
@@ -369,7 +375,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

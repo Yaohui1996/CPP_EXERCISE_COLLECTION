@@ -27,7 +27,7 @@ int main() {
     cout << "8 * 4 = " << v[2](8, 4) << endl;
     cout << "8 / 4 = " << v[3](8, 4) << endl;
 
-    
+
 
 
     return 0;
