@@ -1020,6 +1020,7 @@
 		</Build>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter1/Sales_item.h">
 			<Option target="_01_25"/>
+			<Option target="_01_24"/>
 			<Option target="_01_22"/>
 			<Option target="_01_20"/>
 			<Option target="_01_23"/>

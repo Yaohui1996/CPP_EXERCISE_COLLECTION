@@ -131,6 +131,96 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+Chpater7/CMakeFiles/_07_10.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_10.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_10.dir/rule
+
+# Convenience name for target.
+_07_10: Chpater7/CMakeFiles/_07_10.dir/rule
+
+.PHONY : _07_10
+
+# fast build rule for target.
+_07_10/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_10.dir/build.make Chpater7/CMakeFiles/_07_10.dir/build
+.PHONY : _07_10/fast
+
+# Convenience name for target.
+Chpater7/CMakeFiles/_07_08.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_08.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_08.dir/rule
+
+# Convenience name for target.
+_07_08: Chpater7/CMakeFiles/_07_08.dir/rule
+
+.PHONY : _07_08
+
+# fast build rule for target.
+_07_08/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_08.dir/build.make Chpater7/CMakeFiles/_07_08.dir/build
+.PHONY : _07_08/fast
+
+# Convenience name for target.
+Chpater7/CMakeFiles/_07_07.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_07.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_07.dir/rule
+
+# Convenience name for target.
+_07_07: Chpater7/CMakeFiles/_07_07.dir/rule
+
+.PHONY : _07_07
+
+# fast build rule for target.
+_07_07/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_07.dir/build.make Chpater7/CMakeFiles/_07_07.dir/build
+.PHONY : _07_07/fast
+
+# Convenience name for target.
+Chpater7/CMakeFiles/_07_06.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_06.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_06.dir/rule
+
+# Convenience name for target.
+_07_06: Chpater7/CMakeFiles/_07_06.dir/rule
+
+.PHONY : _07_06
+
+# fast build rule for target.
+_07_06/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_06.dir/build.make Chpater7/CMakeFiles/_07_06.dir/build
+.PHONY : _07_06/fast
+
+# Convenience name for target.
+Chpater7/CMakeFiles/_07_04.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_04.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_04.dir/rule
+
+# Convenience name for target.
+_07_04: Chpater7/CMakeFiles/_07_04.dir/rule
+
+.PHONY : _07_04
+
+# fast build rule for target.
+_07_04/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_04.dir/build.make Chpater7/CMakeFiles/_07_04.dir/build
+.PHONY : _07_04/fast
+
+# Convenience name for target.
+Chpater7/CMakeFiles/_07_05.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_05.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_05.dir/rule
+
+# Convenience name for target.
+_07_05: Chpater7/CMakeFiles/_07_05.dir/rule
+
+.PHONY : _07_05
+
+# fast build rule for target.
+_07_05/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_05.dir/build.make Chpater7/CMakeFiles/_07_05.dir/build
+.PHONY : _07_05/fast
+
+# Convenience name for target.
 Chpater7/CMakeFiles/_07_02.dir/rule:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_02.dir/rule
 .PHONY : Chpater7/CMakeFiles/_07_02.dir/rule
@@ -144,6 +234,36 @@ _07_02: Chpater7/CMakeFiles/_07_02.dir/rule
 _07_02/fast:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_02.dir/build.make Chpater7/CMakeFiles/_07_02.dir/build
 .PHONY : _07_02/fast
+
+# Convenience name for target.
+Chpater7/CMakeFiles/_07_09.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_09.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_09.dir/rule
+
+# Convenience name for target.
+_07_09: Chpater7/CMakeFiles/_07_09.dir/rule
+
+.PHONY : _07_09
+
+# fast build rule for target.
+_07_09/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_09.dir/build.make Chpater7/CMakeFiles/_07_09.dir/build
+.PHONY : _07_09/fast
+
+# Convenience name for target.
+Chpater7/CMakeFiles/_07_03.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_03.dir/rule
+.PHONY : Chpater7/CMakeFiles/_07_03.dir/rule
+
+# Convenience name for target.
+_07_03: Chpater7/CMakeFiles/_07_03.dir/rule
+
+.PHONY : _07_03
+
+# fast build rule for target.
+_07_03/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_03.dir/build.make Chpater7/CMakeFiles/_07_03.dir/build
+.PHONY : _07_03/fast
 
 # Convenience name for target.
 Chpater7/CMakeFiles/_07_01.dir/rule:
@@ -214,6 +334,222 @@ _07_02.cpp.s:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_02.dir/build.make Chpater7/CMakeFiles/_07_02.dir/_07_02.cpp.s
 .PHONY : _07_02.cpp.s
 
+_07_03.o: _07_03.cpp.o
+
+.PHONY : _07_03.o
+
+# target to build an object file
+_07_03.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_03.dir/build.make Chpater7/CMakeFiles/_07_03.dir/_07_03.cpp.o
+.PHONY : _07_03.cpp.o
+
+_07_03.i: _07_03.cpp.i
+
+.PHONY : _07_03.i
+
+# target to preprocess a source file
+_07_03.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_03.dir/build.make Chpater7/CMakeFiles/_07_03.dir/_07_03.cpp.i
+.PHONY : _07_03.cpp.i
+
+_07_03.s: _07_03.cpp.s
+
+.PHONY : _07_03.s
+
+# target to generate assembly for a file
+_07_03.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_03.dir/build.make Chpater7/CMakeFiles/_07_03.dir/_07_03.cpp.s
+.PHONY : _07_03.cpp.s
+
+_07_04.o: _07_04.cpp.o
+
+.PHONY : _07_04.o
+
+# target to build an object file
+_07_04.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_04.dir/build.make Chpater7/CMakeFiles/_07_04.dir/_07_04.cpp.o
+.PHONY : _07_04.cpp.o
+
+_07_04.i: _07_04.cpp.i
+
+.PHONY : _07_04.i
+
+# target to preprocess a source file
+_07_04.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_04.dir/build.make Chpater7/CMakeFiles/_07_04.dir/_07_04.cpp.i
+.PHONY : _07_04.cpp.i
+
+_07_04.s: _07_04.cpp.s
+
+.PHONY : _07_04.s
+
+# target to generate assembly for a file
+_07_04.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_04.dir/build.make Chpater7/CMakeFiles/_07_04.dir/_07_04.cpp.s
+.PHONY : _07_04.cpp.s
+
+_07_05.o: _07_05.cpp.o
+
+.PHONY : _07_05.o
+
+# target to build an object file
+_07_05.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_05.dir/build.make Chpater7/CMakeFiles/_07_05.dir/_07_05.cpp.o
+.PHONY : _07_05.cpp.o
+
+_07_05.i: _07_05.cpp.i
+
+.PHONY : _07_05.i
+
+# target to preprocess a source file
+_07_05.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_05.dir/build.make Chpater7/CMakeFiles/_07_05.dir/_07_05.cpp.i
+.PHONY : _07_05.cpp.i
+
+_07_05.s: _07_05.cpp.s
+
+.PHONY : _07_05.s
+
+# target to generate assembly for a file
+_07_05.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_05.dir/build.make Chpater7/CMakeFiles/_07_05.dir/_07_05.cpp.s
+.PHONY : _07_05.cpp.s
+
+_07_06.o: _07_06.cpp.o
+
+.PHONY : _07_06.o
+
+# target to build an object file
+_07_06.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_06.dir/build.make Chpater7/CMakeFiles/_07_06.dir/_07_06.cpp.o
+.PHONY : _07_06.cpp.o
+
+_07_06.i: _07_06.cpp.i
+
+.PHONY : _07_06.i
+
+# target to preprocess a source file
+_07_06.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_06.dir/build.make Chpater7/CMakeFiles/_07_06.dir/_07_06.cpp.i
+.PHONY : _07_06.cpp.i
+
+_07_06.s: _07_06.cpp.s
+
+.PHONY : _07_06.s
+
+# target to generate assembly for a file
+_07_06.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_06.dir/build.make Chpater7/CMakeFiles/_07_06.dir/_07_06.cpp.s
+.PHONY : _07_06.cpp.s
+
+_07_07.o: _07_07.cpp.o
+
+.PHONY : _07_07.o
+
+# target to build an object file
+_07_07.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_07.dir/build.make Chpater7/CMakeFiles/_07_07.dir/_07_07.cpp.o
+.PHONY : _07_07.cpp.o
+
+_07_07.i: _07_07.cpp.i
+
+.PHONY : _07_07.i
+
+# target to preprocess a source file
+_07_07.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_07.dir/build.make Chpater7/CMakeFiles/_07_07.dir/_07_07.cpp.i
+.PHONY : _07_07.cpp.i
+
+_07_07.s: _07_07.cpp.s
+
+.PHONY : _07_07.s
+
+# target to generate assembly for a file
+_07_07.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_07.dir/build.make Chpater7/CMakeFiles/_07_07.dir/_07_07.cpp.s
+.PHONY : _07_07.cpp.s
+
+_07_08.o: _07_08.cpp.o
+
+.PHONY : _07_08.o
+
+# target to build an object file
+_07_08.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_08.dir/build.make Chpater7/CMakeFiles/_07_08.dir/_07_08.cpp.o
+.PHONY : _07_08.cpp.o
+
+_07_08.i: _07_08.cpp.i
+
+.PHONY : _07_08.i
+
+# target to preprocess a source file
+_07_08.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_08.dir/build.make Chpater7/CMakeFiles/_07_08.dir/_07_08.cpp.i
+.PHONY : _07_08.cpp.i
+
+_07_08.s: _07_08.cpp.s
+
+.PHONY : _07_08.s
+
+# target to generate assembly for a file
+_07_08.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_08.dir/build.make Chpater7/CMakeFiles/_07_08.dir/_07_08.cpp.s
+.PHONY : _07_08.cpp.s
+
+_07_09.o: _07_09.cpp.o
+
+.PHONY : _07_09.o
+
+# target to build an object file
+_07_09.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_09.dir/build.make Chpater7/CMakeFiles/_07_09.dir/_07_09.cpp.o
+.PHONY : _07_09.cpp.o
+
+_07_09.i: _07_09.cpp.i
+
+.PHONY : _07_09.i
+
+# target to preprocess a source file
+_07_09.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_09.dir/build.make Chpater7/CMakeFiles/_07_09.dir/_07_09.cpp.i
+.PHONY : _07_09.cpp.i
+
+_07_09.s: _07_09.cpp.s
+
+.PHONY : _07_09.s
+
+# target to generate assembly for a file
+_07_09.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_09.dir/build.make Chpater7/CMakeFiles/_07_09.dir/_07_09.cpp.s
+.PHONY : _07_09.cpp.s
+
+_07_10.o: _07_10.cpp.o
+
+.PHONY : _07_10.o
+
+# target to build an object file
+_07_10.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_10.dir/build.make Chpater7/CMakeFiles/_07_10.dir/_07_10.cpp.o
+.PHONY : _07_10.cpp.o
+
+_07_10.i: _07_10.cpp.i
+
+.PHONY : _07_10.i
+
+# target to preprocess a source file
+_07_10.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_10.dir/build.make Chpater7/CMakeFiles/_07_10.dir/_07_10.cpp.i
+.PHONY : _07_10.cpp.i
+
+_07_10.s: _07_10.cpp.s
+
+.PHONY : _07_10.s
+
+# target to generate assembly for a file
+_07_10.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel && $(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_10.dir/build.make Chpater7/CMakeFiles/_07_10.dir/_07_10.cpp.s
+.PHONY : _07_10.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,12 +560,44 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... _07_01"
 	@echo "... _07_02"
+	@echo "... _07_03"
+	@echo "... _07_04"
+	@echo "... _07_05"
+	@echo "... _07_06"
+	@echo "... _07_07"
+	@echo "... _07_08"
+	@echo "... _07_09"
+	@echo "... _07_10"
 	@echo "... _07_01.o"
 	@echo "... _07_01.i"
 	@echo "... _07_01.s"
 	@echo "... _07_02.o"
 	@echo "... _07_02.i"
 	@echo "... _07_02.s"
+	@echo "... _07_03.o"
+	@echo "... _07_03.i"
+	@echo "... _07_03.s"
+	@echo "... _07_04.o"
+	@echo "... _07_04.i"
+	@echo "... _07_04.s"
+	@echo "... _07_05.o"
+	@echo "... _07_05.i"
+	@echo "... _07_05.s"
+	@echo "... _07_06.o"
+	@echo "... _07_06.i"
+	@echo "... _07_06.s"
+	@echo "... _07_07.o"
+	@echo "... _07_07.i"
+	@echo "... _07_07.s"
+	@echo "... _07_08.o"
+	@echo "... _07_08.i"
+	@echo "... _07_08.s"
+	@echo "... _07_09.o"
+	@echo "... _07_09.i"
+	@echo "... _07_09.s"
+	@echo "... _07_10.o"
+	@echo "... _07_10.i"
+	@echo "... _07_10.s"
 .PHONY : help
 
 

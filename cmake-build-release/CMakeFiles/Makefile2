@@ -665,7 +665,15 @@ Chapter6/clean: Chapter6/CMakeFiles/_06_01.dir/clean
 # Directory level rules for directory Chpater7
 
 # Recursive "all" directory target.
+Chpater7/all: Chpater7/CMakeFiles/_07_10.dir/all
+Chpater7/all: Chpater7/CMakeFiles/_07_08.dir/all
+Chpater7/all: Chpater7/CMakeFiles/_07_07.dir/all
+Chpater7/all: Chpater7/CMakeFiles/_07_06.dir/all
+Chpater7/all: Chpater7/CMakeFiles/_07_04.dir/all
+Chpater7/all: Chpater7/CMakeFiles/_07_05.dir/all
 Chpater7/all: Chpater7/CMakeFiles/_07_02.dir/all
+Chpater7/all: Chpater7/CMakeFiles/_07_09.dir/all
+Chpater7/all: Chpater7/CMakeFiles/_07_03.dir/all
 Chpater7/all: Chpater7/CMakeFiles/_07_01.dir/all
 
 .PHONY : Chpater7/all
@@ -676,7 +684,15 @@ Chpater7/preinstall:
 .PHONY : Chpater7/preinstall
 
 # Recursive "clean" directory target.
+Chpater7/clean: Chpater7/CMakeFiles/_07_10.dir/clean
+Chpater7/clean: Chpater7/CMakeFiles/_07_08.dir/clean
+Chpater7/clean: Chpater7/CMakeFiles/_07_07.dir/clean
+Chpater7/clean: Chpater7/CMakeFiles/_07_06.dir/clean
+Chpater7/clean: Chpater7/CMakeFiles/_07_04.dir/clean
+Chpater7/clean: Chpater7/CMakeFiles/_07_05.dir/clean
 Chpater7/clean: Chpater7/CMakeFiles/_07_02.dir/clean
+Chpater7/clean: Chpater7/CMakeFiles/_07_09.dir/clean
+Chpater7/clean: Chpater7/CMakeFiles/_07_03.dir/clean
 Chpater7/clean: Chpater7/CMakeFiles/_07_01.dir/clean
 
 .PHONY : Chpater7/clean
@@ -688,12 +704,12 @@ Chpater7/clean: Chpater7/CMakeFiles/_07_01.dir/clean
 Chapter1/CMakeFiles/_01_25.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_25.dir/build.make Chapter1/CMakeFiles/_01_25.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_25.dir/build.make Chapter1/CMakeFiles/_01_25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=10 "Built target _01_25"
 .PHONY : Chapter1/CMakeFiles/_01_25.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_25.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_25.dir/rule
@@ -715,12 +731,12 @@ Chapter1/CMakeFiles/_01_25.dir/clean:
 Chapter1/CMakeFiles/_01_24.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_24.dir/build.make Chapter1/CMakeFiles/_01_24.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_24.dir/build.make Chapter1/CMakeFiles/_01_24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=10 "Built target _01_24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_24"
 .PHONY : Chapter1/CMakeFiles/_01_24.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_24.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_24.dir/rule
@@ -742,12 +758,12 @@ Chapter1/CMakeFiles/_01_24.dir/clean:
 Chapter1/CMakeFiles/_01_19.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_19.dir/build.make Chapter1/CMakeFiles/_01_19.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_19.dir/build.make Chapter1/CMakeFiles/_01_19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=8 "Built target _01_19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_19"
 .PHONY : Chapter1/CMakeFiles/_01_19.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_19.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_19.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_19.dir/rule
@@ -796,12 +812,12 @@ Chapter1/CMakeFiles/_01_10.dir/clean:
 Chapter1/CMakeFiles/_01_22.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_22.dir/build.make Chapter1/CMakeFiles/_01_22.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_22.dir/build.make Chapter1/CMakeFiles/_01_22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=9 "Built target _01_22"
 .PHONY : Chapter1/CMakeFiles/_01_22.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_22.dir/rule
@@ -823,12 +839,12 @@ Chapter1/CMakeFiles/_01_22.dir/clean:
 Chapter1/CMakeFiles/_01_14.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_14.dir/build.make Chapter1/CMakeFiles/_01_14.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_14.dir/build.make Chapter1/CMakeFiles/_01_14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=6 "Built target _01_14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_14"
 .PHONY : Chapter1/CMakeFiles/_01_14.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_14.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_14.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_14.dir/rule
@@ -850,12 +866,12 @@ Chapter1/CMakeFiles/_01_14.dir/clean:
 Chapter1/CMakeFiles/_01_15.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_15.dir/build.make Chapter1/CMakeFiles/_01_15.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_15.dir/build.make Chapter1/CMakeFiles/_01_15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=6 "Built target _01_15"
 .PHONY : Chapter1/CMakeFiles/_01_15.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_15.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_15.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_15.dir/rule
@@ -931,12 +947,12 @@ Chapter1/CMakeFiles/_01_17.dir/clean:
 Chapter1/CMakeFiles/_01_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_13.dir/build.make Chapter1/CMakeFiles/_01_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_13.dir/build.make Chapter1/CMakeFiles/_01_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=5 "Built target _01_13"
 .PHONY : Chapter1/CMakeFiles/_01_13.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_13.dir/rule
@@ -958,12 +974,12 @@ Chapter1/CMakeFiles/_01_13.dir/clean:
 Chapter1/CMakeFiles/_01_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_12.dir/build.make Chapter1/CMakeFiles/_01_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_12.dir/build.make Chapter1/CMakeFiles/_01_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=5 "Built target _01_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_12"
 .PHONY : Chapter1/CMakeFiles/_01_12.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_12.dir/rule
@@ -1039,12 +1055,12 @@ Chapter1/CMakeFiles/_01_09.dir/clean:
 Chapter1/CMakeFiles/_01_08.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_08.dir/build.make Chapter1/CMakeFiles/_01_08.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_08.dir/build.make Chapter1/CMakeFiles/_01_08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=3 "Built target _01_08"
 .PHONY : Chapter1/CMakeFiles/_01_08.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_08.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_08.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_08.dir/rule
@@ -1093,12 +1109,12 @@ Chapter1/CMakeFiles/_01_06.dir/clean:
 Chapter1/CMakeFiles/_01_07.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_07.dir/build.make Chapter1/CMakeFiles/_01_07.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_07.dir/build.make Chapter1/CMakeFiles/_01_07.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=3 "Built target _01_07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_07"
 .PHONY : Chapter1/CMakeFiles/_01_07.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_07.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_07.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_07.dir/rule
@@ -1255,12 +1271,12 @@ Chapter1/CMakeFiles/_01_05.dir/clean:
 Chapter1/CMakeFiles/_01_20.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_20.dir/build.make Chapter1/CMakeFiles/_01_20.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_20.dir/build.make Chapter1/CMakeFiles/_01_20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=8 "Built target _01_20"
 .PHONY : Chapter1/CMakeFiles/_01_20.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_20.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_20.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_20.dir/rule
@@ -1309,12 +1325,12 @@ Chapter1/CMakeFiles/_01_23.dir/clean:
 Chapter1/CMakeFiles/_01_21.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_21.dir/build.make Chapter1/CMakeFiles/_01_21.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter1/CMakeFiles/_01_21.dir/build.make Chapter1/CMakeFiles/_01_21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=9 "Built target _01_21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _01_21"
 .PHONY : Chapter1/CMakeFiles/_01_21.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter1/CMakeFiles/_01_21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter1/CMakeFiles/_01_21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter1/CMakeFiles/_01_21.dir/rule
@@ -1363,7 +1379,7 @@ Chapter1/CMakeFiles/_01_11.dir/clean:
 Chapter2/CMakeFiles/_02_41.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_41.dir/build.make Chapter2/CMakeFiles/_02_41.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_41.dir/build.make Chapter2/CMakeFiles/_02_41.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=28 "Built target _02_41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=27 "Built target _02_41"
 .PHONY : Chapter2/CMakeFiles/_02_41.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1417,7 +1433,7 @@ Chapter2/CMakeFiles/_02_40.dir/clean:
 Chapter2/CMakeFiles/_02_38.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_38.dir/build.make Chapter2/CMakeFiles/_02_38.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_38.dir/build.make Chapter2/CMakeFiles/_02_38.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=27 "Built target _02_38"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=26 "Built target _02_38"
 .PHONY : Chapter2/CMakeFiles/_02_38.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1444,7 +1460,7 @@ Chapter2/CMakeFiles/_02_38.dir/clean:
 Chapter2/CMakeFiles/_02_36.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_36.dir/build.make Chapter2/CMakeFiles/_02_36.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_36.dir/build.make Chapter2/CMakeFiles/_02_36.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=26 "Built target _02_36"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=25 "Built target _02_36"
 .PHONY : Chapter2/CMakeFiles/_02_36.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1498,12 +1514,12 @@ Chapter2/CMakeFiles/_02_35.dir/clean:
 Chapter2/CMakeFiles/_02_34.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_34.dir/build.make Chapter2/CMakeFiles/_02_34.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_34.dir/build.make Chapter2/CMakeFiles/_02_34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=25 "Built target _02_34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_34"
 .PHONY : Chapter2/CMakeFiles/_02_34.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_34.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_34.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_34.dir/rule
@@ -1525,12 +1541,12 @@ Chapter2/CMakeFiles/_02_34.dir/clean:
 Chapter2/CMakeFiles/_02_33.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_33.dir/build.make Chapter2/CMakeFiles/_02_33.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_33.dir/build.make Chapter2/CMakeFiles/_02_33.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=24 "Built target _02_33"
 .PHONY : Chapter2/CMakeFiles/_02_33.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_33.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_33.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_33.dir/rule
@@ -1579,12 +1595,12 @@ Chapter2/CMakeFiles/_02_28.dir/clean:
 Chapter2/CMakeFiles/_02_26.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_26.dir/build.make Chapter2/CMakeFiles/_02_26.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_26.dir/build.make Chapter2/CMakeFiles/_02_26.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=21 "Built target _02_26"
 .PHONY : Chapter2/CMakeFiles/_02_26.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_26.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_26.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_26.dir/rule
@@ -1606,12 +1622,12 @@ Chapter2/CMakeFiles/_02_26.dir/clean:
 Chapter2/CMakeFiles/_02_19.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_19.dir/build.make Chapter2/CMakeFiles/_02_19.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_19.dir/build.make Chapter2/CMakeFiles/_02_19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=18 "Built target _02_19"
 .PHONY : Chapter2/CMakeFiles/_02_19.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_19.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_19.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_19.dir/rule
@@ -1660,12 +1676,12 @@ Chapter2/CMakeFiles/_02_37.dir/clean:
 Chapter2/CMakeFiles/_02_17.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_17.dir/build.make Chapter2/CMakeFiles/_02_17.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_17.dir/build.make Chapter2/CMakeFiles/_02_17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=18 "Built target _02_17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_17"
 .PHONY : Chapter2/CMakeFiles/_02_17.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_17.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_17.dir/rule
@@ -1741,12 +1757,12 @@ Chapter2/CMakeFiles/_02_18.dir/clean:
 Chapter2/CMakeFiles/_02_15.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_15.dir/build.make Chapter2/CMakeFiles/_02_15.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_15.dir/build.make Chapter2/CMakeFiles/_02_15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=17 "Built target _02_15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_15"
 .PHONY : Chapter2/CMakeFiles/_02_15.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_15.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_15.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_15.dir/rule
@@ -1768,12 +1784,12 @@ Chapter2/CMakeFiles/_02_15.dir/clean:
 Chapter2/CMakeFiles/_02_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_12.dir/build.make Chapter2/CMakeFiles/_02_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_12.dir/build.make Chapter2/CMakeFiles/_02_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=15 "Built target _02_12"
 .PHONY : Chapter2/CMakeFiles/_02_12.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_12.dir/rule
@@ -1795,7 +1811,7 @@ Chapter2/CMakeFiles/_02_12.dir/clean:
 Chapter2/CMakeFiles/_02_24.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_24.dir/build.make Chapter2/CMakeFiles/_02_24.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_24.dir/build.make Chapter2/CMakeFiles/_02_24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=21 "Built target _02_24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=20 "Built target _02_24"
 .PHONY : Chapter2/CMakeFiles/_02_24.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1822,12 +1838,12 @@ Chapter2/CMakeFiles/_02_24.dir/clean:
 Chapter2/CMakeFiles/_02_16.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_16.dir/build.make Chapter2/CMakeFiles/_02_16.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_16.dir/build.make Chapter2/CMakeFiles/_02_16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=17 "Built target _02_16"
 .PHONY : Chapter2/CMakeFiles/_02_16.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_16.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_16.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_16.dir/rule
@@ -1903,12 +1919,12 @@ Chapter2/CMakeFiles/_02_30.dir/clean:
 Chapter2/CMakeFiles/_02_20.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_20.dir/build.make Chapter2/CMakeFiles/_02_20.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_20.dir/build.make Chapter2/CMakeFiles/_02_20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=19 "Built target _02_20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_20"
 .PHONY : Chapter2/CMakeFiles/_02_20.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_20.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_20.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_20.dir/rule
@@ -1930,12 +1946,12 @@ Chapter2/CMakeFiles/_02_20.dir/clean:
 Chapter2/CMakeFiles/_02_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_13.dir/build.make Chapter2/CMakeFiles/_02_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_13.dir/build.make Chapter2/CMakeFiles/_02_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=16 "Built target _02_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_13"
 .PHONY : Chapter2/CMakeFiles/_02_13.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_13.dir/rule
@@ -2011,12 +2027,12 @@ Chapter2/CMakeFiles/_02_25.dir/clean:
 Chapter2/CMakeFiles/_02_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_10.dir/build.make Chapter2/CMakeFiles/_02_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_10.dir/build.make Chapter2/CMakeFiles/_02_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=15 "Built target _02_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_10"
 .PHONY : Chapter2/CMakeFiles/_02_10.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_10.dir/rule
@@ -2038,12 +2054,12 @@ Chapter2/CMakeFiles/_02_10.dir/clean:
 Chapter2/CMakeFiles/_02_08.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_08.dir/build.make Chapter2/CMakeFiles/_02_08.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_08.dir/build.make Chapter2/CMakeFiles/_02_08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=14 "Built target _02_08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_08"
 .PHONY : Chapter2/CMakeFiles/_02_08.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_08.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_08.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_08.dir/rule
@@ -2065,12 +2081,12 @@ Chapter2/CMakeFiles/_02_08.dir/clean:
 Chapter2/CMakeFiles/_02_07.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_07.dir/build.make Chapter2/CMakeFiles/_02_07.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_07.dir/build.make Chapter2/CMakeFiles/_02_07.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=13 "Built target _02_07"
 .PHONY : Chapter2/CMakeFiles/_02_07.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_07.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_07.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_07.dir/rule
@@ -2092,12 +2108,12 @@ Chapter2/CMakeFiles/_02_07.dir/clean:
 Chapter2/CMakeFiles/_02_09.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_09.dir/build.make Chapter2/CMakeFiles/_02_09.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_09.dir/build.make Chapter2/CMakeFiles/_02_09.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_09"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=14 "Built target _02_09"
 .PHONY : Chapter2/CMakeFiles/_02_09.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_09.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_09.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_09.dir/rule
@@ -2119,12 +2135,12 @@ Chapter2/CMakeFiles/_02_09.dir/clean:
 Chapter2/CMakeFiles/_02_21.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_21.dir/build.make Chapter2/CMakeFiles/_02_21.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_21.dir/build.make Chapter2/CMakeFiles/_02_21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=19 "Built target _02_21"
 .PHONY : Chapter2/CMakeFiles/_02_21.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_21.dir/rule
@@ -2173,12 +2189,12 @@ Chapter2/CMakeFiles/_02_23.dir/clean:
 Chapter2/CMakeFiles/_02_06.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_06.dir/build.make Chapter2/CMakeFiles/_02_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_06.dir/build.make Chapter2/CMakeFiles/_02_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=13 "Built target _02_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_06"
 .PHONY : Chapter2/CMakeFiles/_02_06.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_06.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_06.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_06.dir/rule
@@ -2200,7 +2216,7 @@ Chapter2/CMakeFiles/_02_06.dir/clean:
 Chapter2/CMakeFiles/_02_31.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_31.dir/build.make Chapter2/CMakeFiles/_02_31.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_31.dir/build.make Chapter2/CMakeFiles/_02_31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=24 "Built target _02_31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=23 "Built target _02_31"
 .PHONY : Chapter2/CMakeFiles/_02_31.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2227,12 +2243,12 @@ Chapter2/CMakeFiles/_02_31.dir/clean:
 Chapter2/CMakeFiles/_02_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_01.dir/build.make Chapter2/CMakeFiles/_02_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_01.dir/build.make Chapter2/CMakeFiles/_02_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=11 "Built target _02_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_01"
 .PHONY : Chapter2/CMakeFiles/_02_01.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_01.dir/rule
@@ -2308,7 +2324,7 @@ Chapter2/CMakeFiles/_02_32.dir/clean:
 Chapter2/CMakeFiles/_02_29.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_29.dir/build.make Chapter2/CMakeFiles/_02_29.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_29.dir/build.make Chapter2/CMakeFiles/_02_29.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=23 "Built target _02_29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=22 "Built target _02_29"
 .PHONY : Chapter2/CMakeFiles/_02_29.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2335,12 +2351,12 @@ Chapter2/CMakeFiles/_02_29.dir/clean:
 Chapter2/CMakeFiles/_02_27.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_27.dir/build.make Chapter2/CMakeFiles/_02_27.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_27.dir/build.make Chapter2/CMakeFiles/_02_27.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=22 "Built target _02_27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_27"
 .PHONY : Chapter2/CMakeFiles/_02_27.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_27.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_27.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_27.dir/rule
@@ -2362,12 +2378,12 @@ Chapter2/CMakeFiles/_02_27.dir/clean:
 Chapter2/CMakeFiles/_02_04.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_04.dir/build.make Chapter2/CMakeFiles/_02_04.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_04.dir/build.make Chapter2/CMakeFiles/_02_04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=12 "Built target _02_04"
 .PHONY : Chapter2/CMakeFiles/_02_04.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_04.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_04.dir/rule
@@ -2389,12 +2405,12 @@ Chapter2/CMakeFiles/_02_04.dir/clean:
 Chapter2/CMakeFiles/_02_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_03.dir/build.make Chapter2/CMakeFiles/_02_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_03.dir/build.make Chapter2/CMakeFiles/_02_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=12 "Built target _02_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_03"
 .PHONY : Chapter2/CMakeFiles/_02_03.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_03.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_03.dir/rule
@@ -2416,12 +2432,12 @@ Chapter2/CMakeFiles/_02_03.dir/clean:
 Chapter2/CMakeFiles/_02_22.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_22.dir/build.make Chapter2/CMakeFiles/_02_22.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_22.dir/build.make Chapter2/CMakeFiles/_02_22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=20 "Built target _02_22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_22"
 .PHONY : Chapter2/CMakeFiles/_02_22.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_22.dir/rule
@@ -2443,12 +2459,12 @@ Chapter2/CMakeFiles/_02_22.dir/clean:
 Chapter2/CMakeFiles/_02_14.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_14.dir/build.make Chapter2/CMakeFiles/_02_14.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_14.dir/build.make Chapter2/CMakeFiles/_02_14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=16 "Built target _02_14"
 .PHONY : Chapter2/CMakeFiles/_02_14.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_14.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_14.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_14.dir/rule
@@ -2470,12 +2486,12 @@ Chapter2/CMakeFiles/_02_14.dir/clean:
 Chapter2/CMakeFiles/_02_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_02.dir/build.make Chapter2/CMakeFiles/_02_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter2/CMakeFiles/_02_02.dir/build.make Chapter2/CMakeFiles/_02_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _02_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=11 "Built target _02_02"
 .PHONY : Chapter2/CMakeFiles/_02_02.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter2/CMakeFiles/_02_02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter2/CMakeFiles/_02_02.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter2/CMakeFiles/_02_02.dir/rule
@@ -2497,12 +2513,12 @@ Chapter2/CMakeFiles/_02_02.dir/clean:
 Chapter3/CMakeFiles/_03_43.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_43.dir/build.make Chapter3/CMakeFiles/_03_43.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_43.dir/build.make Chapter3/CMakeFiles/_03_43.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=47 "Built target _03_43"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_43"
 .PHONY : Chapter3/CMakeFiles/_03_43.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_43.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_43.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_43.dir/rule
@@ -2524,12 +2540,12 @@ Chapter3/CMakeFiles/_03_43.dir/clean:
 Chapter3/CMakeFiles/_03_42.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_42.dir/build.make Chapter3/CMakeFiles/_03_42.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_42.dir/build.make Chapter3/CMakeFiles/_03_42.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_42"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=45 "Built target _03_42"
 .PHONY : Chapter3/CMakeFiles/_03_42.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_42.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_42.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_42.dir/rule
@@ -2578,12 +2594,12 @@ Chapter3/CMakeFiles/_03_39.dir/clean:
 Chapter3/CMakeFiles/_03_40.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_40.dir/build.make Chapter3/CMakeFiles/_03_40.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_40.dir/build.make Chapter3/CMakeFiles/_03_40.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_40"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=44 "Built target _03_40"
 .PHONY : Chapter3/CMakeFiles/_03_40.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_40.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_40.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_40.dir/rule
@@ -2605,12 +2621,12 @@ Chapter3/CMakeFiles/_03_40.dir/clean:
 Chapter3/CMakeFiles/_03_37.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_37.dir/build.make Chapter3/CMakeFiles/_03_37.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_37.dir/build.make Chapter3/CMakeFiles/_03_37.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_37"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=43 "Built target _03_37"
 .PHONY : Chapter3/CMakeFiles/_03_37.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_37.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_37.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_37.dir/rule
@@ -2632,12 +2648,12 @@ Chapter3/CMakeFiles/_03_37.dir/clean:
 Chapter3/CMakeFiles/_03_36.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_36.dir/build.make Chapter3/CMakeFiles/_03_36.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_36.dir/build.make Chapter3/CMakeFiles/_03_36.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=44 "Built target _03_36"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_36"
 .PHONY : Chapter3/CMakeFiles/_03_36.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_36.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_36.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_36.dir/rule
@@ -2659,12 +2675,12 @@ Chapter3/CMakeFiles/_03_36.dir/clean:
 Chapter3/CMakeFiles/_03_35.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_35.dir/build.make Chapter3/CMakeFiles/_03_35.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_35.dir/build.make Chapter3/CMakeFiles/_03_35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=42 "Built target _03_35"
 .PHONY : Chapter3/CMakeFiles/_03_35.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_35.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_35.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_35.dir/rule
@@ -2686,12 +2702,12 @@ Chapter3/CMakeFiles/_03_35.dir/clean:
 Chapter3/CMakeFiles/_03_34.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_34.dir/build.make Chapter3/CMakeFiles/_03_34.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_34.dir/build.make Chapter3/CMakeFiles/_03_34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=43 "Built target _03_34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_34"
 .PHONY : Chapter3/CMakeFiles/_03_34.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_34.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_34.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_34.dir/rule
@@ -2740,12 +2756,12 @@ Chapter3/CMakeFiles/_03_33.dir/clean:
 Chapter3/CMakeFiles/_03_31.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_31.dir/build.make Chapter3/CMakeFiles/_03_31.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_31.dir/build.make Chapter3/CMakeFiles/_03_31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=42 "Built target _03_31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_31"
 .PHONY : Chapter3/CMakeFiles/_03_31.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_31.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_31.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_31.dir/rule
@@ -2767,12 +2783,12 @@ Chapter3/CMakeFiles/_03_31.dir/clean:
 Chapter3/CMakeFiles/_03_30.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_30.dir/build.make Chapter3/CMakeFiles/_03_30.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_30.dir/build.make Chapter3/CMakeFiles/_03_30.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_30"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=40 "Built target _03_30"
 .PHONY : Chapter3/CMakeFiles/_03_30.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_30.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_30.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_30.dir/rule
@@ -2794,12 +2810,12 @@ Chapter3/CMakeFiles/_03_30.dir/clean:
 Chapter3/CMakeFiles/_03_25.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_25.dir/build.make Chapter3/CMakeFiles/_03_25.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_25.dir/build.make Chapter3/CMakeFiles/_03_25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=38 "Built target _03_25"
 .PHONY : Chapter3/CMakeFiles/_03_25.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_25.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_25.dir/rule
@@ -2821,12 +2837,12 @@ Chapter3/CMakeFiles/_03_25.dir/clean:
 Chapter3/CMakeFiles/_03_44.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_44.dir/build.make Chapter3/CMakeFiles/_03_44.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_44.dir/build.make Chapter3/CMakeFiles/_03_44.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_44"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=46 "Built target _03_44"
 .PHONY : Chapter3/CMakeFiles/_03_44.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_44.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_44.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_44.dir/rule
@@ -2848,12 +2864,12 @@ Chapter3/CMakeFiles/_03_44.dir/clean:
 Chapter3/CMakeFiles/_03_41.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_41.dir/build.make Chapter3/CMakeFiles/_03_41.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_41.dir/build.make Chapter3/CMakeFiles/_03_41.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=46 "Built target _03_41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_41"
 .PHONY : Chapter3/CMakeFiles/_03_41.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_41.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_41.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_41.dir/rule
@@ -2875,12 +2891,12 @@ Chapter3/CMakeFiles/_03_41.dir/clean:
 Chapter3/CMakeFiles/_03_24.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_24.dir/build.make Chapter3/CMakeFiles/_03_24.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_24.dir/build.make Chapter3/CMakeFiles/_03_24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=39 "Built target _03_24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_24"
 .PHONY : Chapter3/CMakeFiles/_03_24.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_24.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_24.dir/rule
@@ -2902,12 +2918,12 @@ Chapter3/CMakeFiles/_03_24.dir/clean:
 Chapter3/CMakeFiles/_03_45.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_45.dir/build.make Chapter3/CMakeFiles/_03_45.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_45.dir/build.make Chapter3/CMakeFiles/_03_45.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=48 "Built target _03_45"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_45"
 .PHONY : Chapter3/CMakeFiles/_03_45.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_45.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_45.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_45.dir/rule
@@ -2929,7 +2945,7 @@ Chapter3/CMakeFiles/_03_45.dir/clean:
 Chapter3/CMakeFiles/_03_20.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_20.dir/build.make Chapter3/CMakeFiles/_03_20.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_20.dir/build.make Chapter3/CMakeFiles/_03_20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=37 "Built target _03_20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=36 "Built target _03_20"
 .PHONY : Chapter3/CMakeFiles/_03_20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2956,12 +2972,12 @@ Chapter3/CMakeFiles/_03_20.dir/clean:
 Chapter3/CMakeFiles/_03_23.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_23.dir/build.make Chapter3/CMakeFiles/_03_23.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_23.dir/build.make Chapter3/CMakeFiles/_03_23.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=37 "Built target _03_23"
 .PHONY : Chapter3/CMakeFiles/_03_23.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_23.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_23.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_23.dir/rule
@@ -2983,12 +2999,12 @@ Chapter3/CMakeFiles/_03_23.dir/clean:
 Chapter3/CMakeFiles/_03_29.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_29.dir/build.make Chapter3/CMakeFiles/_03_29.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_29.dir/build.make Chapter3/CMakeFiles/_03_29.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=41 "Built target _03_29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_29"
 .PHONY : Chapter3/CMakeFiles/_03_29.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_29.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_29.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_29.dir/rule
@@ -3010,12 +3026,12 @@ Chapter3/CMakeFiles/_03_29.dir/clean:
 Chapter3/CMakeFiles/_03_22.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_22.dir/build.make Chapter3/CMakeFiles/_03_22.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_22.dir/build.make Chapter3/CMakeFiles/_03_22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=38 "Built target _03_22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_22"
 .PHONY : Chapter3/CMakeFiles/_03_22.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_22.dir/rule
@@ -3037,7 +3053,7 @@ Chapter3/CMakeFiles/_03_22.dir/clean:
 Chapter3/CMakeFiles/_03_27.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_27.dir/build.make Chapter3/CMakeFiles/_03_27.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_27.dir/build.make Chapter3/CMakeFiles/_03_27.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=40 "Built target _03_27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=39 "Built target _03_27"
 .PHONY : Chapter3/CMakeFiles/_03_27.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3064,7 +3080,7 @@ Chapter3/CMakeFiles/_03_27.dir/clean:
 Chapter3/CMakeFiles/_03_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_01.dir/build.make Chapter3/CMakeFiles/_03_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_01.dir/build.make Chapter3/CMakeFiles/_03_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=29 "Built target _03_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=28 "Built target _03_01"
 .PHONY : Chapter3/CMakeFiles/_03_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3145,12 +3161,12 @@ Chapter3/CMakeFiles/_03_21.dir/clean:
 Chapter3/CMakeFiles/_03_32.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_32.dir/build.make Chapter3/CMakeFiles/_03_32.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_32.dir/build.make Chapter3/CMakeFiles/_03_32.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=41 "Built target _03_32"
 .PHONY : Chapter3/CMakeFiles/_03_32.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_32.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_32.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_32.dir/rule
@@ -3199,12 +3215,12 @@ Chapter3/CMakeFiles/_03_26.dir/clean:
 Chapter3/CMakeFiles/_03_17.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_17.dir/build.make Chapter3/CMakeFiles/_03_17.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_17.dir/build.make Chapter3/CMakeFiles/_03_17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=36 "Built target _03_17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_17"
 .PHONY : Chapter3/CMakeFiles/_03_17.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_17.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_17.dir/rule
@@ -3280,7 +3296,7 @@ Chapter3/CMakeFiles/_03_16.dir/clean:
 Chapter3/CMakeFiles/_03_15.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_15.dir/build.make Chapter3/CMakeFiles/_03_15.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_15.dir/build.make Chapter3/CMakeFiles/_03_15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=35 "Built target _03_15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=34 "Built target _03_15"
 .PHONY : Chapter3/CMakeFiles/_03_15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3361,12 +3377,12 @@ Chapter3/CMakeFiles/_03_09.dir/clean:
 Chapter3/CMakeFiles/_03_18.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_18.dir/build.make Chapter3/CMakeFiles/_03_18.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_18.dir/build.make Chapter3/CMakeFiles/_03_18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=35 "Built target _03_18"
 .PHONY : Chapter3/CMakeFiles/_03_18.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_18.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_18.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_18.dir/rule
@@ -3415,7 +3431,7 @@ Chapter3/CMakeFiles/_03_12.dir/clean:
 Chapter3/CMakeFiles/_03_08.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_08.dir/build.make Chapter3/CMakeFiles/_03_08.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_08.dir/build.make Chapter3/CMakeFiles/_03_08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=32 "Built target _03_08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=31 "Built target _03_08"
 .PHONY : Chapter3/CMakeFiles/_03_08.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3469,7 +3485,7 @@ Chapter3/CMakeFiles/_03_07.dir/clean:
 Chapter3/CMakeFiles/_03_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_03.dir/build.make Chapter3/CMakeFiles/_03_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_03.dir/build.make Chapter3/CMakeFiles/_03_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=30 "Built target _03_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=29 "Built target _03_03"
 .PHONY : Chapter3/CMakeFiles/_03_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3550,7 +3566,7 @@ Chapter3/CMakeFiles/_03_28.dir/clean:
 Chapter3/CMakeFiles/_03_06.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_06.dir/build.make Chapter3/CMakeFiles/_03_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_06.dir/build.make Chapter3/CMakeFiles/_03_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=31 "Built target _03_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=30 "Built target _03_06"
 .PHONY : Chapter3/CMakeFiles/_03_06.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3577,7 +3593,7 @@ Chapter3/CMakeFiles/_03_06.dir/clean:
 Chapter3/CMakeFiles/_03_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_13.dir/build.make Chapter3/CMakeFiles/_03_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_13.dir/build.make Chapter3/CMakeFiles/_03_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=34 "Built target _03_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=33 "Built target _03_13"
 .PHONY : Chapter3/CMakeFiles/_03_13.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3604,12 +3620,12 @@ Chapter3/CMakeFiles/_03_13.dir/clean:
 Chapter3/CMakeFiles/_03_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_10.dir/build.make Chapter3/CMakeFiles/_03_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_10.dir/build.make Chapter3/CMakeFiles/_03_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=33 "Built target _03_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_10"
 .PHONY : Chapter3/CMakeFiles/_03_10.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_10.dir/rule
@@ -3631,12 +3647,12 @@ Chapter3/CMakeFiles/_03_10.dir/clean:
 Chapter3/CMakeFiles/_03_38.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_38.dir/build.make Chapter3/CMakeFiles/_03_38.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_38.dir/build.make Chapter3/CMakeFiles/_03_38.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=45 "Built target _03_38"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_38"
 .PHONY : Chapter3/CMakeFiles/_03_38.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_38.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_38.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_38.dir/rule
@@ -3658,12 +3674,12 @@ Chapter3/CMakeFiles/_03_38.dir/clean:
 Chapter3/CMakeFiles/_03_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_11.dir/build.make Chapter3/CMakeFiles/_03_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter3/CMakeFiles/_03_11.dir/build.make Chapter3/CMakeFiles/_03_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _03_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=32 "Built target _03_11"
 .PHONY : Chapter3/CMakeFiles/_03_11.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter3/CMakeFiles/_03_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter3/CMakeFiles/_03_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter3/CMakeFiles/_03_11.dir/rule
@@ -3739,12 +3755,12 @@ Chapter4/CMakeFiles/_04_38.dir/clean:
 Chapter4/CMakeFiles/_04_36.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_36.dir/build.make Chapter4/CMakeFiles/_04_36.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_36.dir/build.make Chapter4/CMakeFiles/_04_36.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=63 "Built target _04_36"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_36"
 .PHONY : Chapter4/CMakeFiles/_04_36.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_36.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_36.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_36.dir/rule
@@ -3766,7 +3782,7 @@ Chapter4/CMakeFiles/_04_36.dir/clean:
 Chapter4/CMakeFiles/_04_34.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_34.dir/build.make Chapter4/CMakeFiles/_04_34.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_34.dir/build.make Chapter4/CMakeFiles/_04_34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=62 "Built target _04_34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=60 "Built target _04_34"
 .PHONY : Chapter4/CMakeFiles/_04_34.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3793,7 +3809,7 @@ Chapter4/CMakeFiles/_04_34.dir/clean:
 Chapter4/CMakeFiles/_04_32.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_32.dir/build.make Chapter4/CMakeFiles/_04_32.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_32.dir/build.make Chapter4/CMakeFiles/_04_32.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=61 "Built target _04_32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=59 "Built target _04_32"
 .PHONY : Chapter4/CMakeFiles/_04_32.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3874,7 +3890,7 @@ Chapter4/CMakeFiles/_04_30.dir/clean:
 Chapter4/CMakeFiles/_04_27.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_27.dir/build.make Chapter4/CMakeFiles/_04_27.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_27.dir/build.make Chapter4/CMakeFiles/_04_27.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=59 "Built target _04_27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=57 "Built target _04_27"
 .PHONY : Chapter4/CMakeFiles/_04_27.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3928,12 +3944,12 @@ Chapter4/CMakeFiles/_04_26.dir/clean:
 Chapter4/CMakeFiles/_04_24.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_24.dir/build.make Chapter4/CMakeFiles/_04_24.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_24.dir/build.make Chapter4/CMakeFiles/_04_24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=56 "Built target _04_24"
 .PHONY : Chapter4/CMakeFiles/_04_24.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_24.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_24.dir/rule
@@ -3982,12 +3998,12 @@ Chapter4/CMakeFiles/_04_23.dir/clean:
 Chapter4/CMakeFiles/_04_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_02.dir/build.make Chapter4/CMakeFiles/_04_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_02.dir/build.make Chapter4/CMakeFiles/_04_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=47 "Built target _04_02"
 .PHONY : Chapter4/CMakeFiles/_04_02.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_02.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_02.dir/rule
@@ -4036,12 +4052,12 @@ Chapter4/CMakeFiles/_04_21.dir/clean:
 Chapter4/CMakeFiles/_04_18.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_18.dir/build.make Chapter4/CMakeFiles/_04_18.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_18.dir/build.make Chapter4/CMakeFiles/_04_18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=55 "Built target _04_18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_18"
 .PHONY : Chapter4/CMakeFiles/_04_18.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_18.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_18.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_18.dir/rule
@@ -4144,7 +4160,7 @@ Chapter4/CMakeFiles/_04_33.dir/clean:
 Chapter4/CMakeFiles/_04_15.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_15.dir/build.make Chapter4/CMakeFiles/_04_15.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_15.dir/build.make Chapter4/CMakeFiles/_04_15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=54 "Built target _04_15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=52 "Built target _04_15"
 .PHONY : Chapter4/CMakeFiles/_04_15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4171,7 +4187,7 @@ Chapter4/CMakeFiles/_04_15.dir/clean:
 Chapter4/CMakeFiles/_04_20.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_20.dir/build.make Chapter4/CMakeFiles/_04_20.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_20.dir/build.make Chapter4/CMakeFiles/_04_20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=56 "Built target _04_20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=54 "Built target _04_20"
 .PHONY : Chapter4/CMakeFiles/_04_20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4198,12 +4214,12 @@ Chapter4/CMakeFiles/_04_20.dir/clean:
 Chapter4/CMakeFiles/_04_25.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_25.dir/build.make Chapter4/CMakeFiles/_04_25.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_25.dir/build.make Chapter4/CMakeFiles/_04_25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=58 "Built target _04_25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_25"
 .PHONY : Chapter4/CMakeFiles/_04_25.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_25.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_25.dir/rule
@@ -4225,12 +4241,12 @@ Chapter4/CMakeFiles/_04_25.dir/clean:
 Chapter4/CMakeFiles/_04_06.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_06.dir/build.make Chapter4/CMakeFiles/_04_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_06.dir/build.make Chapter4/CMakeFiles/_04_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=50 "Built target _04_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_06"
 .PHONY : Chapter4/CMakeFiles/_04_06.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_06.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_06.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_06.dir/rule
@@ -4306,12 +4322,12 @@ Chapter4/CMakeFiles/_04_28.dir/clean:
 Chapter4/CMakeFiles/_04_17.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_17.dir/build.make Chapter4/CMakeFiles/_04_17.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_17.dir/build.make Chapter4/CMakeFiles/_04_17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=53 "Built target _04_17"
 .PHONY : Chapter4/CMakeFiles/_04_17.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_17.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_17.dir/rule
@@ -4360,12 +4376,12 @@ Chapter4/CMakeFiles/_04_01.dir/clean:
 Chapter4/CMakeFiles/_04_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_13.dir/build.make Chapter4/CMakeFiles/_04_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_13.dir/build.make Chapter4/CMakeFiles/_04_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=53 "Built target _04_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_13"
 .PHONY : Chapter4/CMakeFiles/_04_13.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_13.dir/rule
@@ -4387,12 +4403,12 @@ Chapter4/CMakeFiles/_04_13.dir/clean:
 Chapter4/CMakeFiles/_04_04.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_04.dir/build.make Chapter4/CMakeFiles/_04_04.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_04.dir/build.make Chapter4/CMakeFiles/_04_04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=49 "Built target _04_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_04"
 .PHONY : Chapter4/CMakeFiles/_04_04.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_04.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_04.dir/rule
@@ -4414,12 +4430,12 @@ Chapter4/CMakeFiles/_04_04.dir/clean:
 Chapter4/CMakeFiles/_04_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_12.dir/build.make Chapter4/CMakeFiles/_04_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_12.dir/build.make Chapter4/CMakeFiles/_04_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=51 "Built target _04_12"
 .PHONY : Chapter4/CMakeFiles/_04_12.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_12.dir/rule
@@ -4441,12 +4457,12 @@ Chapter4/CMakeFiles/_04_12.dir/clean:
 Chapter4/CMakeFiles/_04_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_11.dir/build.make Chapter4/CMakeFiles/_04_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_11.dir/build.make Chapter4/CMakeFiles/_04_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=52 "Built target _04_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_11"
 .PHONY : Chapter4/CMakeFiles/_04_11.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_11.dir/rule
@@ -4468,12 +4484,12 @@ Chapter4/CMakeFiles/_04_11.dir/clean:
 Chapter4/CMakeFiles/_04_37.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_37.dir/build.make Chapter4/CMakeFiles/_04_37.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_37.dir/build.make Chapter4/CMakeFiles/_04_37.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_37"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=61 "Built target _04_37"
 .PHONY : Chapter4/CMakeFiles/_04_37.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_37.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_37.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_37.dir/rule
@@ -4576,12 +4592,12 @@ Chapter4/CMakeFiles/_04_07.dir/clean:
 Chapter4/CMakeFiles/_04_05.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_05.dir/build.make Chapter4/CMakeFiles/_04_05.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_05.dir/build.make Chapter4/CMakeFiles/_04_05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=48 "Built target _04_05"
 .PHONY : Chapter4/CMakeFiles/_04_05.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_05.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_05.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_05.dir/rule
@@ -4603,12 +4619,12 @@ Chapter4/CMakeFiles/_04_05.dir/clean:
 Chapter4/CMakeFiles/_04_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_10.dir/build.make Chapter4/CMakeFiles/_04_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_10.dir/build.make Chapter4/CMakeFiles/_04_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _04_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=50 "Built target _04_10"
 .PHONY : Chapter4/CMakeFiles/_04_10.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter4/CMakeFiles/_04_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter4/CMakeFiles/_04_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter4/CMakeFiles/_04_10.dir/rule
@@ -4630,7 +4646,7 @@ Chapter4/CMakeFiles/_04_10.dir/clean:
 Chapter4/CMakeFiles/_04_29.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_29.dir/build.make Chapter4/CMakeFiles/_04_29.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_29.dir/build.make Chapter4/CMakeFiles/_04_29.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=60 "Built target _04_29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=58 "Built target _04_29"
 .PHONY : Chapter4/CMakeFiles/_04_29.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4657,7 +4673,7 @@ Chapter4/CMakeFiles/_04_29.dir/clean:
 Chapter4/CMakeFiles/_04_08.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_08.dir/build.make Chapter4/CMakeFiles/_04_08.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_08.dir/build.make Chapter4/CMakeFiles/_04_08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=51 "Built target _04_08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=49 "Built target _04_08"
 .PHONY : Chapter4/CMakeFiles/_04_08.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4684,7 +4700,7 @@ Chapter4/CMakeFiles/_04_08.dir/clean:
 Chapter4/CMakeFiles/_04_22.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_22.dir/build.make Chapter4/CMakeFiles/_04_22.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter4/CMakeFiles/_04_22.dir/build.make Chapter4/CMakeFiles/_04_22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=57 "Built target _04_22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=55 "Built target _04_22"
 .PHONY : Chapter4/CMakeFiles/_04_22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4711,12 +4727,12 @@ Chapter4/CMakeFiles/_04_22.dir/clean:
 Chapter5/CMakeFiles/_05_25.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_25.dir/build.make Chapter5/CMakeFiles/_05_25.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_25.dir/build.make Chapter5/CMakeFiles/_05_25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=72 "Built target _05_25"
 .PHONY : Chapter5/CMakeFiles/_05_25.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_25.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_25.dir/rule
@@ -4738,12 +4754,12 @@ Chapter5/CMakeFiles/_05_25.dir/clean:
 Chapter5/CMakeFiles/_05_23.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_23.dir/build.make Chapter5/CMakeFiles/_05_23.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_23.dir/build.make Chapter5/CMakeFiles/_05_23.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=71 "Built target _05_23"
 .PHONY : Chapter5/CMakeFiles/_05_23.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_23.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_23.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_23.dir/rule
@@ -4765,12 +4781,12 @@ Chapter5/CMakeFiles/_05_23.dir/clean:
 Chapter5/CMakeFiles/_05_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_13.dir/build.make Chapter5/CMakeFiles/_05_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_13.dir/build.make Chapter5/CMakeFiles/_05_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=67 "Built target _05_13"
 .PHONY : Chapter5/CMakeFiles/_05_13.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_13.dir/rule
@@ -4792,12 +4808,12 @@ Chapter5/CMakeFiles/_05_13.dir/clean:
 Chapter5/CMakeFiles/_05_22.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_22.dir/build.make Chapter5/CMakeFiles/_05_22.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_22.dir/build.make Chapter5/CMakeFiles/_05_22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=73 "Built target _05_22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_22"
 .PHONY : Chapter5/CMakeFiles/_05_22.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_22.dir/rule
@@ -4846,12 +4862,12 @@ Chapter5/CMakeFiles/_05_21.dir/clean:
 Chapter5/CMakeFiles/_05_24.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_24.dir/build.make Chapter5/CMakeFiles/_05_24.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_24.dir/build.make Chapter5/CMakeFiles/_05_24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=74 "Built target _05_24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_24"
 .PHONY : Chapter5/CMakeFiles/_05_24.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_24.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_24.dir/rule
@@ -4900,12 +4916,12 @@ Chapter5/CMakeFiles/_05_02.dir/clean:
 Chapter5/CMakeFiles/_05_19.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_19.dir/build.make Chapter5/CMakeFiles/_05_19.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_19.dir/build.make Chapter5/CMakeFiles/_05_19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=72 "Built target _05_19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_19"
 .PHONY : Chapter5/CMakeFiles/_05_19.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_19.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_19.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_19.dir/rule
@@ -4927,12 +4943,12 @@ Chapter5/CMakeFiles/_05_19.dir/clean:
 Chapter5/CMakeFiles/_05_17.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_17.dir/build.make Chapter5/CMakeFiles/_05_17.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_17.dir/build.make Chapter5/CMakeFiles/_05_17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=71 "Built target _05_17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_17"
 .PHONY : Chapter5/CMakeFiles/_05_17.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_17.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_17.dir/rule
@@ -5008,12 +5024,12 @@ Chapter5/CMakeFiles/_05_14.dir/clean:
 Chapter5/CMakeFiles/_05_20.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_20.dir/build.make Chapter5/CMakeFiles/_05_20.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_20.dir/build.make Chapter5/CMakeFiles/_05_20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=70 "Built target _05_20"
 .PHONY : Chapter5/CMakeFiles/_05_20.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_20.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_20.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_20.dir/rule
@@ -5035,12 +5051,12 @@ Chapter5/CMakeFiles/_05_20.dir/clean:
 Chapter5/CMakeFiles/_05_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_11.dir/build.make Chapter5/CMakeFiles/_05_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_11.dir/build.make Chapter5/CMakeFiles/_05_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=66 "Built target _05_11"
 .PHONY : Chapter5/CMakeFiles/_05_11.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_11.dir/rule
@@ -5062,12 +5078,12 @@ Chapter5/CMakeFiles/_05_11.dir/clean:
 Chapter5/CMakeFiles/_05_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_10.dir/build.make Chapter5/CMakeFiles/_05_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_10.dir/build.make Chapter5/CMakeFiles/_05_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=68 "Built target _05_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_10"
 .PHONY : Chapter5/CMakeFiles/_05_10.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_10.dir/rule
@@ -5143,12 +5159,12 @@ Chapter5/CMakeFiles/_05_04.dir/clean:
 Chapter5/CMakeFiles/_05_18.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_18.dir/build.make Chapter5/CMakeFiles/_05_18.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_18.dir/build.make Chapter5/CMakeFiles/_05_18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=69 "Built target _05_18"
 .PHONY : Chapter5/CMakeFiles/_05_18.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_18.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_18.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_18.dir/rule
@@ -5170,7 +5186,7 @@ Chapter5/CMakeFiles/_05_18.dir/clean:
 Chapter5/CMakeFiles/_05_08.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_08.dir/build.make Chapter5/CMakeFiles/_05_08.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_08.dir/build.make Chapter5/CMakeFiles/_05_08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=67 "Built target _05_08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=65 "Built target _05_08"
 .PHONY : Chapter5/CMakeFiles/_05_08.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5197,12 +5213,12 @@ Chapter5/CMakeFiles/_05_08.dir/clean:
 Chapter5/CMakeFiles/_05_06.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_06.dir/build.make Chapter5/CMakeFiles/_05_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_06.dir/build.make Chapter5/CMakeFiles/_05_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=64 "Built target _05_06"
 .PHONY : Chapter5/CMakeFiles/_05_06.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_06.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_06.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_06.dir/rule
@@ -5224,7 +5240,7 @@ Chapter5/CMakeFiles/_05_06.dir/clean:
 Chapter5/CMakeFiles/_05_15.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_15.dir/build.make Chapter5/CMakeFiles/_05_15.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_15.dir/build.make Chapter5/CMakeFiles/_05_15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=70 "Built target _05_15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=68 "Built target _05_15"
 .PHONY : Chapter5/CMakeFiles/_05_15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5251,12 +5267,12 @@ Chapter5/CMakeFiles/_05_15.dir/clean:
 Chapter5/CMakeFiles/_05_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_12.dir/build.make Chapter5/CMakeFiles/_05_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_12.dir/build.make Chapter5/CMakeFiles/_05_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=69 "Built target _05_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_12"
 .PHONY : Chapter5/CMakeFiles/_05_12.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_12.dir/rule
@@ -5278,12 +5294,12 @@ Chapter5/CMakeFiles/_05_12.dir/clean:
 Chapter5/CMakeFiles/_05_05.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_05.dir/build.make Chapter5/CMakeFiles/_05_05.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_05.dir/build.make Chapter5/CMakeFiles/_05_05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=66 "Built target _05_05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _05_05"
 .PHONY : Chapter5/CMakeFiles/_05_05.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter5/CMakeFiles/_05_05.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter5/CMakeFiles/_05_05.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter5/CMakeFiles/_05_05.dir/rule
@@ -5332,7 +5348,7 @@ Chapter5/CMakeFiles/_05_09.dir/clean:
 Chapter5/CMakeFiles/_05_03.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_03.dir/build.make Chapter5/CMakeFiles/_05_03.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_03.dir/build.make Chapter5/CMakeFiles/_05_03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=65 "Built target _05_03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=63 "Built target _05_03"
 .PHONY : Chapter5/CMakeFiles/_05_03.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5359,7 +5375,7 @@ Chapter5/CMakeFiles/_05_03.dir/clean:
 Chapter5/CMakeFiles/_05_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_01.dir/build.make Chapter5/CMakeFiles/_05_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter5/CMakeFiles/_05_01.dir/build.make Chapter5/CMakeFiles/_05_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=64 "Built target _05_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=62 "Built target _05_01"
 .PHONY : Chapter5/CMakeFiles/_05_01.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5386,12 +5402,12 @@ Chapter5/CMakeFiles/_05_01.dir/clean:
 Chapter6/CMakeFiles/_06_56.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_56.dir/build.make Chapter6/CMakeFiles/_06_56.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_56.dir/build.make Chapter6/CMakeFiles/_06_56.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=99 "Built target _06_56"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_56"
 .PHONY : Chapter6/CMakeFiles/_06_56.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_56.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_56.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_56.dir/rule
@@ -5413,7 +5429,7 @@ Chapter6/CMakeFiles/_06_56.dir/clean:
 Chapter6/CMakeFiles/_06_54.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_54.dir/build.make Chapter6/CMakeFiles/_06_54.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_54.dir/build.make Chapter6/CMakeFiles/_06_54.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=98 "Built target _06_54"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=95 "Built target _06_54"
 .PHONY : Chapter6/CMakeFiles/_06_54.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5494,12 +5510,12 @@ Chapter6/CMakeFiles/_06_51.dir/clean:
 Chapter6/CMakeFiles/_06_50.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_50.dir/build.make Chapter6/CMakeFiles/_06_50.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_50.dir/build.make Chapter6/CMakeFiles/_06_50.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_50"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=93 "Built target _06_50"
 .PHONY : Chapter6/CMakeFiles/_06_50.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_50.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_50.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_50.dir/rule
@@ -5521,12 +5537,12 @@ Chapter6/CMakeFiles/_06_50.dir/clean:
 Chapter6/CMakeFiles/_06_49.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_49.dir/build.make Chapter6/CMakeFiles/_06_49.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_49.dir/build.make Chapter6/CMakeFiles/_06_49.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=96 "Built target _06_49"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_49"
 .PHONY : Chapter6/CMakeFiles/_06_49.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_49.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_49.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_49.dir/rule
@@ -5602,12 +5618,12 @@ Chapter6/CMakeFiles/_06_46.dir/clean:
 Chapter6/CMakeFiles/_06_19.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_19.dir/build.make Chapter6/CMakeFiles/_06_19.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_19.dir/build.make Chapter6/CMakeFiles/_06_19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=83 "Built target _06_19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_19"
 .PHONY : Chapter6/CMakeFiles/_06_19.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_19.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_19.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_19.dir/rule
@@ -5629,7 +5645,7 @@ Chapter6/CMakeFiles/_06_19.dir/clean:
 Chapter6/CMakeFiles/_06_21.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_21.dir/build.make Chapter6/CMakeFiles/_06_21.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_21.dir/build.make Chapter6/CMakeFiles/_06_21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=84 "Built target _06_21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=81 "Built target _06_21"
 .PHONY : Chapter6/CMakeFiles/_06_21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5683,7 +5699,7 @@ Chapter6/CMakeFiles/_06_44.dir/clean:
 Chapter6/CMakeFiles/_06_40.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_40.dir/build.make Chapter6/CMakeFiles/_06_40.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_40.dir/build.make Chapter6/CMakeFiles/_06_40.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=92 "Built target _06_40"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=89 "Built target _06_40"
 .PHONY : Chapter6/CMakeFiles/_06_40.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5710,7 +5726,7 @@ Chapter6/CMakeFiles/_06_40.dir/clean:
 Chapter6/CMakeFiles/_06_42.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_42.dir/build.make Chapter6/CMakeFiles/_06_42.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_42.dir/build.make Chapter6/CMakeFiles/_06_42.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=93 "Built target _06_42"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=90 "Built target _06_42"
 .PHONY : Chapter6/CMakeFiles/_06_42.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5737,12 +5753,12 @@ Chapter6/CMakeFiles/_06_42.dir/clean:
 Chapter6/CMakeFiles/_06_18.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_18.dir/build.make Chapter6/CMakeFiles/_06_18.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_18.dir/build.make Chapter6/CMakeFiles/_06_18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=80 "Built target _06_18"
 .PHONY : Chapter6/CMakeFiles/_06_18.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_18.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_18.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_18.dir/rule
@@ -5791,7 +5807,7 @@ Chapter6/CMakeFiles/_06_41.dir/clean:
 Chapter6/CMakeFiles/_06_38.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_38.dir/build.make Chapter6/CMakeFiles/_06_38.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_38.dir/build.make Chapter6/CMakeFiles/_06_38.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=91 "Built target _06_38"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=88 "Built target _06_38"
 .PHONY : Chapter6/CMakeFiles/_06_38.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5818,7 +5834,7 @@ Chapter6/CMakeFiles/_06_38.dir/clean:
 Chapter6/CMakeFiles/_06_33.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_33.dir/build.make Chapter6/CMakeFiles/_06_33.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_33.dir/build.make Chapter6/CMakeFiles/_06_33.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=89 "Built target _06_33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=86 "Built target _06_33"
 .PHONY : Chapter6/CMakeFiles/_06_33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5872,12 +5888,12 @@ Chapter6/CMakeFiles/_06_22.dir/clean:
 Chapter6/CMakeFiles/_06_31.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_31.dir/build.make Chapter6/CMakeFiles/_06_31.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_31.dir/build.make Chapter6/CMakeFiles/_06_31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=88 "Built target _06_31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_31"
 .PHONY : Chapter6/CMakeFiles/_06_31.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_31.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_31.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_31.dir/rule
@@ -5926,12 +5942,12 @@ Chapter6/CMakeFiles/_06_37.dir/clean:
 Chapter6/CMakeFiles/_06_05.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_05.dir/build.make Chapter6/CMakeFiles/_06_05.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_05.dir/build.make Chapter6/CMakeFiles/_06_05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=74 "Built target _06_05"
 .PHONY : Chapter6/CMakeFiles/_06_05.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_05.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_05.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_05.dir/rule
@@ -5980,7 +5996,7 @@ Chapter6/CMakeFiles/_06_34.dir/clean:
 Chapter6/CMakeFiles/_06_28.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_28.dir/build.make Chapter6/CMakeFiles/_06_28.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_28.dir/build.make Chapter6/CMakeFiles/_06_28.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=87 "Built target _06_28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=84 "Built target _06_28"
 .PHONY : Chapter6/CMakeFiles/_06_28.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6088,7 +6104,7 @@ Chapter6/CMakeFiles/_06_39.dir/clean:
 Chapter6/CMakeFiles/_06_47.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_47.dir/build.make Chapter6/CMakeFiles/_06_47.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_47.dir/build.make Chapter6/CMakeFiles/_06_47.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=95 "Built target _06_47"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=92 "Built target _06_47"
 .PHONY : Chapter6/CMakeFiles/_06_47.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6115,7 +6131,7 @@ Chapter6/CMakeFiles/_06_47.dir/clean:
 Chapter6/CMakeFiles/_06_35.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_35.dir/build.make Chapter6/CMakeFiles/_06_35.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_35.dir/build.make Chapter6/CMakeFiles/_06_35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=90 "Built target _06_35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=87 "Built target _06_35"
 .PHONY : Chapter6/CMakeFiles/_06_35.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6142,12 +6158,12 @@ Chapter6/CMakeFiles/_06_35.dir/clean:
 Chapter6/CMakeFiles/_06_24.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_24.dir/build.make Chapter6/CMakeFiles/_06_24.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_24.dir/build.make Chapter6/CMakeFiles/_06_24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=85 "Built target _06_24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_24"
 .PHONY : Chapter6/CMakeFiles/_06_24.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_24.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_24.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_24.dir/rule
@@ -6169,12 +6185,12 @@ Chapter6/CMakeFiles/_06_24.dir/clean:
 Chapter6/CMakeFiles/_06_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_12.dir/build.make Chapter6/CMakeFiles/_06_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_12.dir/build.make Chapter6/CMakeFiles/_06_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=80 "Built target _06_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_12"
 .PHONY : Chapter6/CMakeFiles/_06_12.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_12.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_12.dir/rule
@@ -6196,7 +6212,7 @@ Chapter6/CMakeFiles/_06_12.dir/clean:
 Chapter6/CMakeFiles/_06_52.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_52.dir/build.make Chapter6/CMakeFiles/_06_52.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_52.dir/build.make Chapter6/CMakeFiles/_06_52.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=97 "Built target _06_52"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=94 "Built target _06_52"
 .PHONY : Chapter6/CMakeFiles/_06_52.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6223,12 +6239,12 @@ Chapter6/CMakeFiles/_06_52.dir/clean:
 Chapter6/CMakeFiles/_06_08.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_08.dir/build.make Chapter6/CMakeFiles/_06_08.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_08.dir/build.make Chapter6/CMakeFiles/_06_08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=78 "Built target _06_08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_08"
 .PHONY : Chapter6/CMakeFiles/_06_08.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_08.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_08.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_08.dir/rule
@@ -6304,12 +6320,12 @@ Chapter6/CMakeFiles/_06_20.dir/clean:
 Chapter6/CMakeFiles/_06_17.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_17.dir/build.make Chapter6/CMakeFiles/_06_17.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_17.dir/build.make Chapter6/CMakeFiles/_06_17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=82 "Built target _06_17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_17"
 .PHONY : Chapter6/CMakeFiles/_06_17.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_17.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_17.dir/rule
@@ -6358,12 +6374,12 @@ Chapter6/CMakeFiles/_06_32.dir/clean:
 Chapter6/CMakeFiles/_06_30.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_30.dir/build.make Chapter6/CMakeFiles/_06_30.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_30.dir/build.make Chapter6/CMakeFiles/_06_30.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_30"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=85 "Built target _06_30"
 .PHONY : Chapter6/CMakeFiles/_06_30.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_30.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_30.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_30.dir/rule
@@ -6385,12 +6401,12 @@ Chapter6/CMakeFiles/_06_30.dir/clean:
 Chapter6/CMakeFiles/_06_16.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_16.dir/build.make Chapter6/CMakeFiles/_06_16.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_16.dir/build.make Chapter6/CMakeFiles/_06_16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=79 "Built target _06_16"
 .PHONY : Chapter6/CMakeFiles/_06_16.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_16.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_16.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_16.dir/rule
@@ -6412,7 +6428,7 @@ Chapter6/CMakeFiles/_06_16.dir/clean:
 Chapter6/CMakeFiles/_06_45.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_45.dir/build.make Chapter6/CMakeFiles/_06_45.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_45.dir/build.make Chapter6/CMakeFiles/_06_45.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=94 "Built target _06_45"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=91 "Built target _06_45"
 .PHONY : Chapter6/CMakeFiles/_06_45.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6439,12 +6455,12 @@ Chapter6/CMakeFiles/_06_45.dir/clean:
 Chapter6/CMakeFiles/_06_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_13.dir/build.make Chapter6/CMakeFiles/_06_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_13.dir/build.make Chapter6/CMakeFiles/_06_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=78 "Built target _06_13"
 .PHONY : Chapter6/CMakeFiles/_06_13.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_13.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_13.dir/rule
@@ -6466,12 +6482,12 @@ Chapter6/CMakeFiles/_06_13.dir/clean:
 Chapter6/CMakeFiles/_06_09.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_09.dir/build.make Chapter6/CMakeFiles/_06_09.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_09.dir/build.make Chapter6/CMakeFiles/_06_09.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_09"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=76 "Built target _06_09"
 .PHONY : Chapter6/CMakeFiles/_06_09.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_09.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_09.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_09.dir/rule
@@ -6547,7 +6563,7 @@ Chapter6/CMakeFiles/_06_55.dir/clean:
 Chapter6/CMakeFiles/_06_26.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_26.dir/build.make Chapter6/CMakeFiles/_06_26.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_26.dir/build.make Chapter6/CMakeFiles/_06_26.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=86 "Built target _06_26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=83 "Built target _06_26"
 .PHONY : Chapter6/CMakeFiles/_06_26.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6574,12 +6590,12 @@ Chapter6/CMakeFiles/_06_26.dir/clean:
 Chapter6/CMakeFiles/_06_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_02.dir/build.make Chapter6/CMakeFiles/_06_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_02.dir/build.make Chapter6/CMakeFiles/_06_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=73 "Built target _06_02"
 .PHONY : Chapter6/CMakeFiles/_06_02.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_02.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_02.dir/rule
@@ -6601,12 +6617,12 @@ Chapter6/CMakeFiles/_06_02.dir/clean:
 Chapter6/CMakeFiles/_06_06.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_06.dir/build.make Chapter6/CMakeFiles/_06_06.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_06.dir/build.make Chapter6/CMakeFiles/_06_06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=77 "Built target _06_06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_06"
 .PHONY : Chapter6/CMakeFiles/_06_06.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_06.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_06.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_06.dir/rule
@@ -6628,12 +6644,12 @@ Chapter6/CMakeFiles/_06_06.dir/clean:
 Chapter6/CMakeFiles/_06_23.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_23.dir/build.make Chapter6/CMakeFiles/_06_23.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_23.dir/build.make Chapter6/CMakeFiles/_06_23.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=82 "Built target _06_23"
 .PHONY : Chapter6/CMakeFiles/_06_23.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_23.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_23.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_23.dir/rule
@@ -6682,12 +6698,12 @@ Chapter6/CMakeFiles/_06_03.dir/clean:
 Chapter6/CMakeFiles/_06_10.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_10.dir/build.make Chapter6/CMakeFiles/_06_10.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_10.dir/build.make Chapter6/CMakeFiles/_06_10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=79 "Built target _06_10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_10"
 .PHONY : Chapter6/CMakeFiles/_06_10.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_10.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_10.dir/rule
@@ -6736,12 +6752,12 @@ Chapter6/CMakeFiles/_06_29.dir/clean:
 Chapter6/CMakeFiles/_06_07.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_07.dir/build.make Chapter6/CMakeFiles/_06_07.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_07.dir/build.make Chapter6/CMakeFiles/_06_07.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=75 "Built target _06_07"
 .PHONY : Chapter6/CMakeFiles/_06_07.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_07.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_07.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_07.dir/rule
@@ -6790,12 +6806,12 @@ Chapter6/CMakeFiles/_06_15.dir/clean:
 Chapter6/CMakeFiles/_06_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_11.dir/build.make Chapter6/CMakeFiles/_06_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_11.dir/build.make Chapter6/CMakeFiles/_06_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=77 "Built target _06_11"
 .PHONY : Chapter6/CMakeFiles/_06_11.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_11.dir/rule
@@ -6817,12 +6833,12 @@ Chapter6/CMakeFiles/_06_11.dir/clean:
 Chapter6/CMakeFiles/_06_14.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_14.dir/build.make Chapter6/CMakeFiles/_06_14.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_14.dir/build.make Chapter6/CMakeFiles/_06_14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=81 "Built target _06_14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_14"
 .PHONY : Chapter6/CMakeFiles/_06_14.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_14.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_14.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_14.dir/rule
@@ -6844,12 +6860,12 @@ Chapter6/CMakeFiles/_06_14.dir/clean:
 Chapter6/CMakeFiles/_06_04.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_04.dir/build.make Chapter6/CMakeFiles/_06_04.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_04.dir/build.make Chapter6/CMakeFiles/_06_04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=76 "Built target _06_04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_04"
 .PHONY : Chapter6/CMakeFiles/_06_04.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_04.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_04.dir/rule
@@ -6871,12 +6887,12 @@ Chapter6/CMakeFiles/_06_04.dir/clean:
 Chapter6/CMakeFiles/_06_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_01.dir/build.make Chapter6/CMakeFiles/_06_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chapter6/CMakeFiles/_06_01.dir/build.make Chapter6/CMakeFiles/_06_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=75 "Built target _06_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _06_01"
 .PHONY : Chapter6/CMakeFiles/_06_01.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter6/CMakeFiles/_06_01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter6/CMakeFiles/_06_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chapter6/CMakeFiles/_06_01.dir/rule
@@ -6892,18 +6908,180 @@ Chapter6/CMakeFiles/_06_01.dir/clean:
 .PHONY : Chapter6/CMakeFiles/_06_01.dir/clean
 
 #=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_10.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_10.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_10.dir/build.make Chpater7/CMakeFiles/_07_10.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_10.dir/build.make Chpater7/CMakeFiles/_07_10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=100 "Built target _07_10"
+.PHONY : Chpater7/CMakeFiles/_07_10.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_10.dir/rule
+
+# Convenience name for target.
+_07_10: Chpater7/CMakeFiles/_07_10.dir/rule
+
+.PHONY : _07_10
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_10.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_10.dir/build.make Chpater7/CMakeFiles/_07_10.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_10.dir/clean
+
+#=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_08.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_08.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_08.dir/build.make Chpater7/CMakeFiles/_07_08.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_08.dir/build.make Chpater7/CMakeFiles/_07_08.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=99 "Built target _07_08"
+.PHONY : Chpater7/CMakeFiles/_07_08.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_08.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_08.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_08.dir/rule
+
+# Convenience name for target.
+_07_08: Chpater7/CMakeFiles/_07_08.dir/rule
+
+.PHONY : _07_08
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_08.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_08.dir/build.make Chpater7/CMakeFiles/_07_08.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_08.dir/clean
+
+#=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_07.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_07.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_07.dir/build.make Chpater7/CMakeFiles/_07_07.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_07.dir/build.make Chpater7/CMakeFiles/_07_07.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _07_07"
+.PHONY : Chpater7/CMakeFiles/_07_07.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_07.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_07.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_07.dir/rule
+
+# Convenience name for target.
+_07_07: Chpater7/CMakeFiles/_07_07.dir/rule
+
+.PHONY : _07_07
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_07.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_07.dir/build.make Chpater7/CMakeFiles/_07_07.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_07.dir/clean
+
+#=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_06.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_06.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_06.dir/build.make Chpater7/CMakeFiles/_07_06.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_06.dir/build.make Chpater7/CMakeFiles/_07_06.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=98 "Built target _07_06"
+.PHONY : Chpater7/CMakeFiles/_07_06.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_06.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_06.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_06.dir/rule
+
+# Convenience name for target.
+_07_06: Chpater7/CMakeFiles/_07_06.dir/rule
+
+.PHONY : _07_06
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_06.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_06.dir/build.make Chpater7/CMakeFiles/_07_06.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_06.dir/clean
+
+#=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_04.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_04.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_04.dir/build.make Chpater7/CMakeFiles/_07_04.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_04.dir/build.make Chpater7/CMakeFiles/_07_04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _07_04"
+.PHONY : Chpater7/CMakeFiles/_07_04.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_04.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_04.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_04.dir/rule
+
+# Convenience name for target.
+_07_04: Chpater7/CMakeFiles/_07_04.dir/rule
+
+.PHONY : _07_04
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_04.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_04.dir/build.make Chpater7/CMakeFiles/_07_04.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_04.dir/clean
+
+#=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_05.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_05.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_05.dir/build.make Chpater7/CMakeFiles/_07_05.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_05.dir/build.make Chpater7/CMakeFiles/_07_05.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _07_05"
+.PHONY : Chpater7/CMakeFiles/_07_05.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_05.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_05.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_05.dir/rule
+
+# Convenience name for target.
+_07_05: Chpater7/CMakeFiles/_07_05.dir/rule
+
+.PHONY : _07_05
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_05.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_05.dir/build.make Chpater7/CMakeFiles/_07_05.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_05.dir/clean
+
+#=============================================================================
 # Target rules for target Chpater7/CMakeFiles/_07_02.dir
 
 # All Build rule for target.
 Chpater7/CMakeFiles/_07_02.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_02.dir/build.make Chpater7/CMakeFiles/_07_02.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_02.dir/build.make Chpater7/CMakeFiles/_07_02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=100 "Built target _07_02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _07_02"
 .PHONY : Chpater7/CMakeFiles/_07_02.dir/all
 
 # Build rule for subdir invocation for target.
 Chpater7/CMakeFiles/_07_02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_02.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chpater7/CMakeFiles/_07_02.dir/rule
@@ -6919,18 +7097,72 @@ Chpater7/CMakeFiles/_07_02.dir/clean:
 .PHONY : Chpater7/CMakeFiles/_07_02.dir/clean
 
 #=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_09.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_09.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_09.dir/build.make Chpater7/CMakeFiles/_07_09.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_09.dir/build.make Chpater7/CMakeFiles/_07_09.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _07_09"
+.PHONY : Chpater7/CMakeFiles/_07_09.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_09.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_09.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_09.dir/rule
+
+# Convenience name for target.
+_07_09: Chpater7/CMakeFiles/_07_09.dir/rule
+
+.PHONY : _07_09
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_09.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_09.dir/build.make Chpater7/CMakeFiles/_07_09.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_09.dir/clean
+
+#=============================================================================
+# Target rules for target Chpater7/CMakeFiles/_07_03.dir
+
+# All Build rule for target.
+Chpater7/CMakeFiles/_07_03.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_03.dir/build.make Chpater7/CMakeFiles/_07_03.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_03.dir/build.make Chpater7/CMakeFiles/_07_03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=97 "Built target _07_03"
+.PHONY : Chpater7/CMakeFiles/_07_03.dir/all
+
+# Build rule for subdir invocation for target.
+Chpater7/CMakeFiles/_07_03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+.PHONY : Chpater7/CMakeFiles/_07_03.dir/rule
+
+# Convenience name for target.
+_07_03: Chpater7/CMakeFiles/_07_03.dir/rule
+
+.PHONY : _07_03
+
+# clean rule for target.
+Chpater7/CMakeFiles/_07_03.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_03.dir/build.make Chpater7/CMakeFiles/_07_03.dir/clean
+.PHONY : Chpater7/CMakeFiles/_07_03.dir/clean
+
+#=============================================================================
 # Target rules for target Chpater7/CMakeFiles/_07_01.dir
 
 # All Build rule for target.
 Chpater7/CMakeFiles/_07_01.dir/all:
 	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_01.dir/build.make Chpater7/CMakeFiles/_07_01.dir/depend
 	$(MAKE) $(MAKESILENT) -f Chpater7/CMakeFiles/_07_01.dir/build.make Chpater7/CMakeFiles/_07_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num= "Built target _07_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles --progress-num=96 "Built target _07_01"
 .PHONY : Chpater7/CMakeFiles/_07_01.dir/all
 
 # Build rule for subdir invocation for target.
 Chpater7/CMakeFiles/_07_01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chpater7/CMakeFiles/_07_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/CMakeFiles 0
 .PHONY : Chpater7/CMakeFiles/_07_01.dir/rule

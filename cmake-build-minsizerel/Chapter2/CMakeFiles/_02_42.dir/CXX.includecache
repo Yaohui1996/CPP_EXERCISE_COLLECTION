@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter2/Sales_data.h
-string
--
-
 /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter2/_02_42.cpp
 iostream
 -
-Sales_data.h
-/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter2/Sales_data.h
 

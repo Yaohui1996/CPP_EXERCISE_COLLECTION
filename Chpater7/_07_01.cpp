@@ -5,10 +5,13 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
+using std::cerr;
 
 struct Sales_data {
-    string bookNo;
+    std::string bookNo;
     unsigned units_sold = 0;
     double revenue = 0.0;
 };
@@ -28,7 +31,7 @@ int main() {
         }
         cout << total.bookNo << " " << total.units_sold << " " << total.revenue << endl;
     } else {
-        std::cerr << "No data?!" << std::endl;
+        cerr << "No Data?!" << endl;
         return -1;
     }
     return 0;

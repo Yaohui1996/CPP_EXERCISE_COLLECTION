@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter1/Sales_item.h
+iostream
+-
+string
+-
+
 /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter1/_01_24.cpp
 iostream
 -
+Sales_item.h
+/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter1/Sales_item.h
 

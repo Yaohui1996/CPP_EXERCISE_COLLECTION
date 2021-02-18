@@ -2259,7 +2259,6 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/Chapter6.h">
-			<Option target="_06_08"/>
 			<Option target="_06_09"/>
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter6/_06_01.cpp">

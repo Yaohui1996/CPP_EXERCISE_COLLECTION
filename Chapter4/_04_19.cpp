@@ -12,7 +12,7 @@ int main() {
 
     bool b = ival++ && ival;
 
-    bool c = vec[ival++] <= vec[ival];
+    //bool c = vec[ival++] <= vec[ival];编译器抛出warning
 
     return 0;
 }
