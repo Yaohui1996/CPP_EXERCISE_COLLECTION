@@ -13,7 +13,7 @@ using namespace std;
 vector<string> readFile(const string &fileDir);
 
 int main() {
-    vector<string> haha = readFile("/Users/yaohui/Desktop/笔记/计算机网络——学习笔记.md");
+    vector<string> haha = readFile("/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter8/_08_06_books.txt");
     //输出内容
     for (const string &item :haha) { cout << item << endl; }
     return 0;

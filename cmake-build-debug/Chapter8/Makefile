@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,19 +131,109 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Chapter8/CMakeFiles/_08_05.dir/rule:
-	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_05.dir/rule
-.PHONY : Chapter8/CMakeFiles/_08_05.dir/rule
+Chapter8/CMakeFiles/_08_14.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_14.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_14.dir/rule
 
 # Convenience name for target.
-_08_05: Chapter8/CMakeFiles/_08_05.dir/rule
+_08_14: Chapter8/CMakeFiles/_08_14.dir/rule
 
-.PHONY : _08_05
+.PHONY : _08_14
 
 # fast build rule for target.
-_08_05/fast:
-	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_05.dir/build.make Chapter8/CMakeFiles/_08_05.dir/build
-.PHONY : _08_05/fast
+_08_14/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_14.dir/build.make Chapter8/CMakeFiles/_08_14.dir/build
+.PHONY : _08_14/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_13.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_13.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_13.dir/rule
+
+# Convenience name for target.
+_08_13: Chapter8/CMakeFiles/_08_13.dir/rule
+
+.PHONY : _08_13
+
+# fast build rule for target.
+_08_13/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_13.dir/build.make Chapter8/CMakeFiles/_08_13.dir/build
+.PHONY : _08_13/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_12.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_12.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_12.dir/rule
+
+# Convenience name for target.
+_08_12: Chapter8/CMakeFiles/_08_12.dir/rule
+
+.PHONY : _08_12
+
+# fast build rule for target.
+_08_12/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_12.dir/build.make Chapter8/CMakeFiles/_08_12.dir/build
+.PHONY : _08_12/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_11.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_11.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_11.dir/rule
+
+# Convenience name for target.
+_08_11: Chapter8/CMakeFiles/_08_11.dir/rule
+
+.PHONY : _08_11
+
+# fast build rule for target.
+_08_11/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_11.dir/build.make Chapter8/CMakeFiles/_08_11.dir/build
+.PHONY : _08_11/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_10.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_10.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_10.dir/rule
+
+# Convenience name for target.
+_08_10: Chapter8/CMakeFiles/_08_10.dir/rule
+
+.PHONY : _08_10
+
+# fast build rule for target.
+_08_10/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_10.dir/build.make Chapter8/CMakeFiles/_08_10.dir/build
+.PHONY : _08_10/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_06.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_06.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_06.dir/rule
+
+# Convenience name for target.
+_08_06: Chapter8/CMakeFiles/_08_06.dir/rule
+
+.PHONY : _08_06
+
+# fast build rule for target.
+_08_06/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_06.dir/build.make Chapter8/CMakeFiles/_08_06.dir/build
+.PHONY : _08_06/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_08.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_08.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_08.dir/rule
+
+# Convenience name for target.
+_08_08: Chapter8/CMakeFiles/_08_08.dir/rule
+
+.PHONY : _08_08
+
+# fast build rule for target.
+_08_08/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_08.dir/build.make Chapter8/CMakeFiles/_08_08.dir/build
+.PHONY : _08_08/fast
 
 # Convenience name for target.
 Chapter8/CMakeFiles/_08_04.dir/rule:
@@ -159,6 +249,51 @@ _08_04: Chapter8/CMakeFiles/_08_04.dir/rule
 _08_04/fast:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_04.dir/build.make Chapter8/CMakeFiles/_08_04.dir/build
 .PHONY : _08_04/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_07.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_07.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_07.dir/rule
+
+# Convenience name for target.
+_08_07: Chapter8/CMakeFiles/_08_07.dir/rule
+
+.PHONY : _08_07
+
+# fast build rule for target.
+_08_07/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_07.dir/build.make Chapter8/CMakeFiles/_08_07.dir/build
+.PHONY : _08_07/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_05.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_05.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_05.dir/rule
+
+# Convenience name for target.
+_08_05: Chapter8/CMakeFiles/_08_05.dir/rule
+
+.PHONY : _08_05
+
+# fast build rule for target.
+_08_05/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_05.dir/build.make Chapter8/CMakeFiles/_08_05.dir/build
+.PHONY : _08_05/fast
+
+# Convenience name for target.
+Chapter8/CMakeFiles/_08_09.dir/rule:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chapter8/CMakeFiles/_08_09.dir/rule
+.PHONY : Chapter8/CMakeFiles/_08_09.dir/rule
+
+# Convenience name for target.
+_08_09: Chapter8/CMakeFiles/_08_09.dir/rule
+
+.PHONY : _08_09
+
+# fast build rule for target.
+_08_09/fast:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_09.dir/build.make Chapter8/CMakeFiles/_08_09.dir/build
+.PHONY : _08_09/fast
 
 # Convenience name for target.
 Chapter8/CMakeFiles/_08_03.dir/rule:
@@ -340,6 +475,249 @@ _08_05.cpp.s:
 	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_05.dir/build.make Chapter8/CMakeFiles/_08_05.dir/_08_05.cpp.s
 .PHONY : _08_05.cpp.s
 
+_08_06.o: _08_06.cpp.o
+
+.PHONY : _08_06.o
+
+# target to build an object file
+_08_06.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_06.dir/build.make Chapter8/CMakeFiles/_08_06.dir/_08_06.cpp.o
+.PHONY : _08_06.cpp.o
+
+_08_06.i: _08_06.cpp.i
+
+.PHONY : _08_06.i
+
+# target to preprocess a source file
+_08_06.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_06.dir/build.make Chapter8/CMakeFiles/_08_06.dir/_08_06.cpp.i
+.PHONY : _08_06.cpp.i
+
+_08_06.s: _08_06.cpp.s
+
+.PHONY : _08_06.s
+
+# target to generate assembly for a file
+_08_06.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_06.dir/build.make Chapter8/CMakeFiles/_08_06.dir/_08_06.cpp.s
+.PHONY : _08_06.cpp.s
+
+_08_07.o: _08_07.cpp.o
+
+.PHONY : _08_07.o
+
+# target to build an object file
+_08_07.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_07.dir/build.make Chapter8/CMakeFiles/_08_07.dir/_08_07.cpp.o
+.PHONY : _08_07.cpp.o
+
+_08_07.i: _08_07.cpp.i
+
+.PHONY : _08_07.i
+
+# target to preprocess a source file
+_08_07.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_07.dir/build.make Chapter8/CMakeFiles/_08_07.dir/_08_07.cpp.i
+.PHONY : _08_07.cpp.i
+
+_08_07.s: _08_07.cpp.s
+
+.PHONY : _08_07.s
+
+# target to generate assembly for a file
+_08_07.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_07.dir/build.make Chapter8/CMakeFiles/_08_07.dir/_08_07.cpp.s
+.PHONY : _08_07.cpp.s
+
+_08_08.o: _08_08.cpp.o
+
+.PHONY : _08_08.o
+
+# target to build an object file
+_08_08.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_08.dir/build.make Chapter8/CMakeFiles/_08_08.dir/_08_08.cpp.o
+.PHONY : _08_08.cpp.o
+
+_08_08.i: _08_08.cpp.i
+
+.PHONY : _08_08.i
+
+# target to preprocess a source file
+_08_08.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_08.dir/build.make Chapter8/CMakeFiles/_08_08.dir/_08_08.cpp.i
+.PHONY : _08_08.cpp.i
+
+_08_08.s: _08_08.cpp.s
+
+.PHONY : _08_08.s
+
+# target to generate assembly for a file
+_08_08.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_08.dir/build.make Chapter8/CMakeFiles/_08_08.dir/_08_08.cpp.s
+.PHONY : _08_08.cpp.s
+
+_08_09.o: _08_09.cpp.o
+
+.PHONY : _08_09.o
+
+# target to build an object file
+_08_09.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_09.dir/build.make Chapter8/CMakeFiles/_08_09.dir/_08_09.cpp.o
+.PHONY : _08_09.cpp.o
+
+_08_09.i: _08_09.cpp.i
+
+.PHONY : _08_09.i
+
+# target to preprocess a source file
+_08_09.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_09.dir/build.make Chapter8/CMakeFiles/_08_09.dir/_08_09.cpp.i
+.PHONY : _08_09.cpp.i
+
+_08_09.s: _08_09.cpp.s
+
+.PHONY : _08_09.s
+
+# target to generate assembly for a file
+_08_09.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_09.dir/build.make Chapter8/CMakeFiles/_08_09.dir/_08_09.cpp.s
+.PHONY : _08_09.cpp.s
+
+_08_10.o: _08_10.cpp.o
+
+.PHONY : _08_10.o
+
+# target to build an object file
+_08_10.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_10.dir/build.make Chapter8/CMakeFiles/_08_10.dir/_08_10.cpp.o
+.PHONY : _08_10.cpp.o
+
+_08_10.i: _08_10.cpp.i
+
+.PHONY : _08_10.i
+
+# target to preprocess a source file
+_08_10.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_10.dir/build.make Chapter8/CMakeFiles/_08_10.dir/_08_10.cpp.i
+.PHONY : _08_10.cpp.i
+
+_08_10.s: _08_10.cpp.s
+
+.PHONY : _08_10.s
+
+# target to generate assembly for a file
+_08_10.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_10.dir/build.make Chapter8/CMakeFiles/_08_10.dir/_08_10.cpp.s
+.PHONY : _08_10.cpp.s
+
+_08_11.o: _08_11.cpp.o
+
+.PHONY : _08_11.o
+
+# target to build an object file
+_08_11.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_11.dir/build.make Chapter8/CMakeFiles/_08_11.dir/_08_11.cpp.o
+.PHONY : _08_11.cpp.o
+
+_08_11.i: _08_11.cpp.i
+
+.PHONY : _08_11.i
+
+# target to preprocess a source file
+_08_11.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_11.dir/build.make Chapter8/CMakeFiles/_08_11.dir/_08_11.cpp.i
+.PHONY : _08_11.cpp.i
+
+_08_11.s: _08_11.cpp.s
+
+.PHONY : _08_11.s
+
+# target to generate assembly for a file
+_08_11.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_11.dir/build.make Chapter8/CMakeFiles/_08_11.dir/_08_11.cpp.s
+.PHONY : _08_11.cpp.s
+
+_08_12.o: _08_12.cpp.o
+
+.PHONY : _08_12.o
+
+# target to build an object file
+_08_12.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_12.dir/build.make Chapter8/CMakeFiles/_08_12.dir/_08_12.cpp.o
+.PHONY : _08_12.cpp.o
+
+_08_12.i: _08_12.cpp.i
+
+.PHONY : _08_12.i
+
+# target to preprocess a source file
+_08_12.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_12.dir/build.make Chapter8/CMakeFiles/_08_12.dir/_08_12.cpp.i
+.PHONY : _08_12.cpp.i
+
+_08_12.s: _08_12.cpp.s
+
+.PHONY : _08_12.s
+
+# target to generate assembly for a file
+_08_12.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_12.dir/build.make Chapter8/CMakeFiles/_08_12.dir/_08_12.cpp.s
+.PHONY : _08_12.cpp.s
+
+_08_13.o: _08_13.cpp.o
+
+.PHONY : _08_13.o
+
+# target to build an object file
+_08_13.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_13.dir/build.make Chapter8/CMakeFiles/_08_13.dir/_08_13.cpp.o
+.PHONY : _08_13.cpp.o
+
+_08_13.i: _08_13.cpp.i
+
+.PHONY : _08_13.i
+
+# target to preprocess a source file
+_08_13.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_13.dir/build.make Chapter8/CMakeFiles/_08_13.dir/_08_13.cpp.i
+.PHONY : _08_13.cpp.i
+
+_08_13.s: _08_13.cpp.s
+
+.PHONY : _08_13.s
+
+# target to generate assembly for a file
+_08_13.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_13.dir/build.make Chapter8/CMakeFiles/_08_13.dir/_08_13.cpp.s
+.PHONY : _08_13.cpp.s
+
+_08_14.o: _08_14.cpp.o
+
+.PHONY : _08_14.o
+
+# target to build an object file
+_08_14.cpp.o:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_14.dir/build.make Chapter8/CMakeFiles/_08_14.dir/_08_14.cpp.o
+.PHONY : _08_14.cpp.o
+
+_08_14.i: _08_14.cpp.i
+
+.PHONY : _08_14.i
+
+# target to preprocess a source file
+_08_14.cpp.i:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_14.dir/build.make Chapter8/CMakeFiles/_08_14.dir/_08_14.cpp.i
+.PHONY : _08_14.cpp.i
+
+_08_14.s: _08_14.cpp.s
+
+.PHONY : _08_14.s
+
+# target to generate assembly for a file
+_08_14.cpp.s:
+	cd /Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Chapter8/CMakeFiles/_08_14.dir/build.make Chapter8/CMakeFiles/_08_14.dir/_08_14.cpp.s
+.PHONY : _08_14.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -353,6 +731,15 @@ help:
 	@echo "... _08_03"
 	@echo "... _08_04"
 	@echo "... _08_05"
+	@echo "... _08_06"
+	@echo "... _08_07"
+	@echo "... _08_08"
+	@echo "... _08_09"
+	@echo "... _08_10"
+	@echo "... _08_11"
+	@echo "... _08_12"
+	@echo "... _08_13"
+	@echo "... _08_14"
 	@echo "... _08_01.o"
 	@echo "... _08_01.i"
 	@echo "... _08_01.s"
@@ -368,6 +755,33 @@ help:
 	@echo "... _08_05.o"
 	@echo "... _08_05.i"
 	@echo "... _08_05.s"
+	@echo "... _08_06.o"
+	@echo "... _08_06.i"
+	@echo "... _08_06.s"
+	@echo "... _08_07.o"
+	@echo "... _08_07.i"
+	@echo "... _08_07.s"
+	@echo "... _08_08.o"
+	@echo "... _08_08.i"
+	@echo "... _08_08.s"
+	@echo "... _08_09.o"
+	@echo "... _08_09.i"
+	@echo "... _08_09.s"
+	@echo "... _08_10.o"
+	@echo "... _08_10.i"
+	@echo "... _08_10.s"
+	@echo "... _08_11.o"
+	@echo "... _08_11.i"
+	@echo "... _08_11.s"
+	@echo "... _08_12.o"
+	@echo "... _08_12.i"
+	@echo "... _08_12.s"
+	@echo "... _08_13.o"
+	@echo "... _08_13.i"
+	@echo "... _08_13.s"
+	@echo "... _08_14.o"
+	@echo "... _08_14.i"
+	@echo "... _08_14.s"
 .PHONY : help
 
 
