@@ -64,7 +64,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-relwithdebinfo/Chpater7/cmake_install.cmake")
+  include("/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-relwithdebinfo/Chapter7/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-relwithdebinfo/Chapter8/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
