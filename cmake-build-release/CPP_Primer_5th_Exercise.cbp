@@ -9237,6 +9237,526 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chapter6/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_07_57">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_57" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_57"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_57/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_57" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_57/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_56">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_56" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_56"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_56/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_56" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_56/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_52">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_52" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_52"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_52/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_52" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_52/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_51">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_51" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_51"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_51/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_51" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_51/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_54">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_54" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_54"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_54/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_54" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_54/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_50">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_50" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_50"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_50/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_50" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_50/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_47">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_47" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_47"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_47/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_47" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_47/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_45">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_45" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_45"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_45/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_45" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_45/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_43">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_43" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_43"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_43/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_43" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_43/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_42">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_42" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_42"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_42/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_42" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_42/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_23">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_23"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_23/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_23/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_41">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_41" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_41"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_41/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_41" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_41/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_21">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_21"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_21/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_21/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_07_38">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_38" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
@@ -9272,6 +9792,86 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_38/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_53">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_53" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_53"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_53/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_53" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_53/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_07">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_07/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_07/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
@@ -9397,6 +9997,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_07_19">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_19"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_19/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_19/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_07_31">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_31" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
@@ -9477,6 +10117,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_07_55">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_55" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_55"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_55/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_55" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_55/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_07_28">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_28" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
@@ -9512,6 +10192,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_28/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_46">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_46" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_46"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_46/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_46" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_46/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
@@ -9717,6 +10437,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_07_02">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_02/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_07_39">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_39" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
@@ -9757,6 +10517,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_07_49">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_49" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_49"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_49/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_49" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_49/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_07_33">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_33" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
@@ -9792,6 +10592,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_33/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_58">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_58" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_58"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_58/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_58" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_58/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
@@ -9872,46 +10712,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_16/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_23">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_23" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_23"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_23/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_23" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_23/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
@@ -10357,6 +11157,86 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="_07_48">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_48" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_48"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_48/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_48" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_48/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_04">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_07_04/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="_07_11">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_11" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
@@ -10392,46 +11272,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_11/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_21">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_21" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_21"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_21/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_21" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_21/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
@@ -10557,86 +11397,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_07_19">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_19" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_19"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_19/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_19" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_19/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_07">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_07" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_07"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_07/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_07" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_07/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="_07_20">
 				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_20" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
@@ -10677,8 +11437,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_07_04">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_04" prefix_auto="0" extension_auto="0"/>
+			<Target title="_07_44">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_44" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -10691,14 +11451,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_04"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_44"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="_07_04/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_04" prefix_auto="0" extension_auto="0"/>
+			<Target title="_07_44/fast">
+				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_44" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -10711,7 +11471,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_04/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_44/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
@@ -10752,46 +11512,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_05/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_02">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_02" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_02"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="_07_02/fast">
-				<Option output="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/_07_02" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 _07_02/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-release/Chpater7/Makefile&quot;  VERBOSE=1 clean"/>
@@ -11664,6 +12384,60 @@
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_40.cpp">
 			<Option target="_07_40"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_41.cpp">
+			<Option target="_07_41"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_42.cpp">
+			<Option target="_07_42"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_43.cpp">
+			<Option target="_07_43"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_44.cpp">
+			<Option target="_07_44"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_45.cpp">
+			<Option target="_07_45"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_46.cpp">
+			<Option target="_07_46"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_47.cpp">
+			<Option target="_07_47"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_48.cpp">
+			<Option target="_07_48"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_49.cpp">
+			<Option target="_07_49"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_50.cpp">
+			<Option target="_07_50"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_51.cpp">
+			<Option target="_07_51"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_52.cpp">
+			<Option target="_07_52"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_53.cpp">
+			<Option target="_07_53"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_54.cpp">
+			<Option target="_07_54"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_55.cpp">
+			<Option target="_07_55"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_56.cpp">
+			<Option target="_07_56"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_57.cpp">
+			<Option target="_07_57"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chpater7/_07_58.cpp">
+			<Option target="_07_58"/>
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
