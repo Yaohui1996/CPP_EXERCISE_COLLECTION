@@ -5,7 +5,7 @@
 		<Option title="Chapter4"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Chapter1\;CMake Files\Chapter2\;CMake Files\Chapter3\;CMake Files\Chapter4\;CMake Files\Chapter5\;CMake Files\Chapter6\;CMake Files\Chapter7\;CMake Files\Chapter8\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Chapter1\;CMake Files\Chapter2\;CMake Files\Chapter3\;CMake Files\Chapter4\;CMake Files\Chapter5\;CMake Files\Chapter6\;CMake Files\Chapter7\;CMake Files\Chapter8\;CMake Files\Chapter9\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/cmake-build-minsizerel/Chapter4"/>
@@ -1635,6 +1635,9 @@
 		</Unit>
 		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter8/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Chapter8\"/>
+		</Unit>
+		<Unit filename="/Users/yaohui/Desktop/CPP_Primer_5th_Exercise/Chapter9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter9\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

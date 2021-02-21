@@ -42,6 +42,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Chapter6/CMakeLists.txt"
   "../Chapter7/CMakeLists.txt"
   "../Chapter8/CMakeLists.txt"
+  "../Chapter9/CMakeLists.txt"
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
@@ -64,6 +65,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Chapter6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter7/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter8/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter9/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -370,4 +372,21 @@ set(CMAKE_DEPEND_INFO_FILES
   "Chapter8/CMakeFiles/_08_03.dir/DependInfo.cmake"
   "Chapter8/CMakeFiles/_08_02.dir/DependInfo.cmake"
   "Chapter8/CMakeFiles/_08_01.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_17.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_16.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_13.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_14.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_10.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_11.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_15.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_08.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_07.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_06.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_09.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_05.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_04.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_12.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_03.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_02.dir/DependInfo.cmake"
+  "Chapter9/CMakeFiles/_09_01.dir/DependInfo.cmake"
   )
