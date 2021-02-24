@@ -31,11 +31,9 @@
 *.out
 *.app
 
-
 # folders
 /cmake-build-*/
 /.idea/
 
 # others
 *.DS_Store
-
