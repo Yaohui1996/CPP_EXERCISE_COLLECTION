@@ -32,6 +32,15 @@ int main()
     *p2 = "hhhhh";
     cout << *p2 << endl;
 
+    shared_ptr<string> p3 = make_shared<string>(10,'9');
+    shared_ptr<int>p4 = make_shared<int>(42);
+    shared_ptr<int>p5 = make_shared<int>();
+
+    cout<<*p3<<endl;
+    cout<<*p4<<endl;
+    cout<<*p5<<endl;
+
+
 
     return 0;
 }
