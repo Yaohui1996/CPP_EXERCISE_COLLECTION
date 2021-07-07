@@ -7,7 +7,7 @@ public:
 
     constexpr Debug(bool h, bool i, bool o) : hw(h), io(i), other(o) {}
 
-    constexpr bool any() { return hw || io || other; }
+    constexpr bool any() const { return hw || io || other; }
 
     void set_hw(bool b) { hw = b; }
 
