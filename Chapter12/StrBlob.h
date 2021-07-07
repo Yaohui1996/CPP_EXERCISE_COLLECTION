@@ -16,7 +16,10 @@ public:
 
     std::string &front();
     std::string &back();
+
 private:
     std::shared_ptr<std::vector<std::string>> data;
     void check(size_type i, const std::string &msg) const;
 };
+
+StrBlob::StrBlob() : data(std::make_shared<std::vector<std::string>>()) {}

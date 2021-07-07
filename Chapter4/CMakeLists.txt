@@ -1,4 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+
 project(Chapter4)
+
+add_definitions(-std=c++11)
 
 add_executable(_04_01 _04_01.cpp)
 add_executable(_04_02 _04_02.cpp)
