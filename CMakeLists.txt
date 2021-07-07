@@ -14,3 +14,5 @@ add_subdirectory(Chapter7)
 add_subdirectory(Chapter8)
 add_subdirectory(Chapter9)
 
+add_subdirectory(Chapter12)
+
