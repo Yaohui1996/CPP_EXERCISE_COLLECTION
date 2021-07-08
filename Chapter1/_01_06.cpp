@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     int v1 = 3;
     int v2 = 9;
     std::cout << "The sum of " << v1
