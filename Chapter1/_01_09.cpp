@@ -1,9 +1,11 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     int sum = 0;
     int counter = 50;
-    while (counter <= 100) {
+    while (counter <= 100)
+    {
         sum += counter;
         ++counter;
     }

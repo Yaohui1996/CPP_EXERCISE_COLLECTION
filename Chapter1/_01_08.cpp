@@ -1,11 +1,11 @@
 #include <iostream>
 
-int main() {
-    std::cout << "/*";//正确
-    std::cout << "*/";//正确
-    //std::cout<</* "*/" */;//不正确
-    std::cout <</* "*/" */";//改正后
-    std::cout <</* "*/" /* "/*" */;//正确
-
+int main()
+{
+    std::cout << "/*"; //合法
+    std::cout << "*/"; //合法
+    //std::cout<</* "*/" */;            //不合法
+    std::cout << /* "*/ " */";         //改正后合法
+    std::cout << /* "*/ " /* " /*" */; //合法
     return 0;
 }
