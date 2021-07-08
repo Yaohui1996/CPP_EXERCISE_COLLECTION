@@ -1,7 +1,8 @@
 #include <iostream>
 #include "Sales_item.h"
 
-int main() {
+int main()
+{
     Sales_item book1;
     Sales_item book2;
     std::cin >> book1;
@@ -11,7 +12,6 @@ int main() {
 
     return 0;
 }
-
 
 /*
  * input:
