@@ -1,19 +1,20 @@
 #include <iostream>
 #include <string>
 
-using std::string;
+using std::cin;
 using std::cout;
 using std::endl;
-using std::cin;
+using std::string;
 
-
-struct Sales_data {
+struct Sales_data
+{
     string bookNo;
     unsigned int soldNums = 0;
     double averageBookPrice = 0.0;
 };
 
-int main() {
+int main()
+{
     Sales_data book;
     cin >> book.bookNo >> book.soldNums >> book.averageBookPrice;
     cout << "the book No. is: " << book.bookNo << endl;
@@ -26,7 +27,8 @@ int main() {
     cout << "the total numbers is: " << book.soldNums + book2.soldNums << endl;
     cout << "the average price is: "
          << (book.averageBookPrice * book.soldNums + book2.averageBookPrice * book2.soldNums) /
-            (book.soldNums + book2.soldNums) << endl;
+                (book.soldNums + book2.soldNums)
+         << endl;
 
     return 0;
 }

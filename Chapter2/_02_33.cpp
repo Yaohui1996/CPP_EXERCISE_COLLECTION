@@ -1,18 +1,18 @@
 #include <iostream>
 
-int main() {
+int main()
+{
 
-    int i = 0, &r = i;              //i是int型变量，r是i的别名
-    auto a = r;                     //a是int型变量
-    const int ci = i, &cr = ci;     //ci是int型常量，cr是ci的别名
-    auto b = ci;                    //b是int型变量
-    auto c = cr;                    //c是int型变量
-    auto d = &i;                    //d是指向int型变量的普通指针
-    auto e = &ci;                   //e是指向int型常量的普通指针
-    const auto f = ci;              //f是int型常量
-    auto &g = ci;                   //g是ci的别名，是对int型常量的引用
-    const auto &j = 42;             //j是对整数的常量引用
-
+    int i = 0, &r = i;          //i是int型变量，r是i的别名
+    auto a = r;                 //a是int型变量
+    const int ci = i, &cr = ci; //ci是int型常量，cr是ci的别名
+    auto b = ci;                //b是int型变量
+    auto c = cr;                //c是int型变量
+    auto d = &i;                //d是指向int型变量的普通指针
+    auto e = &ci;               //e是指向int型常量的普通指针
+    const auto f = ci;          //f是int型常量
+    auto &g = ci;               //g是ci的别名，是对int型常量的引用
+    const auto &j = 42;         //j是对整数的常量引用
 
     /*
      * 结果：

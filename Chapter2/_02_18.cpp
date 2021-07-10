@@ -3,7 +3,8 @@
 using std::cout;
 using std::endl;
 
-int main() {
+int main()
+{
     int a = 10;
     int b = 20;
 
@@ -27,7 +28,6 @@ int main() {
     cout << b << endl;
     cout << *pa << endl;
     cout << *pb << endl;
-
 
     return 0;
 }

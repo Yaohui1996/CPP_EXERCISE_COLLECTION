@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     /*
      * a
      * i = ic;

@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
     //const int buf;//不合法，因为没有初始化
 
     int cnt = 0;

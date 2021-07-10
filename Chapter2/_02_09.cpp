@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     //a
     int input_value;
     std::cin >> input_value;

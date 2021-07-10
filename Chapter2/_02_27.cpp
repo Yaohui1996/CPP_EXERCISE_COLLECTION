@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
 
     //a
     //int i = -1, &r = 0;

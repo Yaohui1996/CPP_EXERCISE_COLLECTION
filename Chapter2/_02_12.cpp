@@ -1,7 +1,8 @@
 #include <iostream>
 
-int main() {
-    
+int main()
+{
+
     //int double = 3.14;//缺少变量名
     int _;
     //int catch-22;//不能用-作为变量名

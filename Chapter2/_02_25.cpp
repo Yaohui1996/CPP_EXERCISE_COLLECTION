@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     int *ip, i, &r = i;
     int j, *jp = 0;
     int *kp, kp2;

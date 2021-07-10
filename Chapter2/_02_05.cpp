@@ -3,7 +3,8 @@
 
 using std::string;
 
-int main() {
+int main()
+{
 
     //a
     char a = 'a';
@@ -16,8 +17,8 @@ int main() {
     unsigned int f = 10u;
     long int g = 10L;
     unsigned long int h = 10uL;
-    int i = 012;    //八进制
-    int j = 0xC;    //十六进制
+    int i = 012; //八进制
+    int j = 0xC; //十六进制
     std::cout << i << std::endl;
     std::cout << j << std::endl;
 
@@ -34,4 +35,3 @@ int main() {
 
     return 0;
 }
-

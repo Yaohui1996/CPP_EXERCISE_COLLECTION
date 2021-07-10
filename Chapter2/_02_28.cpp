@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main()
+{
     //a
     //int i, *const cp;
     //i是int变量，尚未被初始化

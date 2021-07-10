@@ -3,7 +3,8 @@
 using std::cout;
 using std::endl;
 
-int main() {
+int main()
+{
     int i = 0, &r = i;
     auto a = r;
     const int ci = i, &cr = ci;
@@ -34,7 +35,6 @@ int main() {
     cout << d << endl;
     cout << e << endl;
     cout << g << endl;
-
 
     return 0;
 }

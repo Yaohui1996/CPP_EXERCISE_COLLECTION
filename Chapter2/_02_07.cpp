@@ -3,7 +3,8 @@
 
 using std::string;
 
-int main() {
+int main()
+{
     //a
     string a = "Who goes with F\145rgus?\012";
     std::cout << a << std::endl;
