@@ -1,9 +1,8 @@
 #include <iostream>
 
-int main()
-{
+int main() {
     std::cout << " 4 + 2 = " << 4 + 2
-              << " 4 * 2 = " << 4 * 2
-              << std::endl;
+        << " 4 * 2 = " << 4 * 2
+        << std::endl;
     return 0;
 }

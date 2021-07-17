@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main()
-{
+int main() {
     int beginNum;
     int endNum;
     std::cout << "请输入起始整数：" << std::endl;
@@ -9,22 +8,17 @@ int main()
     std::cout << "请输入终止整数：" << std::endl;
     std::cin >> endNum;
 
-    if (beginNum == endNum)
-    {
+    if (beginNum == endNum) {
         std::cout << beginNum << std::endl;
     }
-    else if (beginNum > endNum)
-    {
-        while (beginNum >= endNum)
-        {
+    else if (beginNum > endNum) {
+        while (beginNum >= endNum) {
             std::cout << beginNum << std::endl;
             --beginNum;
         }
     }
-    else if (beginNum < endNum)
-    {
-        while (beginNum <= endNum)
-        {
+    else if (beginNum < endNum) {
+        while (beginNum <= endNum) {
             std::cout << beginNum << std::endl;
             ++beginNum;
         }

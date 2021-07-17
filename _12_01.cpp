@@ -10,10 +10,9 @@ using std::string;
 using std::unique_ptr;
 using std::weak_ptr;
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char* argv[]) {
 
-    int *p = new int;
+    int* p = new int;
     cout << *p << endl;
     *p = 12;
     cout << *p << endl;
@@ -43,10 +42,10 @@ int main(int argc, char *argv[])
     constexpr unsigned int sz = 9;
     cout << sz << endl;
 
-    int a[sz] = {0};
+    int a[sz] = { 0 };
 
-    for(const auto & item:a){
-        cout<<item<<endl;
+    for (const auto& item : a) {
+        cout << item << endl;
     }
 
     return 0;

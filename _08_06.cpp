@@ -1,8 +1,3 @@
-//
-// Created by Yaohui Li on 2021/2/20.
-//
-
-
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -21,7 +16,7 @@ struct Sales_data {
     double revenue = 0.0;
 };
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
     ifstream in;
     in.open(argv[1], ios::in);
     if (in) {
@@ -32,14 +27,16 @@ int main(int argc, char *argv[]) {
                 if (total.bookNo == trans.bookNo) {
                     total.units_sold += trans.units_sold;
                     total.revenue += trans.revenue;
-                } else {
+                }
+                else {
                     cout << total.bookNo << " " << total.units_sold << " " << total.revenue << endl;
                     total = trans;
                 }
             }
         }
         cout << total.bookNo << " " << total.units_sold << " " << total.revenue << endl;
-    } else {
+    }
+    else {
         cerr << "打开文件失败！" << endl;
         return -1;
     }

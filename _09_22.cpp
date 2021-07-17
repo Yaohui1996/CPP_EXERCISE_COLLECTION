@@ -8,7 +8,7 @@
 using namespace std;
 
 int main() {
-    vector<int> iv{2, 4, 3, 1, 2, 56, 8};
+    vector<int> iv{ 2, 4, 3, 1, 2, 56, 8 };
     vector<int>::iterator iter = iv.begin(), mid = iv.begin() + iv.size() / 2;
     /*
      * 危险！
