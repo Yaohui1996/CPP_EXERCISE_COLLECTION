@@ -3,10 +3,12 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     string str;
     string bigStr;
-    while (cin >> str) {
+    while (cin >> str)
+    {
         if (str == "终止")
             break;
         bigStr += " ";

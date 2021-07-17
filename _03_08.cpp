@@ -3,10 +3,12 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     string str = "asjkdhjkjhkasf";
     cout << str << endl;
-    for (char &x : str) {
+    for (char &x : str)
+    {
         x = 'X';
     }
     cout << str << endl;
@@ -15,7 +17,8 @@ int main() {
     cout << str << endl;
 
     string::size_type i = 0;
-    while (i < str.size()) {
+    while (i < str.size())
+    {
         str[i] = 'X';
         ++i;
     }

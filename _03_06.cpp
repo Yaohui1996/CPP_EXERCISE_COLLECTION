@@ -3,10 +3,12 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     string str = "asjkdhjkjhkasf";
     cout << str << endl;
-    for (auto& x : str) {
+    for (auto &x : str)
+    {
         x = 'X';
     }
     cout << str << endl;
