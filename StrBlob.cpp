@@ -1,3 +1,14 @@
+/*
+ * @Author: Yaohui Li
+ * @Date: 2021-07-15 20:13:28
+ * @LastEditTime: 2021-07-17 00:16:44
+ * @LastEditors: Yaohui Li
+ * @Description: Edited by VS Code
+ * @FilePath: /CPP_Primer_5th_Exercise/Chapter12/StrBlob.cpp
+ * 天地有正气
+ * 杂然赋流形
+ * 
+ */
 #include "StrBlob.h"
 #include <vector>
 #include <string>
