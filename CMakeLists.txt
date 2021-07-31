@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.5)
 project(CPP_Primer_5th_Exercise)
 
 set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -O0 -std=c++11")
 # set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -O2 -std=c++11")
 
