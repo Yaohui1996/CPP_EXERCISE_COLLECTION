@@ -4,9 +4,11 @@ project(CPP_Primer_5th_Exercise)
 
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -O0 -std=c++11")
+set(CMAKE_CXX_FLAGS "-O0 -g -std=c++11")
+# set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -O0 -std=c++11")
 # set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -O2 -std=c++11")
 
+add_executable(chapter-1 main.cpp Chapter1.h Chapter1.cpp)
 
 add_executable(_01_01 _01_01.cpp)
 add_executable(_01_02 _01_02.cpp)
