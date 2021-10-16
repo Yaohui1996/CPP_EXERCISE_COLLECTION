@@ -1,4 +1,5 @@
 #include "Chapter1.h"
+
 #include <iostream>
 
 Chapter1::Chapter1() {}
@@ -18,6 +19,7 @@ bool Chapter1::run_all_exercise() {
     exercise_10();
     exercise_11();
     exercise_12();
+    return true;
 }
 
 int Chapter1::exercise_01() { return 0; }
@@ -43,7 +45,8 @@ int Chapter1::exercise_05() {
 int Chapter1::exercise_06() {
     int v1 = 3;
     int v2 = 9;
-    std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << std::endl;
+    std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2
+              << std::endl;
     return 0;
     // 原代码不合法
     // 不合法的原因在于分号
@@ -58,11 +61,11 @@ int Chapter1::exercise_07() {
 }
 
 int Chapter1::exercise_08() {
-    std::cout << "/*"; //合法
-    std::cout << "*/"; //合法
+    std::cout << "/*";  //合法
+    std::cout << "*/";  //合法
     // std::cout<</* "*/" */;           // 不合法
-    std::cout << /* "*/ " */";         // 改正后合法
-    std::cout << /* "*/ " /* " /*" */; // 合法
+    std::cout << /* "*/ " */";          // 改正后合法
+    std::cout << /* "*/ " /* " /*" */;  // 合法
     return 0;
 }
 

@@ -34,11 +34,6 @@ private:
     int exercise_23();
     int exercise_24();
     int exercise_25();
-    int exercise_26();
-    int exercise_27();
-    int exercise_28();
-    int exercise_29();
-    int exercise_30();
 };
 
 #endif
