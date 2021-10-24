@@ -2,7 +2,7 @@
 
 int main() {
     std::cout
-        << "请依次输入一组数，程序将对其进行求和，输入 Command + D 即可终止输入"
+        << "请依次输入一组数，程序将对其进行求和，输入 Control + D 即可终止输入"
         << std::endl;
 
     double sum = 0.0;
