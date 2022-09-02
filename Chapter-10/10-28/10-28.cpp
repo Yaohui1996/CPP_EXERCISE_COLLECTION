@@ -8,20 +8,7 @@
 #include <list>
 #include <vector>
 
-template <typename T>
-void print_vec(const std::vector<T>& vec) {
-    for (const auto& item : vec) {
-        std::cout << item << " ";
-    }
-    std::cout << std::endl;
-}
-template <typename T>
-void print_deq(const std::deque<T>& deq) {
-    for (const auto& item : deq) {
-        std::cout << item << " ";
-    }
-    std::cout << std::endl;
-}
+#include "PrintUtils.h"
 
 int main() {
     std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -30,9 +17,9 @@ int main() {
     std::copy(v.cbegin(), v.cend(), std::back_inserter(v1));
     std::copy(v.cbegin(), v.cend(), std::front_inserter(d2));
     std::copy(v.cbegin(), v.cend(), std::inserter(v3, v3.begin()));
-    print_vec(v);
-    print_vec(v1);
-    print_deq(d2);
-    print_vec(v3);
+    primer::utils::print_vector(v);
+    primer::utils::print_vector(v1);
+    primer::utils::print_deque(d2);
+    primer::utils::print_vector(v3);
     return 0;
 }

@@ -5,28 +5,13 @@
 #include <iostream>
 #include <list>
 #include <vector>
-
-template <typename T>
-void print_vec(const std::vector<T>& vec) {
-    for (const auto& item : vec) {
-        std::cout << item << " ";
-    }
-    std::cout << std::endl;
-}
-
-template <typename T>
-void print_list(const std::list<T>& li) {
-    for (const auto& item : li) {
-        std::cout << item << " ";
-    }
-    std::cout << std::endl;
-}
+#include "PrintUtils.h"
 
 int main() {
     std::vector<int> v = {1, 1, 1, 2, 3, 3, 4, 5, 5, 6, 4, 7, 8, 8, 8, 8, 9};
     std::list<int> li;
     std::unique_copy(v.cbegin(), v.cend(), std::back_inserter(li));
-    print_vec(v);
-    print_list(li);
+    primer::utils::print_vector(v);
+    primer::utils::print_list(li);
     return 0;
 }
