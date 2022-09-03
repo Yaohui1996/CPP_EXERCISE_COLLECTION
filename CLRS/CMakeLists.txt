@@ -3,3 +3,8 @@ project(CLRS CXX)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+add_library(Graph STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/Graph.cpp)
+target_include_directories(Graph PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+add_executable(test_graph test_graph.cpp)
+target_link_libraries(test_graph PUBLIC Graph)
