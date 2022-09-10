@@ -3,15 +3,10 @@
 \usepackage{clrscode3e}
 \usepackage{float}
 \usepackage{tabularx}
-\usepackage[hmargin=2cm,vmargin=2cm]{geometry}
+\usepackage[hmargin=2.5cm,vmargin=2.5cm]{geometry}
 \usepackage{verbatim}
 \usepackage{fontspec}
-%\setmonofont[Mapping={}]{Monaco}	%英文引号之类的正常显示，相当于设置英文字体
-%\setsansfont{Monaco} %设置英文字体 Monaco, Consolas,  Fantasque Sans Mono
-%\setmainfont{Monaco} %设置英文字体
-% \setCJKmainfont{方正兰亭黑简体}  %中文字体设置
-% \setCJKsansfont{华康少女字体} %设置中文字体
-% \setCJKmonofont{华康少女字体} %设置中文字体
+
 
 \usepackage{listings}
 \definecolor{mygreen}{rgb}{0,0.6,0}
@@ -47,91 +42,51 @@
 
 \tableofcontents
 
+%第一部分
+\part{基础知识}
+
 %第一章
 \chapter{算法在计算中的作用}
-%第1节
+%第1.1节
 \section{算法}
 \textbf{算法}(algorithm)就是任何良定义的计算过程，该过程取某个值或值的集合作为\textbf{输入}并产生某个值或值的集合作为\textbf{输出}。这样算法就是把输入转换成输出的计算步骤的一个序列。
 
 \subsection*{练习}
 \begin{enumerate}
     \renewcommand{\labelenumi}{\thesection-\theenumi}
-    \item 给出现实生活中需要排序的一个例子或者现实生活中需要计算凸壳的例子。
-    \item 除速度外，在真实环境中还可能使用哪些其它有关效率的量度？
-    \item 选择一种你以前已知的数据结构，并讨论其优势和局限。
-    \item 前面给出的最短路径与旅行商问题有哪些相似之处？又有哪些不同？
-    \item 提供一个现实生活的问题，其中只有最佳解才行。然后提供一个问题，其中近似最佳的解也足够好。
+    \item {\textbf{给出现实生活中需要排序的一个例子或者现实生活中需要计算凸壳的例子。}\\需要排序的例子为：展示排行榜、微博热搜榜单等。需要计算凸壳(凸包)的例子：割平面法求解线性整数规划问题。}
+    \item {\textbf{除速度外，在真实环境中还可能使用哪些其它有关效率的量度？}\\计算步骤的复杂性、计算过程所需的内存空间大小等。}
+    \item {\textbf{选择一种你以前已知的数据结构，并讨论其优势和局限。}\\以数组为例。优势：结构简单，容易实现。局限：删除元素效率低下。}
+    \item {\textbf{前面给出的最短路径与旅行商问题有哪些相似之处？又有哪些不同？}\\相似之处：都属于图论中的问题，且优化目标均为最小化总距离。不同点：受到的约束不同，最短路径问题不需要遍历每一个节点。}
+    \item {\textbf{提供一个现实生活的问题，其中只有最佳解才行。然后提供一个问题，其中近似最佳的解也足够好。}\\必须找到最佳解的问题：找到班级中身高最高的同学。近似最佳的解也足够好的问题：装机时，找到一个比总用电功率大的任意一个电源。}
 \end{enumerate}
 
-\subsection*{解答}
-\begin{enumerate}
-    \renewcommand{\labelenumi}{\thesection-\theenumi}
-    \item 需要排序的例子为：展示排行榜、微博热搜榜单等。需要计算凸壳(凸包)的例子：割平面法求解线性整数规划问题。
-    \item 计算步骤的复杂性、计算过程所需的内存空间大小等。
-    \item 以数组为例。优势：结构简单，容易实现。局限：删除元素效率低下。
-    \item 相似之处：都属于图论中的问题，且优化目标均为最小化总距离。不同点：受到的约束不同，最短路径问题不需要遍历每一个节点。
-    \item 必须找到最佳解的问题：找到班级中身高最高的同学。近似最佳的解也足够好的问题：装机时，找到一个比总用电功率大的任意一个电源。
-\end{enumerate}
-
-%第2节
+%第1.2节
 \section{作为一种技术的算法}
 算法的效率主要体现在时间和空间这两个方面，因为计算机不可能是无限快的，存储空间也不是免费的。
 
 \subsection*{练习}
 \begin{enumerate}
     \renewcommand{\labelenumi}{\thesection-\theenumi}
-    \item 给出在应用层需要算法内容的应用的一个例子，并讨论涉及的算法的功能。
-    \item 假设我们正比较插入排序与归并排序在相同机器上的实现。对规模为$n$的输入，插入排序运行$8n^2$步，而归并排序运行$64n\lg{n}$步。问对哪些$n$值，插入排序优于归并排序？
-    \item $n$的最小值为何值时，运行时间为$100n^2$的一个算法在相同机器上快于运行时间为$2^n$的另一个算法？
+    \item {\textbf{给出在应用层需要算法内容的应用的一个例子，并讨论涉及的算法的功能。}\\加载包含大量图片的网页时，图片的加载顺序问题。算法应当首先加载用户最先看到的图片。}
+    \item {\textbf{假设我们正比较插入排序与归并排序在相同机器上的实现。对规模为$n$的输入，插入排序运行$8n^2$步，而归并排序运行$64n\lg{n}$步。问对哪些$n$值，插入排序优于归并排序？}\\若需插入排序优于归并排序，则需$n$满足不等式：$8n^2 \le 64n\lg{n}$。解得：$2 \leq n \leq 43$。}
+    \item {\textbf{$n$的最小值为何值时，运行时间为$100n^2$的一个算法在相同机器上快于运行时间为$2^n$的另一个算法？}\\原问题等价于求解满足不等式：$100n^2 \le 2^n$的最小的$n$。解得：$n \geq 15$。}
 \end{enumerate}
 
-\subsection*{解答}
-\begin{enumerate}
-    \renewcommand{\labelenumi}{\thesection-\theenumi}
-    \item 加载包含大量图片的网页时，图片的加载顺序问题。算法应当首先加载用户最先看到的图片。
-    \item {
-          若需插入排序优于归并排序，则需$n$满足不等式：
-          \[ 8n^2 \le 64n\lg{n} \]
-          解得：
-          \[ 2 \leq n \leq 43 \]
-          }
-    \item {
-          原问题等价于求解满足不等式：
-          \[ 100n^2 \le 2^n \]
-          的最小的$n$。解得：
-          \[ n \geq 15 \]
-          }
-\end{enumerate}
+% \subsection*{解答}
+% \begin{enumerate}
+%     \renewcommand{\labelenumi}{\thesection-\theenumi}
+%     \item 加载包含大量图片的网页时，图片的加载顺序问题。算法应当首先加载用户最先看到的图片。
+%     \item 若需插入排序优于归并排序，则需$n$满足不等式：$8n^2 \le 64n\lg{n}$。解得：$2 \leq n \leq 43$。
+%     \item 原问题等价于求解满足不等式：$100n^2 \le 2^n$的最小的$n$。解得：$n \geq 15$。
+% \end{enumerate}
 
 %思考题
 \section{思考题}
 \begin{enumerate}
     \renewcommand{\labelenumi}{\thechapter-\theenumi}
     \item {
-          (运行时间的比较)假设求解问题的算法需要$f(n)$毫秒，对下表中的每个函数$f(n)$和时间$t$，确定可以在时间$t$内求解的问题的最大规模$n$。
-          \begin{table}[H]
-              \centering
-              \begin{tabularx}{\textwidth}
-                  {*{7}{>{\centering\arraybackslash}X|}>{\centering\arraybackslash}X}
-                  \hline
-                             & 1秒钟 & 1分钟 & 1小时 & 1天 & 1月 & 1年 & 1世纪 \\ \hline
-                  $\lg{n}$   &     &     &     &    &    &    &     \\ \hline
-                  $\sqrt{n}$ &     &     &     &    &    &    &     \\ \hline
-                  $n$        &     &     &     &    &    &    &     \\ \hline
-                  $n\lg{n}$  &     &     &     &    &    &    &     \\ \hline
-                  $n^2$      &     &     &     &    &    &    &     \\ \hline
-                  $n^3$      &     &     &     &    &    &    &     \\ \hline
-                  $2^n$      &     &     &     &    &    &    &     \\ \hline
-                  $n!$       &     &     &     &    &    &    &     \\ \hline
-              \end{tabularx}
-          \end{table}
-          }
-\end{enumerate}
-
-\subsection*{解答}
-\begin{enumerate}
-    \renewcommand{\labelenumi}{\thechapter-\theenumi}
-    \item {
+          \textbf{(运行时间的比较)假设求解问题的算法需要$f(n)$毫秒，对下表中的每个函数$f(n)$和时间$t$，确定可以在时间$t$内求解的问题的最大规模$n$。}\\
           基本的计算思路是求解满足不等式：$f(n) \leq t$的最大的$n$。求解结果如下表所示：
           \begin{table}[H]
               \centering
