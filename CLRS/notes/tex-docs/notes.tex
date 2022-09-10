@@ -26,7 +26,8 @@
     frame=single,
     rulesepcolor=\color{red!20!green!20!blue!20},
     % identifierstyle=\color{red},
-    language=Python, }
+    language=Python
+    }
 
 % latex + dvipdfmx 编译方式要在 tikz 宏包之前调用 graphicx 宏包并指定 dvipdfmx 选项. 
 \usepackage{graphicx}
@@ -650,33 +651,32 @@
 
 \subsection*{增长量级}
 
+我们真正感兴趣的是运行时间的\textbf{增长率}或\textbf{增长量级}. 一般会忽略低阶项, 保留高阶项. 以插入排序为例, 记最坏情况的运行时间$\Theta(n^2)$(读作“theta n平方”).
 
-
-\subsection*{练习2.2-1}
-\subsubsection*{题目}
-用$\Theta$记号表示函数$n^3/1000-100n^2-100n+3$.
-\subsubsection*{解答}
-$\Theta(n^3)$
-
-\subsection*{练习2.2-2}
-\subsubsection*{题目}
-考虑排序存储在数组A中的$n$个数: 首先找出A中的最小元素并将其与$A[1]$中的元素进行交换. 接着, 找出$A$中的次最小元素并将其与$A[2]$中的元素进行交换. 对$A$中前$n-1$个元素按该方式继续. 该算法称为\textbf{选择算法}, 写出其伪代码. 该算法维持的循环不变式是什么? 为什么它只需要对前$n-1$个元素, 而不是对所有$n$个元素运行? 用$\Theta$记号给出选择排序的最好情况与最坏情况的运行时间.
-\subsubsection*{解答}
-选择排序的伪代码为:
-\begin{codebox}
-    \Procname{$\proc{Selection-Sort}(A)$}
-    \li \For $i \gets 1$ \To $\attrib{A}{length} - 1$ \Do
-    \li     $\id{minIndex} \gets i$
-    \li     \For $j \gets i + 1$ \To $\attrib{A}{length}$ \Do
-    \li         \If $A[j] \le A[minIndex]$ \Then
-    \li             $\id{minIndex} \gets j$
-    \End
-    \End
-    \li     $\id{temp} \gets A[i]$
-    \li     $A[i] \gets A[minIndex]$
-    \li     $A[minIndex] \gets temp$
-    \End
-\end{codebox}
+\subsection*{练习}
+\begin{enumerate}
+    \renewcommand{\labelenumi}{\thesection-\theenumi}
+    \item {用$\Theta$记号表示函数$n^3/1000-100n^2-100n+3$.\\
+          解答: $\Theta(n^3)$}
+    \item {考虑排序存储在数组A中的$n$个数: 首先找出A中的最小元素并将其与$A[1]$中的元素进行交换. 接着, 找出$A$中的次最小元素并将其与$A[2]$中的元素进行交换. 对$A$中前$n-1$个元素按该方式继续. 该算法称为\textbf{选择算法}, 写出其伪代码. 该算法维持的循环不变式是什么? 为什么它只需要对前$n-1$个元素, 而不是对所有$n$个元素运行? 用$\Theta$记号给出选择排序的最好情况与最坏情况的运行时间.\\
+          解答: \\
+          选择算法的伪代码为:
+          \begin{codebox}
+              \Procname{$\proc{Selection-Sort}(A)$}
+              \li \For $i \gets 1$ \To $\attrib{A}{length} - 1$ \Do
+              \li     $\id{minIndex} \gets i$
+              \li     \For $j \gets i + 1$ \To $\attrib{A}{length}$ \Do
+              \li         \If $A[j] \le A[minIndex]$ \Then
+              \li             $\id{minIndex} \gets j$
+              \End
+              \End
+              \li     $\id{temp} \gets A[i]$
+              \li     $A[i] \gets A[minIndex]$
+              \li     $A[minIndex] \gets temp$
+              \End
+          \end{codebox}
+          }
+\end{enumerate}
 
 %第3节
 \section{设计算法}
