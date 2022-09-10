@@ -80,7 +80,7 @@
 
 插入排序的算法描述为：
 
-![插入排序算法描述](https://raw.githubusercontent.com/Yaohui1996/CPP_Primer_5th_Exercise/main/CLRS/notes/images/%E6%88%AA%E5%B1%8F2022-09-10%2009.57.07.png)
+![插入排序算法描述](https://raw.githubusercontent.com/Yaohui1996/CPP_Primer_5th_Exercise/main/CLRS/notes/images/%E6%88%AA%E5%B1%8F2022-09-10%2009.57.07.png =400x300)
 
 
 ### 2.2 分析算法
