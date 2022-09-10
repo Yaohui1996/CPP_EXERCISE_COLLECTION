@@ -7,3 +7,8 @@
 /cmake-build-release
 /cmake-build-relwithdebinfo
 .DS_Store
+CLRS/notes/tex-docs/*.synctex
+CLRS/notes/tex-docs/*.toc
+CLRS/notes/tex-docs/*.xdv
+CLRS/notes/tex-docs/*.aux
+CLRS/notes/tex-docs/*.log
