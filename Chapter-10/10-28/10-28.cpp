@@ -17,9 +17,9 @@ int main() {
     std::copy(v.cbegin(), v.cend(), std::back_inserter(v1));
     std::copy(v.cbegin(), v.cend(), std::front_inserter(d2));
     std::copy(v.cbegin(), v.cend(), std::inserter(v3, v3.begin()));
-    primer::utils::print_vector(v);
-    primer::utils::print_vector(v1);
-    primer::utils::print_deque(d2);
-    primer::utils::print_vector(v3);
+    yaohui::utils::print_vector(v);
+    yaohui::utils::print_vector(v1);
+    yaohui::utils::print_deque(d2);
+    yaohui::utils::print_vector(v3);
     return 0;
 }

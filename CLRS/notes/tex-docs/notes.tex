@@ -14,21 +14,32 @@
 \definecolor{mymauve}{rgb}{0.58,0,0.82}
 \lstset{ %
     backgroundcolor=\color{white},   % choose the background color
-    basicstyle=\footnotesize\ttfamily,        % size of fonts used for the code
+    commentstyle=\color{mygreen}\ttfamily,    % comment style
+    keywordstyle=\color{blue}\bfseries\underbar,       % keyword style
+    stringstyle=\color{mymauve}\ttfamily,     % string literal style
+    % basicstyle=\footnotesize\ttfamily,        % size of fonts used for the code
+    basicstyle=\small\ttfamily,        % size of fonts used for the code
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
     columns=fullflexible,
     breaklines=true,                 % automatic line breaking only at whitespace
     captionpos=b,                    % sets the caption-position to bottom
     tabsize=4,
-    commentstyle=\color{mygreen},    % comment style
     escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
-    keywordstyle=\color{blue},       % keyword style
-    stringstyle=\color{mymauve}\ttfamily,     % string literal style
     frame=single,
-    rulesepcolor=\color{red!20!green!20!blue!20},
-    % identifierstyle=\color{red},
-    language=Python
-    }
+    rulesepcolor=\color{red!20!green!20!blue!20}
+    % identifierstyle=\color{red}
+}
 
+\lstdefinestyle{Python}{
+    language=Python
+}
+\lstdefinestyle{CPP}{
+    language=[11]C++,
+    morekeywords={std,vector}
+}
 % latex + dvipdfmx 编译方式要在 tikz 宏包之前调用 graphicx 宏包并指定 dvipdfmx 选项. 
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -122,6 +133,9 @@
     \li $A[i+1] \gets \id{key}$
     \End
 \end{codebox}
+
+插入排序的C++代码为:
+\lstinputlisting[style=CPP]{./codes/insert_sort.cpp}
 
 以数组$A=[5,2,4,6,1,3]$为例, 该数组的初始状态如图\ref{数组A插入排序前的初始状态}所示. 对该数组进行非降序的排列后, 其状态应该如图\ref{数组A插入排序后的终止状态}所示.
 
@@ -573,7 +587,7 @@
               \End
           \end{codebox}
           非升序版本和非降序版本的主要差别在于将$A[j]$插入已排序的序列$A[1 \twodots j-1]$这一步. 非升序版本的Python实现为:
-          \lstinputlisting{./other-codes/exercise_2_1_2.py}
+          \lstinputlisting[style=Python]{./codes/exercise_2_1_2.py}
           }
     \item {
           考虑以下\textbf{查找问题}:\\
@@ -595,7 +609,7 @@
 
           其Python实现为:
 
-          \lstinputlisting{./other-codes/exercise_2_1_3.py}
+          \lstinputlisting[style=Python]{./codes/exercise_2_1_3.py}
 
           循环不变式的证明如下:
 

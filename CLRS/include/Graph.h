@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-namespace yiufai {
+namespace yaohui {
 
 namespace CLRS {
 
@@ -43,6 +43,6 @@ private:
 
 }  // namespace CLRS
 
-}  // namespace yiufai
+}  // namespace yaohui
 
 #endif  // GRAPH_H

@@ -11,7 +11,7 @@ int main() {
     std::vector<int> v = {1, 1, 1, 2, 3, 3, 4, 5, 5, 6, 4, 7, 8, 8, 8, 8, 9};
     std::list<int> li;
     std::unique_copy(v.cbegin(), v.cend(), std::back_inserter(li));
-    primer::utils::print_vector(v);
-    primer::utils::print_list(li);
+    yaohui::utils::print_vector(v);
+    yaohui::utils::print_list(li);
     return 0;
 }

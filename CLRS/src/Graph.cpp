@@ -1,6 +1,6 @@
 #include "Graph.h"
 
-namespace yiufai {
+namespace yaohui {
 
 namespace CLRS {
 
@@ -106,4 +106,4 @@ void Graph::transpose() {
 
 }  // namespace CLRS
 
-}  // namespace yiufai
+}  // namespace yaohui
