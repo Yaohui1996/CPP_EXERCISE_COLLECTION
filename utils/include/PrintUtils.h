@@ -47,7 +47,7 @@ void print_deque(const std::deque<BuildInType>& deq) {
     }
 }
 
+}  // namespace utils
 }  // namespace yaohui
-}  // namespace primer
 
 #endif  // PRINTUTILS_H

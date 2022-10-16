@@ -4,6 +4,9 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+add_library(PrintUtils STATIC ${CMAKE_CURRENT_SOURCE_DIR}/Utils/src/PrintUtils.cpp)
+target_include_directories(PrintUtils PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Utils/include)
+
 add_subdirectory(Chapter-01)
 add_subdirectory(Chapter-02)
 add_subdirectory(Chapter-03)
@@ -17,5 +20,4 @@ add_subdirectory(Chapter-10)
 add_subdirectory(Chapter-12)
 add_subdirectory(Chapter-13)
 add_subdirectory(BookStoreProgram)
-add_subdirectory(utils)
-add_subdirectory(CLRS)
+

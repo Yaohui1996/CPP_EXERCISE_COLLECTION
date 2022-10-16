@@ -1,7 +1,7 @@
 #include "PrintUtils.h"
 
-namespace primer {
+namespace yaohui {
 namespace utils {
 
 }  // namespace utils
-}  // namespace primer
+}  // namespace yaohui

@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.16)
-project(Utils CXX)
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-add_library(Utils STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/PrintUtils.cpp)
-target_include_directories(Utils PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
