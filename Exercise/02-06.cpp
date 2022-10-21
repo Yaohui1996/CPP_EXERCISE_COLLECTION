@@ -2,11 +2,9 @@
 // int month = 9, day = 7;
 // int month = 09, day = 07;
 
-#include <iostream>
-
 int main() {
-    int month = 9, day = 7;
-    // int month = 09, day = 07;
-    //错误语法，八进制不能有数字"9"
-    return 0;
+  int month = 9, day = 7;
+  // int month = 09, day = 07;
+  // 错误语法，八进制不能有数字"9"
+  return 0;
 }

@@ -2,8 +2,8 @@
 #include <iostream>
 
 int main() {
-    double rate = 0.0;      //利率
-    double nowMoney = 0.0;  //本金
-    double payMoney = 0.0;  //付款
-    return 0;
+  double rate = 0.0;      //利率
+  double nowMoney = 0.0;  //本金
+  double payMoney = 0.0;  //付款
+  return 0;
 }
