@@ -1,11 +1,23 @@
+// 练习2.30：对于下面的这些语句，请说明对象被声明成了顶层const还是底层const？
+// const int v2 = 0;
+// int v1 = v2;
+// int *p1 = &v1, &r1 = v1;
+// const int *p2 = &v2, *const p3 = &i, &r2 = v2;
+
 #include <iostream>
 
-int main()
-{
-    const int v2 = 0;        //v2是顶层const
-    int v1 = v2;             //v1 不是const
-    int *p1 = &v1, &r1 = v1; //p1 不是const，r1是v1的别名
-    //const int *p2 = &v2, *const p3 = &i, &r2 = v2;//p2 是底层const p3 左边是底层const 右边是顶层const
-
-    return 0;
+int main() {
+  int i = 100;
+  const int v2 = 0;
+  int v1 = v2;
+  int *p1 = &v1, &r1 = v1;
+  const int *p2 = &v2, *const p3 = &i, &r2 = v2;
+  std::cout << "顶层const(top-level-const)的定义: " << std::endl;
+  std::cout << "指针本身是个常量" << std::endl;
+  std::cout << "底层const(low-level-const)的定义: " << std::endl;
+  std::cout << "指针所指的对象是个常量" << std::endl;
+  std::cout << "v2 被声明成了顶层const" << std::endl;
+  std::cout << "p2 被声明成了底层const, 因为其所指对象是一个常量" << std::endl;
+  std::cout << "p3 既是底层const, 因为其所指对象是一个常量, 也是顶层const, 因为其本身也是一个常量" << std::endl;
+  return 0;
 }
