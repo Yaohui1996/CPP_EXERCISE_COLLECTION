@@ -94,3 +94,6 @@ add_executable(ex-02-39 Exercise/02-39.cpp)
 add_executable(ex-02-40 Exercise/02-40.cpp)
 add_executable(ex-02-41 Exercise/02-41.cpp)
 add_executable(ex-02-42 Exercise/02-42.cpp)
+
+add_executable(ex-13-01 Exercise/13-01.cpp)
+add_executable(ex-13-02 Exercise/13-02.cpp)
