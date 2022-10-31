@@ -3,11 +3,11 @@
 #include <iostream>
 
 int main() {
-    double read_num = 0.0;
-    double sum = 0.0;
-    while (std::cin >> read_num) {
-        sum += read_num;
-    }
-    std::cout << sum << std::endl;
-    return 0;
+  double read_num = 0.0;
+  double sum = 0.0;
+  while (std::cin >> read_num) {
+    sum += read_num;
+  }
+  std::cout << sum << std::endl;
+  return 0;
 }

@@ -1,27 +1,24 @@
 // 练习1.23：编写程序，读取多条销售记录，并统计每个ISBN（每本书）有几条销售记录。
 
 #include <iostream>
-
 #include "Sales_item.h"
-using std::cin;
-using std::cout;
-using std::endl;
+
 int main() {
-    Sales_item nowBook;
-    cin >> nowBook;
-    int counter = 1;
-    cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << endl;
-    Sales_item newBook;
-    while (cin >> newBook) {
-        if (newBook.isbn() == nowBook.isbn()) {
-            ++counter;
-        } else {
-            nowBook = newBook;
-            counter = 1;
-        }
-        cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << endl;
+  Sales_item nowBook;
+  std::cin >> nowBook;
+  int counter = 1;
+  std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << std::endl;
+  Sales_item newBook;
+  while (std::cin >> newBook) {
+    if (newBook.isbn() == nowBook.isbn()) {
+      ++counter;
+    } else {
+      nowBook = newBook;
+      counter = 1;
     }
-    return 0;
+    std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << std::endl;
+  }
+  return 0;
 }
 
 // input:

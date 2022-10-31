@@ -3,67 +3,59 @@
 #include <iomanip>
 #include <iostream>
 #include <limits>
+
 int main() {
-    std::cout << "type\t\t";
-    std::cout << "│ lowest()\t\t";
-    std::cout << "│ min()\t\t\t";
-    std::cout << "│ max()\t\t";
-    std::cout << std::endl;
-
-    std::cout << "bool\t\t";
-    std::cout << "| " << std::numeric_limits<bool>::lowest() << "\t\t\t";
-    std::cout << "| " << std::numeric_limits<bool>::min() << "\t\t\t";
-    std::cout << "| " << std::numeric_limits<bool>::max() << "\t\t";
-    std::cout << std::endl;
-
-    std::cout << "uchar\t\t";
-    std::cout << "| " << +std::numeric_limits<unsigned char>::lowest() << "\t\t\t";
-    std::cout << "| " << +std::numeric_limits<unsigned char>::min() << "\t\t\t";
-    std::cout << "| " << +std::numeric_limits<unsigned char>::max() << "\t\t";
-    std::cout << std::endl;
-
-    std::cout << "int\t\t";
-    std::cout << "| " << std::numeric_limits<int>::lowest() << "\t\t";
-    std::cout << "| " << std::numeric_limits<int>::min() << "\t\t";
-    std::cout << "| " << std::numeric_limits<int>::max() << "\t\t";
-    std::cout << std::endl;
-
-    std::cout << "long\t\t";
-    std::cout << "| " << std::numeric_limits<long>::lowest() << "\t";
-    std::cout << "| " << std::numeric_limits<long>::min() << "\t";
-    std::cout << "| " << std::numeric_limits<long>::max() << "\t";
-    std::cout << std::endl;
-
-    std::cout << "long long\t";
-    std::cout << "| " << std::numeric_limits<long long>::lowest() << "\t";
-    std::cout << "| " << std::numeric_limits<long long>::min() << "\t";
-    std::cout << "| " << std::numeric_limits<long long>::max() << "\t";
-    std::cout << std::endl;
-
-    std::cout << "short\t\t";
-    std::cout << "| " << std::numeric_limits<short>::lowest() << "\t\t";
-    std::cout << "| " << std::numeric_limits<short>::min() << "\t\t";
-    std::cout << "| " << std::numeric_limits<short>::max() << "\t\t";
-    std::cout << std::endl;
-
-    std::cout << "float\t\t";
-    std::cout << "| " << std::numeric_limits<float>::lowest() << "\t\t";
-    std::cout << "| " << std::numeric_limits<float>::min() << "\t\t";
-    std::cout << "| " << std::numeric_limits<float>::max() << "\t\t";
-    std::cout << std::endl;
-
-    std::cout << "double\t\t";
-    std::cout << "| " << std::numeric_limits<double>::lowest() << "\t\t";
-    std::cout << "| " << std::numeric_limits<double>::min() << "\t\t";
-    std::cout << "| " << std::numeric_limits<double>::max() << "\t\t";
-    std::cout << std::endl;
-
-    std::cout << "long double\t";
-    std::cout << "| " << std::numeric_limits<long double>::lowest() << "\t";
-    std::cout << "| " << std::numeric_limits<long double>::min() << "\t\t";
-    std::cout << "| " << std::numeric_limits<long double>::max() << "\t\t";
-    std::cout << std::endl;
-    return 0;
+  std::cout << "type\t\t";
+  std::cout << "│ lowest()\t\t";
+  std::cout << "│ min()\t\t\t";
+  std::cout << "│ max()\t\t";
+  std::cout << std::endl;
+  std::cout << "bool\t\t";
+  std::cout << "| " << std::numeric_limits<bool>::lowest() << "\t\t\t";
+  std::cout << "| " << std::numeric_limits<bool>::min() << "\t\t\t";
+  std::cout << "| " << std::numeric_limits<bool>::max() << "\t\t";
+  std::cout << std::endl;
+  std::cout << "uchar\t\t";
+  std::cout << "| " << +std::numeric_limits<unsigned char>::lowest() << "\t\t\t";
+  std::cout << "| " << +std::numeric_limits<unsigned char>::min() << "\t\t\t";
+  std::cout << "| " << +std::numeric_limits<unsigned char>::max() << "\t\t";
+  std::cout << std::endl;
+  std::cout << "int\t\t";
+  std::cout << "| " << std::numeric_limits<int>::lowest() << "\t\t";
+  std::cout << "| " << std::numeric_limits<int>::min() << "\t\t";
+  std::cout << "| " << std::numeric_limits<int>::max() << "\t\t";
+  std::cout << std::endl;
+  std::cout << "long\t\t";
+  std::cout << "| " << std::numeric_limits<long>::lowest() << "\t";
+  std::cout << "| " << std::numeric_limits<long>::min() << "\t";
+  std::cout << "| " << std::numeric_limits<long>::max() << "\t";
+  std::cout << std::endl;
+  std::cout << "long long\t";
+  std::cout << "| " << std::numeric_limits<long long>::lowest() << "\t";
+  std::cout << "| " << std::numeric_limits<long long>::min() << "\t";
+  std::cout << "| " << std::numeric_limits<long long>::max() << "\t";
+  std::cout << std::endl;
+  std::cout << "short\t\t";
+  std::cout << "| " << std::numeric_limits<short>::lowest() << "\t\t";
+  std::cout << "| " << std::numeric_limits<short>::min() << "\t\t";
+  std::cout << "| " << std::numeric_limits<short>::max() << "\t\t";
+  std::cout << std::endl;
+  std::cout << "float\t\t";
+  std::cout << "| " << std::numeric_limits<float>::lowest() << "\t\t";
+  std::cout << "| " << std::numeric_limits<float>::min() << "\t\t";
+  std::cout << "| " << std::numeric_limits<float>::max() << "\t\t";
+  std::cout << std::endl;
+  std::cout << "double\t\t";
+  std::cout << "| " << std::numeric_limits<double>::lowest() << "\t\t";
+  std::cout << "| " << std::numeric_limits<double>::min() << "\t\t";
+  std::cout << "| " << std::numeric_limits<double>::max() << "\t\t";
+  std::cout << std::endl;
+  std::cout << "long double\t";
+  std::cout << "| " << std::numeric_limits<long double>::lowest() << "\t";
+  std::cout << "| " << std::numeric_limits<long double>::min() << "\t\t";
+  std::cout << "| " << std::numeric_limits<long double>::max() << "\t\t";
+  std::cout << std::endl;
+  return 0;
 }
 
 // int、long、long long、short的区别：
