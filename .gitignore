@@ -3,3 +3,8 @@ build
 .DS_Store
 build-debug
 build-release
+cmake-build-relwithdebinfo
+cmake-build-release
+cmake-build-minsizerel
+cmake-build-debug
+.idea
