@@ -20,6 +20,8 @@ add_subdirectory(Chapter-12)
 add_subdirectory(Chapter-13)
 add_subdirectory(BookStoreProgram)
 
+add_executable(draft-12-01 Drafts/draft-12-01.cpp)
+
 add_executable(ex-01-01 Exercise/01-01.cpp)
 add_executable(ex-01-02 Exercise/01-02.cpp)
 add_executable(ex-01-03 Exercise/01-03.cpp)
