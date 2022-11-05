@@ -19,7 +19,7 @@
 using namespace std;
 
 int main() {
-    string s;
-    s.reserve(100);
-    return 0;
+  string s;
+  s.reserve(100);
+  return 0;
 }

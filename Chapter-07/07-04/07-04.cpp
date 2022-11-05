@@ -7,12 +7,12 @@
 using std::string;
 
 struct Person {
-    //数据成员
-    std::string name;
-    std::string address;
+  // 数据成员
+  std::string name;
+  std::string address;
 };
 
 int main() {
-    Person personOne;
-    return 0;
+  Person personOne;
+  return 0;
 }

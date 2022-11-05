@@ -1,4 +1,5 @@
-// 练习2.1：类型int、long、long long和short的区别是什么？无符号类型和带符号类型的区别是什么？float和double的区别是什么？
+// 练习2.1：类型int、long、long
+// long和short的区别是什么？无符号类型和带符号类型的区别是什么？float和double的区别是什么？
 
 #include <iomanip>
 #include <iostream>
@@ -16,7 +17,8 @@ int main() {
   std::cout << "| " << std::numeric_limits<bool>::max() << "\t\t";
   std::cout << std::endl;
   std::cout << "uchar\t\t";
-  std::cout << "| " << +std::numeric_limits<unsigned char>::lowest() << "\t\t\t";
+  std::cout << "| " << +std::numeric_limits<unsigned char>::lowest()
+            << "\t\t\t";
   std::cout << "| " << +std::numeric_limits<unsigned char>::min() << "\t\t\t";
   std::cout << "| " << +std::numeric_limits<unsigned char>::max() << "\t\t";
   std::cout << std::endl;

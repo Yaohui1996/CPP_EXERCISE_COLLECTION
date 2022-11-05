@@ -6,15 +6,13 @@ class Y;
 
 class X {
 public:
-    Y *pointToY;
-private:
+  Y *pointToY;
 
+private:
 };
 
 class Y {
-    X objOfX;
+  X objOfX;
 };
 
-int main() {
-    return 0;
-}
+int main() { return 0; }

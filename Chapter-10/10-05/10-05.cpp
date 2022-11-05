@@ -21,17 +21,17 @@
 using namespace std;
 
 int main() {
-    vector<const char*> roster1 = {"hello", "world"};
-    list<const char*> roster2 = {"hello", "world"};
+  vector<const char *> roster1 = {"hello", "world"};
+  list<const char *> roster2 = {"hello", "world"};
 
-    // 以下代码编译不通过
-    
-    // if (equal(roster1.cbegin(), roster1.cend(), roster2.cbegin(),
-    //           roster2.cend())) {
-    //     cout << "equal!" << endl;
-    // } else {
-    //     cout << "not equal!" << endl;
-    // }
+  // 以下代码编译不通过
 
-    return 0;
+  // if (equal(roster1.cbegin(), roster1.cend(), roster2.cbegin(),
+  //           roster2.cend())) {
+  //     cout << "equal!" << endl;
+  // } else {
+  //     cout << "not equal!" << endl;
+  // }
+
+  return 0;
 }

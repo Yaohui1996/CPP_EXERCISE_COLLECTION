@@ -19,11 +19,11 @@
 using namespace std;
 
 int main() {
-    vector<int> v;
-    fill_n(back_inserter(v), 3, 1);
-    for (const auto& i : v) {
-        cout << i << endl;
-    }
+  vector<int> v;
+  fill_n(back_inserter(v), 3, 1);
+  for (const auto &i : v) {
+    cout << i << endl;
+  }
 
-    return 0;
+  return 0;
 }

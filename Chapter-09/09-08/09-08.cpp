@@ -5,10 +5,7 @@
 #include <list>
 #include <string>
 
-int main() {
-
-    return 0;
-}
+int main() { return 0; }
 
 /*
  * 读取：list<string>::const_iterator

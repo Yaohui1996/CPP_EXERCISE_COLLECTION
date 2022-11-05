@@ -19,61 +19,64 @@
 
 using namespace std;
 
-void func(vector<int>& vi) {
-    auto iter = vi.begin();
-    while (iter != vi.end()) {
-        if (*iter % 2) {
-            iter = vi.insert(iter, *iter);
-            iter += 2;
-        } else {
-            iter = vi.erase(iter);
-        }
+void func(vector<int> &vi) {
+  auto iter = vi.begin();
+  while (iter != vi.end()) {
+    if (*iter % 2) {
+      iter = vi.insert(iter, *iter);
+      iter += 2;
+    } else {
+      iter = vi.erase(iter);
     }
+  }
 }
 
-void func(list<int>& l) {
-    auto iter = l.begin();
-    while (iter != l.end()) {
-        if (*iter % 2) {
-            iter = l.insert(iter, *iter);
-            ++iter;
-            ++iter;
-        } else {
-            iter = l.erase(iter);
-        }
+void func(list<int> &l) {
+  auto iter = l.begin();
+  while (iter != l.end()) {
+    if (*iter % 2) {
+      iter = l.insert(iter, *iter);
+      ++iter;
+      ++iter;
+    } else {
+      iter = l.erase(iter);
     }
+  }
 }
 
-void func(forward_list<int>& fl) {
-    auto prev = fl.before_begin();
-    auto curr = fl.begin();
-    while (curr != fl.end()) {
-        if (*curr % 2) {
-            fl.insert_after(prev, *curr);
-            ++prev;
-            ++prev;
-            ++curr;
-        } else {
-            curr = fl.erase_after(prev);
-        }
+void func(forward_list<int> &fl) {
+  auto prev = fl.before_begin();
+  auto curr = fl.begin();
+  while (curr != fl.end()) {
+    if (*curr % 2) {
+      fl.insert_after(prev, *curr);
+      ++prev;
+      ++prev;
+      ++curr;
+    } else {
+      curr = fl.erase_after(prev);
     }
+  }
 }
 
 int main() {
-    vector<int> v = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    func(v);
-    for (int i : v) cout << i << " ";
-    cout << "\n";
+  vector<int> v = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+  func(v);
+  for (int i : v)
+    cout << i << " ";
+  cout << "\n";
 
-    list<int> l = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    func(l);
-    for (int i : l) cout << i << " ";
-    cout << "\n";
+  list<int> l = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+  func(l);
+  for (int i : l)
+    cout << i << " ";
+  cout << "\n";
 
-    forward_list<int> fl = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    func(fl);
-    for (int i : fl) cout << i << " ";
-    cout << "\n";
+  forward_list<int> fl = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+  func(fl);
+  for (int i : fl)
+    cout << i << " ";
+  cout << "\n";
 
-    return 0;
+  return 0;
 }

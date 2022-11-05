@@ -25,9 +25,9 @@ int main() {
   a = 42;
   b = 42;
   c = 42;
-  //d = 42;
-  //e = 42;
-  //f = 42;
+  // d = 42;
+  // e = 42;
+  // f = 42;
   cout << a << endl;
   cout << b << endl;
   cout << c << endl;

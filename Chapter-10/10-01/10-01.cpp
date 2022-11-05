@@ -21,9 +21,9 @@
 using namespace std;
 
 int main() {
-    vector<int> v = {1, 1, 1, 1, 1, 2, 3, 4, 5, 6};
-    cout << std::count(v.cbegin(), v.cend(), 1) << endl;
-    cout << std::count(v.cbegin(), v.cend(), 5) << endl;
+  vector<int> v = {1, 1, 1, 1, 1, 2, 3, 4, 5, 6};
+  cout << std::count(v.cbegin(), v.cend(), 1) << endl;
+  cout << std::count(v.cbegin(), v.cend(), 5) << endl;
 
-    return 0;
+  return 0;
 }

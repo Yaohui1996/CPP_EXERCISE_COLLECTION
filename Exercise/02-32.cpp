@@ -5,7 +5,11 @@
 
 int main() {
   // int null = 0, *p = null;
-  std::cout << "编译器抛出: error: invalid conversion from 'int' to 'int*' [-fpermissive]" << std::endl;
-  std::cout << "原因: null类型为int, p类型为int*, 不可以将int类型的值赋给int*类型的变量" << std::endl;
+  std::cout << "编译器抛出: error: invalid conversion from 'int' to 'int*' "
+               "[-fpermissive]"
+            << std::endl;
+  std::cout << "原因: null类型为int, p类型为int*, "
+               "不可以将int类型的值赋给int*类型的变量"
+            << std::endl;
   return 0;
 }

@@ -20,22 +20,22 @@
 using namespace std;
 
 int main() {
-    vector<string> int_num = {"1", "2", "3", "4", "5"};
-    vector<string> float_num = {"0.1", "0.2", "0.3", "0.4", "0.5"};
+  vector<string> int_num = {"1", "2", "3", "4", "5"};
+  vector<string> float_num = {"0.1", "0.2", "0.3", "0.4", "0.5"};
 
-    int i_sum = 0;
-    double d_sum = 0.0;
+  int i_sum = 0;
+  double d_sum = 0.0;
 
-    for (auto& i : int_num) {
-        i_sum += stoi(i);
-    }
+  for (auto &i : int_num) {
+    i_sum += stoi(i);
+  }
 
-    for (auto& i : float_num) {
-        d_sum += stod(i);
-    }
+  for (auto &i : float_num) {
+    d_sum += stod(i);
+  }
 
-    cout << i_sum << endl;
-    cout << d_sum << endl;
+  cout << i_sum << endl;
+  cout << d_sum << endl;
 
-    return 0;
+  return 0;
 }

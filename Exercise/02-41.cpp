@@ -24,8 +24,9 @@ int main() {
 
   cout << "the total numbers is: " << book.soldNums + book2.soldNums << endl;
   cout << "the average price is: "
-       << (book.averageBookPrice * book.soldNums + book2.averageBookPrice * book2.soldNums) /
-           (book.soldNums + book2.soldNums)
+       << (book.averageBookPrice * book.soldNums +
+           book2.averageBookPrice * book2.soldNums) /
+              (book.soldNums + book2.soldNums)
        << endl;
 
   return 0;

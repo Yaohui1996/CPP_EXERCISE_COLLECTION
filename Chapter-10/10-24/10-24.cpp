@@ -12,16 +12,16 @@
 
 using namespace std;
 
-bool check_size(const string& s, string::size_type sz) {
-    return s.size() >= sz;
+bool check_size(const string &s, string::size_type sz) {
+  return s.size() >= sz;
 }
 
 int main() {
-    vector<int> v = {1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    string s = "haha";
-    auto finder = std::find_if_not(
-        v.begin(), v.end(), std::bind(check_size, s, std::placeholders::_1));
-    std::cout << *finder << std::endl;
+  vector<int> v = {1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+  string s = "haha";
+  auto finder = std::find_if_not(
+      v.begin(), v.end(), std::bind(check_size, s, std::placeholders::_1));
+  std::cout << *finder << std::endl;
 
-    return 0;
+  return 0;
 }

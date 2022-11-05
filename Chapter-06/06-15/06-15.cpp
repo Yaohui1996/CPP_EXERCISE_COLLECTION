@@ -2,9 +2,7 @@
 // Created by Yaohui Li on 2021/2/14.
 //
 
-int main() {
-    return 0;
-}
+int main() { return 0; }
 
 /*
  * 因为不修改字符串s，所以为 const string & 类型

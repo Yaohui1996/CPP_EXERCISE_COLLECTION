@@ -4,13 +4,13 @@
 using namespace std;
 
 int main() {
-//    string s = "haha";
-//    string::iterator iter;
-//    while (iter != s.end()) {}
-//
-//    bool status;
-//    while (status == find(word)) {}
-//    if (!status) {}
+  //    string s = "haha";
+  //    string::iterator iter;
+  //    while (iter != s.end()) {}
+  //
+  //    bool status;
+  //    while (status == find(word)) {}
+  //    if (!status) {}
 
-    return 0;
+  return 0;
 }

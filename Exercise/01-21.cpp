@@ -1,7 +1,7 @@
 // 练习1.21：编写程序，读取两个ISBN相同的Sales_item对象，输出它们的和。
 
-#include <iostream>
 #include "Sales_item.h"
+#include <iostream>
 
 int main() {
   Sales_item book1;

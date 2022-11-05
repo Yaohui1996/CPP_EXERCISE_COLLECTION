@@ -9,21 +9,21 @@
 #include <iostream>
 
 int main() {
-    int a = 10;
-    std::cout << a << std::endl;
+  int a = 10;
+  std::cout << a << std::endl;
 
-    auto lam = [a]() mutable -> bool {
-        if (a == 0) {
-            return true;
-        }
-        while (a > 0) {
-            --a;
-        }
-        return false;
-    };
+  auto lam = [a]() mutable -> bool {
+    if (a == 0) {
+      return true;
+    }
+    while (a > 0) {
+      --a;
+    }
+    return false;
+  };
 
-    std::cout << lam() << std::endl;
-    std::cout << a << std::endl;
+  std::cout << lam() << std::endl;
+  std::cout << a << std::endl;
 
-    return 0;
+  return 0;
 }

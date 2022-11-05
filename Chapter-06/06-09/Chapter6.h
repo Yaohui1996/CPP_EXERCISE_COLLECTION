@@ -7,4 +7,4 @@
 
 int fact(int n);
 
-#endif  // CPP_PRIMER_5TH_EXERCISE_CHAPTER6_H
+#endif // CPP_PRIMER_5TH_EXERCISE_CHAPTER6_H

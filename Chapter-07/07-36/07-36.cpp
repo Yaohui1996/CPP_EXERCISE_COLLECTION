@@ -10,15 +10,12 @@ struct X {
 };
 */
 struct X {
-    X(int i, int j) : base(i), rem(i % j) {}
+  X(int i, int j) : base(i), rem(i % j) {}
 
-    int rem, base;
+  int rem, base;
 };
 
-int main() {
-
-    return 0;
-}
+int main() { return 0; }
 
 /*
  * base 改为 i

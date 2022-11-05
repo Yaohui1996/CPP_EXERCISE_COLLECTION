@@ -18,34 +18,37 @@
 using namespace std;
 
 int main() {
-    list<int> l{1, 2, 3, 4, 5};
+  list<int> l{1, 2, 3, 4, 5};
 
-    // 如果elem1与elem2相等会发生什么？
-    // 如果相等，则不会删除任何元素
-    list<int>::const_iterator elem1 = l.cbegin();
-    list<int>::const_iterator elem2 = l.cbegin();
-    l.erase(elem1, elem2);
-    // print l
-    for (int item : l) cout << item << " ";
-    cout << *elem1 << " " << *elem2 << "\n";
+  // 如果elem1与elem2相等会发生什么？
+  // 如果相等，则不会删除任何元素
+  list<int>::const_iterator elem1 = l.cbegin();
+  list<int>::const_iterator elem2 = l.cbegin();
+  l.erase(elem1, elem2);
+  // print l
+  for (int item : l)
+    cout << item << " ";
+  cout << *elem1 << " " << *elem2 << "\n";
 
-    // 如果elem2是尾后迭代器：
-    // 所有元素被删除
+  // 如果elem2是尾后迭代器：
+  // 所有元素被删除
 
-    elem1 = l.cbegin();
-    elem2 = l.cend();
-    l.erase(elem1, elem2);
-    // print l
-    for (int item : l) cout << item << " ";
-    cout << "\n";
+  elem1 = l.cbegin();
+  elem2 = l.cend();
+  l.erase(elem1, elem2);
+  // print l
+  for (int item : l)
+    cout << item << " ";
+  cout << "\n";
 
-    // 或者elem1和elem2皆为尾后迭代器，又会发生什么？
-    // 不会删除任何元素
-    list<int> lll{1, 2, 3, 4, 5};
-    list<int>::const_iterator e1 = lll.cend();
-    list<int>::const_iterator e2 = lll.cend();
-    lll.erase(e1, e2);
-    for (int item : lll) cout << item << " ";
+  // 或者elem1和elem2皆为尾后迭代器，又会发生什么？
+  // 不会删除任何元素
+  list<int> lll{1, 2, 3, 4, 5};
+  list<int>::const_iterator e1 = lll.cend();
+  list<int>::const_iterator e2 = lll.cend();
+  lll.erase(e1, e2);
+  for (int item : lll)
+    cout << item << " ";
 
-    return 0;
+  return 0;
 }

@@ -3,11 +3,11 @@
 using namespace std;
 
 int main() {
-    const char ca[] = {'h', 'e', 'l', 'l', 'o'};
-    const char *cp = ca;
-    while (*cp) {
-        cout << *cp << endl;
-        ++cp;
-    }
-    return 0;
+  const char ca[] = {'h', 'e', 'l', 'l', 'o'};
+  const char *cp = ca;
+  while (*cp) {
+    cout << *cp << endl;
+    ++cp;
+  }
+  return 0;
 }

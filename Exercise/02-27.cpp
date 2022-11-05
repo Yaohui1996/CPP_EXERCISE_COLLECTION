@@ -30,6 +30,7 @@ int main() {
   std::cout << "不合法，语法错误，引用没有这样的用法" << std::endl;
   // (g) const int i2 = i, &r = i;
   std::cout << "(g) const int i2 = i, &r = i;" << std::endl;
-  std::cout << "合法，声明了一个指向常量的普通指针p，暂时未初始化。" << std::endl;
+  std::cout << "合法，声明了一个指向常量的普通指针p，暂时未初始化。"
+            << std::endl;
   return 0;
 }

@@ -1,9 +1,6 @@
 #include <iostream>
 
-int main()
-{
-    return 0;
-}
+int main() { return 0; }
 
 /*
  * 不能判断指针p是否指向了一个合法的对象

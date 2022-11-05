@@ -16,6 +16,6 @@
 using namespace std;
 
 int main() {
-    cout << "val=val2=val3=val4=c.at(0)" << endl;
-    return 0;
+  cout << "val=val2=val3=val4=c.at(0)" << endl;
+  return 0;
 }

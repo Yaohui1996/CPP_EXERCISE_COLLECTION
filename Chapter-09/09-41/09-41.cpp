@@ -18,9 +18,9 @@
 using namespace std;
 
 int main() {
-    vector<char> vec = {'h', 'e', 'l', 'l', 'o'};
-    string s(vec.cbegin(), vec.cend());
-    cout << s << "\n";
+  vector<char> vec = {'h', 'e', 'l', 'l', 'o'};
+  string s(vec.cbegin(), vec.cend());
+  cout << s << "\n";
 
-    return 0;
+  return 0;
 }

@@ -8,7 +8,4 @@ using namespace std;
 
 string (&hanshu(int i))[10];
 
-int main() {
-
-    return 0;
-}
+int main() { return 0; }

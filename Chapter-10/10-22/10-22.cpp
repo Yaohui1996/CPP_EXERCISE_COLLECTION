@@ -12,20 +12,20 @@
 
 using namespace std;
 
-bool biggies_cnt_helper(const string& s, string::size_type sz) {
-    return s.size() >= sz;
+bool biggies_cnt_helper(const string &s, string::size_type sz) {
+  return s.size() >= sz;
 }
 
-size_t biggies_cnt(const vector<string>& v, string::size_type sz) {
-    return std::count_if(
-        v.begin(), v.end(),
-        std::bind(biggies_cnt_helper, std::placeholders::_1, sz));
+size_t biggies_cnt(const vector<string> &v, string::size_type sz) {
+  return std::count_if(
+      v.begin(), v.end(),
+      std::bind(biggies_cnt_helper, std::placeholders::_1, sz));
 }
 
 int main() {
-    vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
-                        "over", "the",   "slow", "red", "turtle"};
-    std::cout << biggies_cnt(v, 5) << std::endl;
+  vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
+                      "over", "the",   "slow", "red", "turtle"};
+  std::cout << biggies_cnt(v, 5) << std::endl;
 
-    return 0;
+  return 0;
 }

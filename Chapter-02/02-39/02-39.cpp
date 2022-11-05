@@ -1,8 +1,3 @@
 #include <iostream>
-struct Foo
-{
-};
-int main()
-{
-    return 0;
-}
+struct Foo {};
+int main() { return 0; }

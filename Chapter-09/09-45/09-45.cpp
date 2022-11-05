@@ -18,15 +18,15 @@
 using namespace std;
 
 string func(string name, string front, string back) {
-    name.insert(name.begin(), front.begin(), front.end());
-    name.append(back);
-    return name;
+  name.insert(name.begin(), front.begin(), front.end());
+  name.append(back);
+  return name;
 }
 
 int main() {
-    string name = "Jack";
-    cout << name << endl;
-    name = func(name, "Mr.", "III");
-    cout << name << endl;
-    return 0;
+  string name = "Jack";
+  cout << name << endl;
+  name = func(name, "Mr.", "III");
+  cout << name << endl;
+  return 0;
 }

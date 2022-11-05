@@ -17,11 +17,11 @@
 using namespace std;
 
 int main() {
-    vector<int> v;
-    for (int i = 0; i != 100; ++i) {
-        cout << "v的size为: " << v.size() << "\n";
-        cout << "v的capacity为: " << v.capacity() << "\n";
-        v.push_back(i);
-    }
-    return 0;
+  vector<int> v;
+  for (int i = 0; i != 100; ++i) {
+    cout << "v的size为: " << v.size() << "\n";
+    cout << "v的capacity为: " << v.capacity() << "\n";
+    v.push_back(i);
+  }
+  return 0;
 }

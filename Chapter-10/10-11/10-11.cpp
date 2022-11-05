@@ -12,24 +12,24 @@
 
 using namespace std;
 
-bool isShorter(const string& s1, const string& s2) {
-    return s1.size() < s2.size();
+bool isShorter(const string &s1, const string &s2) {
+  return s1.size() < s2.size();
 }
 
-void elimDups(vector<string>& vec) {
-    stable_sort(vec.begin(), vec.end(), isShorter);
-    auto end_unique = unique(vec.begin(), vec.end());
-    vec.erase(end_unique, vec.end());
+void elimDups(vector<string> &vec) {
+  stable_sort(vec.begin(), vec.end(), isShorter);
+  auto end_unique = unique(vec.begin(), vec.end());
+  vec.erase(end_unique, vec.end());
 }
 
 int main() {
-    vector<string> vec = {"the",  "quick", "red",  "fox", "jumps",
-                          "over", "the",   "slow", "red", "turtle"};
+  vector<string> vec = {"the",  "quick", "red",  "fox", "jumps",
+                        "over", "the",   "slow", "red", "turtle"};
 
-    elimDups(vec);
-    for (const auto& i : vec) {
-        cout << i << " ";
-    }
-    cout << endl;
-    return 0;
+  elimDups(vec);
+  for (const auto &i : vec) {
+    cout << i << " ";
+  }
+  cout << endl;
+  return 0;
 }

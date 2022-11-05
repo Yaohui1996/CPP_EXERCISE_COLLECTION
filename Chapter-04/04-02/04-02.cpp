@@ -3,12 +3,11 @@
 
 using namespace std;
 
-int main()
-{
-    /*
-     * *(vec.begin())
-     * *((vec.begin()) + 1)
-     */
+int main() {
+  /*
+   * *(vec.begin())
+   * *((vec.begin()) + 1)
+   */
 
-    return 0;
+  return 0;
 }

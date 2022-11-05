@@ -19,20 +19,20 @@
 
 using namespace std;
 
-void elimDups(vector<string>& vec) {
-    sort(vec.begin(), vec.end());
-    auto end_unique = unique(vec.begin(), vec.end());
-    vec.erase(end_unique, vec.end());
+void elimDups(vector<string> &vec) {
+  sort(vec.begin(), vec.end());
+  auto end_unique = unique(vec.begin(), vec.end());
+  vec.erase(end_unique, vec.end());
 }
 
 int main() {
-    vector<string> vec = {"the",  "quick", "red",  "fox", "jumps",
-                          "over", "the",   "slow", "red", "turtle"};
+  vector<string> vec = {"the",  "quick", "red",  "fox", "jumps",
+                        "over", "the",   "slow", "red", "turtle"};
 
-    elimDups(vec);
-    for (const auto& i : vec) {
-        cout << i << " ";
-    }
-    cout << endl;
-    return 0;
+  elimDups(vec);
+  for (const auto &i : vec) {
+    cout << i << " ";
+  }
+  cout << endl;
+  return 0;
 }

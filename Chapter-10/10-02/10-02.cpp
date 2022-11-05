@@ -19,10 +19,10 @@
 using namespace std;
 
 int main() {
-    list<string> li = {"hello", "hello", "hello", "hello",
-                       "haha",  "haha",  "xixi",  "hehe"};
-    cout << std::count(li.cbegin(), li.cend(), "hello") << endl;
-    cout << std::count(li.cbegin(), li.cend(), "haha") << endl;
+  list<string> li = {"hello", "hello", "hello", "hello",
+                     "haha",  "haha",  "xixi",  "hehe"};
+  cout << std::count(li.cbegin(), li.cend(), "hello") << endl;
+  cout << std::count(li.cbegin(), li.cend(), "haha") << endl;
 
-    return 0;
+  return 0;
 }

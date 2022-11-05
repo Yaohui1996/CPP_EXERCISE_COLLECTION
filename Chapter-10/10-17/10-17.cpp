@@ -22,19 +22,19 @@ using namespace std;
 // }
 
 int main() {
-    vector<Sales_data> v = {Sales_data("D", 2, 12.2), Sales_data("B", 1, 2.8),
-                            Sales_data("A", 4, 18.7), Sales_data("C", 3, 5.3)};
+  vector<Sales_data> v = {Sales_data("D", 2, 12.2), Sales_data("B", 1, 2.8),
+                          Sales_data("A", 4, 18.7), Sales_data("C", 3, 5.3)};
 
-    auto compareIsbn_lambda = [](const Sales_data& lhs,
-                                 const Sales_data& rhs) -> bool {
-        return lhs.isbn() < rhs.isbn();
-    };
+  auto compareIsbn_lambda = [](const Sales_data &lhs,
+                               const Sales_data &rhs) -> bool {
+    return lhs.isbn() < rhs.isbn();
+  };
 
-    sort(v.begin(), v.end(), compareIsbn_lambda);
+  sort(v.begin(), v.end(), compareIsbn_lambda);
 
-    for (const auto& item : v) {
-        print(item, cout) << endl;
-    }
+  for (const auto &item : v) {
+    print(item, cout) << endl;
+  }
 
-    return 0;
+  return 0;
 }

@@ -1,12 +1,12 @@
 /**
  * @file 09-40.cpp
  * @author yaohui.li (1210792617@qq.com)
- * @brief 
+ * @brief
  * @version 0.1
  * @date 2021-12-10
- * 
+ *
  * @copyright Copyright (c) 2021
- * 
+ *
  */
 
 // 练习9.40：如果上一题中的程序读入了256个词，在resize之后容器的capacity可能是多少？
@@ -28,6 +28,4 @@
 
 using namespace std;
 
-int main() {
-    return 0;
-}
+int main() { return 0; }

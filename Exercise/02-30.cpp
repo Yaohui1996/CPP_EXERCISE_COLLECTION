@@ -18,6 +18,8 @@ int main() {
   std::cout << "指针所指的对象是个常量" << std::endl;
   std::cout << "v2 被声明成了顶层const" << std::endl;
   std::cout << "p2 被声明成了底层const, 因为其所指对象是一个常量" << std::endl;
-  std::cout << "p3 既是底层const, 因为其所指对象是一个常量, 也是顶层const, 因为其本身也是一个常量" << std::endl;
+  std::cout << "p3 既是底层const, 因为其所指对象是一个常量, 也是顶层const, "
+               "因为其本身也是一个常量"
+            << std::endl;
   return 0;
 }

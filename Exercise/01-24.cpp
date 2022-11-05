@@ -1,13 +1,14 @@
 // 练习1.24：输入表示多个ISBN的多条销售记录来测试上一个程序，每个ISBN的记录应该聚在一起。
 
-#include <iostream>
 #include "Sales_item.h"
+#include <iostream>
 
 int main() {
   Sales_item nowBook;
   std::cin >> nowBook;
   int counter = 1;
-  std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << std::endl;
+  std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录"
+            << std::endl;
   Sales_item newBook;
   while (std::cin >> newBook) {
     if (newBook.isbn() == nowBook.isbn()) {
@@ -16,7 +17,8 @@ int main() {
       nowBook = newBook;
       counter = 1;
     }
-    std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << std::endl;
+    std::cout << "书籍： " << nowBook.isbn() << " 有" << counter
+              << " 条销售记录" << std::endl;
   }
   return 0;
 }

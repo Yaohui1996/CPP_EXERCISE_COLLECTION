@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    do {
-        string s1, s2;
-        if (cin >> s1 >> s2)
-            cout << (s1.size() < s2.size() ? s1 : s2) << endl;
-    } while (cin);
-    return 0;
+  do {
+    string s1, s2;
+    if (cin >> s1 >> s2)
+      cout << (s1.size() < s2.size() ? s1 : s2) << endl;
+  } while (cin);
+  return 0;
 }

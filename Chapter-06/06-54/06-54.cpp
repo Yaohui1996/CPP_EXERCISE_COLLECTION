@@ -8,6 +8,6 @@ using namespace std;
 int f(int x, int y);
 
 int main() {
-    vector<int (*)(int, int)> v;
-    return 0;
+  vector<int (*)(int, int)> v;
+  return 0;
 }

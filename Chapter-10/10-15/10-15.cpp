@@ -7,8 +7,8 @@
 #include <iostream>
 
 int main() {
-    int a = 100;
-    auto f = [a](int b) -> int { return a + b; };
-    std::cout << f(50) << std::endl;
-    return 0;
+  int a = 100;
+  auto f = [a](int b) -> int { return a + b; };
+  std::cout << f(50) << std::endl;
+  return 0;
 }

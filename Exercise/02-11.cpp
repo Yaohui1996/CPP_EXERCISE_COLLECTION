@@ -21,7 +21,9 @@ int main() {
 
 void a() {
   // (a) extern int ix = 1024;
-  std::cout << "(a) 在函数体内部, 如果试图初始化一个由extern关键字标记的变量, 将引发错误. " << std::endl;
+  std::cout << "(a) 在函数体内部, 如果试图初始化一个由extern关键字标记的变量, "
+               "将引发错误. "
+            << std::endl;
 }
 
 void b() {

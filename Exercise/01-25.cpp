@@ -1,7 +1,7 @@
 // 练习1.25：借助网站上的Sales_item.h头文件，编译并运行本节给出的书店程序。
 
-#include <iostream>
 #include "Sales_item.h"
+#include <iostream>
 
 int main() {
   Sales_item total;

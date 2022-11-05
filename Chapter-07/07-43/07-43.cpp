@@ -4,21 +4,18 @@
 
 class NoDefault {
 public:
-    NoDefault(int n) : number(n) {}
+  NoDefault(int n) : number(n) {}
 
 private:
-    int number = 0;
+  int number = 0;
 };
 
 class C {
 public:
-    C() : member(0) {}
+  C() : member(0) {}
 
 private:
-    NoDefault member;
+  NoDefault member;
 };
 
-int main() {
-
-    return 0;
-}
+int main() { return 0; }

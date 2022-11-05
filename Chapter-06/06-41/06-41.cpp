@@ -9,7 +9,4 @@ char *init(int ht, int wd = 80, char bckgrnd = ' ');
  * (c) init(14,'*');//合法，但是'*'被传入的时候会出错
  */
 
-
-int main() {
-    return 0;
-}
+int main() { return 0; }

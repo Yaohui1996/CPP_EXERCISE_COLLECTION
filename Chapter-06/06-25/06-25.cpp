@@ -8,11 +8,11 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    string s;
-    for (int i = 1; i != argc; ++i) {
-        s = s + argv[i];
-    }
-    cout << "out..." << endl;
-    cout << s << endl;
-    return 0;
+  string s;
+  for (int i = 1; i != argc; ++i) {
+    s = s + argv[i];
+  }
+  cout << "out..." << endl;
+  cout << s << endl;
+  return 0;
 }

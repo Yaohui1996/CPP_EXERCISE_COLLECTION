@@ -17,10 +17,10 @@
 using namespace std;
 
 int main() {
-    vector<int> v;
-    // cout << v.at(0) << endl; // libc++abi: terminating with uncaught exception of type std::out_of_range: vector
-    // cout << v[0] << endl; // zsh: segmentation fault 
-    // cout << v.front() << endl; // zsh: segmentation fault
-    // cout << v.back() << endl; // zsh: segmentation fault
-    return 0;
+  vector<int> v;
+  // cout << v.at(0) << endl; // libc++abi: terminating with uncaught exception
+  // of type std::out_of_range: vector cout << v[0] << endl; // zsh:
+  // segmentation fault cout << v.front() << endl; // zsh: segmentation fault
+  // cout << v.back() << endl; // zsh: segmentation fault
+  return 0;
 }

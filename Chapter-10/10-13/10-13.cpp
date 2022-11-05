@@ -15,15 +15,15 @@
 
 using namespace std;
 
-bool more_than_four_char(const string& s) { return s.size() >= 5; }
+bool more_than_four_char(const string &s) { return s.size() >= 5; }
 
 int main() {
-    vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
-                        "over", "the",   "slow", "red", "turtle"};
-    auto end_iter = partition(v.begin(), v.end(), more_than_four_char);
+  vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
+                      "over", "the",   "slow", "red", "turtle"};
+  auto end_iter = partition(v.begin(), v.end(), more_than_four_char);
 
-    for (auto iter = v.begin(); iter != end_iter; ++iter) {
-        cout << *iter << endl;
-    }
-    return 0;
+  for (auto iter = v.begin(); iter != end_iter; ++iter) {
+    cout << *iter << endl;
+  }
+  return 0;
 }

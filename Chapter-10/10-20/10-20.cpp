@@ -14,15 +14,14 @@
 
 using namespace std;
 
-size_t biggies(const vector<string>& v, string::size_type sz) {
-    return std::count_if(v.begin(), v.end(), [=](const string& s) -> bool {
-        return s.size() >= sz;
-    });
+size_t biggies(const vector<string> &v, string::size_type sz) {
+  return std::count_if(v.begin(), v.end(),
+                       [=](const string &s) -> bool { return s.size() >= sz; });
 }
 
 int main() {
-    vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
-                        "over", "the",   "slow", "red", "turtle"};
-    cout << biggies(v, 5) << endl;
-    return 0;
+  vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
+                      "over", "the",   "slow", "red", "turtle"};
+  cout << biggies(v, 5) << endl;
+  return 0;
 }

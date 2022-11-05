@@ -13,22 +13,22 @@
 
 using namespace std;
 
-bool check_size(const string& s, string::size_type sz) {
-    return s.size() >= sz;
+bool check_size(const string &s, string::size_type sz) {
+  return s.size() >= sz;
 }
 
-void biggies(vector<string>& v, string::size_type sz) {
-    auto p = partition(v.begin(), v.end(),
-                       std::bind(check_size, std::placeholders::_1, sz));
+void biggies(vector<string> &v, string::size_type sz) {
+  auto p = partition(v.begin(), v.end(),
+                     std::bind(check_size, std::placeholders::_1, sz));
 
-    // print out
-    std::for_each(v.begin(), p,
-                  [](const string& s) -> void { cout << s << " "; });
+  // print out
+  std::for_each(v.begin(), p,
+                [](const string &s) -> void { cout << s << " "; });
 }
 
 int main() {
-    vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
-                        "over", "the",   "slow", "red", "turtle"};
-    biggies(v, 5);
-    return 0;
+  vector<string> v = {"the",  "quick", "red",  "fox", "jumps",
+                      "over", "the",   "slow", "red", "turtle"};
+  biggies(v, 5);
+  return 0;
 }
