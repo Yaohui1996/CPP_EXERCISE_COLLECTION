@@ -110,3 +110,12 @@ target_include_directories(ex-12-05 PUBLIC Headers)
 
 add_executable(ex-13-01 Exercise/13-01.cpp)
 add_executable(ex-13-02 Exercise/13-02.cpp)
+
+set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/source)
+add_executable(exercise-01-01 ${SOURCE_DIR}/exercise_01_01.cpp)
+add_executable(exercise-01-02 ${SOURCE_DIR}/exercise_01_02.cpp)
+add_executable(exercise-01-03 ${SOURCE_DIR}/exercise_01_03.cpp)
+add_executable(exercise-01-04 ${SOURCE_DIR}/exercise_01_04.cpp)
+add_executable(exercise-01-05 ${SOURCE_DIR}/exercise_01_05.cpp)
+add_executable(exercise-01-06 ${SOURCE_DIR}/exercise_01_06.cpp)
+add_executable(exercise-01-07 ${SOURCE_DIR}/exercise_01_07.cpp)
