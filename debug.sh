@@ -8,4 +8,4 @@ echo "create build..."
 mkdir build
 echo "create build finished!"
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
-make -C build -j8
+make -C build -j16
