@@ -13,5 +13,12 @@ add_executable(GRADE_BOOK_EXE source/GradeBookMain.cpp)
 target_include_directories(GRADE_BOOK_EXE PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(GRADE_BOOK_EXE GRADE_BOOK_LIB)
 
+add_library(ACCOUNT_LIB STATIC source/Account.cpp)
+target_include_directories(ACCOUNT_LIB PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+add_executable(ACCOUNT_EXE source/GradeBookMain.cpp)
+target_include_directories(ACCOUNT_EXE PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_link_libraries(ACCOUNT_EXE ACCOUNT_LIB)
+
 
 
