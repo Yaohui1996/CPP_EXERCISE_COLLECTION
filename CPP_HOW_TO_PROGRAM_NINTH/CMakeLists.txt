@@ -6,19 +6,23 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 
 project(CPP_HOW_TO_PROGRAM_NINTH CXX)
 
-add_library(GRADE_BOOK_LIB STATIC source/GradeBook.cpp)
-target_include_directories(GRADE_BOOK_LIB PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+# include dir
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/library/include)
 
-add_executable(GRADE_BOOK_EXE source/GradeBookMain.cpp)
-target_include_directories(GRADE_BOOK_EXE PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
-target_link_libraries(GRADE_BOOK_EXE GRADE_BOOK_LIB)
+# add library
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/library/source LIBRARY_SRC_FILES)
+add_library(COMMON_LIB STATIC ${LIBRARY_SRC_FILES})
 
-add_library(ACCOUNT_LIB STATIC source/Account.cpp)
-target_include_directories(ACCOUNT_LIB PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+# add exe
+set(MAIN_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/exe)
 
-add_executable(ACCOUNT_EXE source/AccountMain.cpp)
-target_include_directories(ACCOUNT_EXE PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
-target_link_libraries(ACCOUNT_EXE ACCOUNT_LIB)
+add_executable(GRADE_BOOK_EXE ${MAIN_SOURCE_DIR}/GradeBookMain.cpp)
+target_link_libraries(GRADE_BOOK_EXE PRIVATE COMMON_LIB)
 
+add_executable(ACCOUNT_EXE ${MAIN_SOURCE_DIR}/AccountMain.cpp)
+target_link_libraries(ACCOUNT_EXE PRIVATE COMMON_LIB)
+
+add_executable(INVOICE_EXE ${MAIN_SOURCE_DIR}/InvoiceMain.cpp)
+target_link_libraries(INVOICE_EXE PRIVATE COMMON_LIB)
 
 
