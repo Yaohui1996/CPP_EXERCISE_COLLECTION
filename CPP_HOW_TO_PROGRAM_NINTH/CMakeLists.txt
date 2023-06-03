@@ -27,3 +27,6 @@ target_link_libraries(INVOICE_EXE PRIVATE COMMON_LIB)
 
 add_executable(EMLOYEE_EXE ${MAIN_SOURCE_DIR}/EmloyeeMain.cpp)
 target_link_libraries(EMLOYEE_EXE PRIVATE COMMON_LIB)
+
+add_executable(DATE_EXE ${MAIN_SOURCE_DIR}/DateMain.cpp)
+target_link_libraries(DATE_EXE PRIVATE COMMON_LIB)
