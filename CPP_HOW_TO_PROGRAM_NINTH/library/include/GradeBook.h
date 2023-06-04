@@ -8,6 +8,11 @@ class GradeBook {
 private:
   std::string courseName;
   std::string teacherName;
+  uint32_t aCount; // count of A grade
+  uint32_t bCount; // count of B grade
+  uint32_t cCount; // count of C grade
+  uint32_t dCount; // count of D grade
+  uint32_t fCount; // count of F grade
 
 public:
   explicit GradeBook(const std::string &name);
@@ -20,6 +25,9 @@ public:
   const std::string &getTeacherName() const;
   void determineClassAverage() const;
   void determineClassAverageV2() const;
+  void inputGrades();
+  void displayGradeReport() const;
+
 };
 
 #endif // CPP_HOW_TO_PROGRAM_NINTH_GRADE_BOOK_H

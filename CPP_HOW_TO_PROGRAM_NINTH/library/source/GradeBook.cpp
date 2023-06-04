@@ -1,10 +1,11 @@
 #include "GradeBook.h"
-#include <_types/_uint32_t.h>
+#include <cstdio>
 #include <iostream>
 
 using namespace std;
 
-GradeBook::GradeBook(const std::string &name) : courseName(name) {}
+GradeBook::GradeBook(const std::string &name)
+    : courseName(name), aCount(0), bCount(0), cCount(0), dCount(0), fCount(0) {}
 
 GradeBook::GradeBook(const std::string &course_name,
                      const std::string &teacher_name)
@@ -57,4 +58,47 @@ void GradeBook::determineClassAverageV2() const {
   cout << "人数为: " << person_cnt << endl;
   cout << "成绩之和为: " << sum_grade << endl;
   cout << "平均成绩为: " << sum_grade / person_cnt << endl;
+}
+
+void GradeBook::inputGrades() {
+  cout << "请输入成绩等级: ";
+  int32_t grade;
+  while ((grade = cin.get()) != EOF) {
+    switch (grade) {
+    case 'A':
+    case 'a':
+      ++aCount;
+      break;
+    case 'B':
+    case 'b':
+      ++bCount;
+      break;
+    case 'C':
+    case 'c':
+      ++cCount;
+      break;
+    case 'D':
+    case 'd':
+      ++dCount;
+      break;
+    case 'F':
+    case 'f':
+      ++fCount;
+      break;
+    case '\t':
+    case '\n':
+    case ' ':
+      break;
+    default:
+      cout << "请输入合法的等级!" << endl;
+      break;
+    } // end switch
+    cout << "请继续输入成绩等级: ";
+  }   // end while
+} // end function
+
+void GradeBook::displayGradeReport() const {
+  cout << "\n\n各个等级的人数: "
+       << "\nA: " << aCount << "\nB: " << bCount << "\nC: " << cCount
+       << "\nD: " << dCount << "\nF: " << fCount << endl;
 }

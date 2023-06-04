@@ -16,6 +16,8 @@ int main() {
   GradeBook new_grade_book("ct course name", "teacher name");
   new_grade_book.displayMessage();
 
+  new_grade_book.inputGrades();
+  new_grade_book.displayGradeReport();
   new_grade_book.determineClassAverageV2();
   new_grade_book.determineClassAverage();
 
