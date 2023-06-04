@@ -7,5 +7,8 @@ fi
 echo "create build..."
 mkdir build
 echo "create build finished!"
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
-make -C build -j16
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+# make -C build -j16
+pushd build
+ninja -j 16
+popd
