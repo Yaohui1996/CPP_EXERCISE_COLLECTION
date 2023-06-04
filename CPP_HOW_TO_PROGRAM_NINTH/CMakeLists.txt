@@ -32,3 +32,4 @@ add_executable(DATE_EXE ${MAIN_SOURCE_DIR}/DateMain.cpp)
 target_link_libraries(DATE_EXE PRIVATE COMMON_LIB)
 
 add_executable(fig06_09 ${MAIN_SOURCE_DIR}/fig06_09.cpp)
+add_executable(fig06_10 ${MAIN_SOURCE_DIR}/fig06_10.cpp)
