@@ -40,3 +40,5 @@ add_executable(fig06_26 ${MAIN_SOURCE_DIR}/fig06_26.cpp)
 add_executable(fig06_28 ${MAIN_SOURCE_DIR}/fig06_28.cpp)
 add_executable(fig06_29 ${MAIN_SOURCE_DIR}/fig06_29.cpp)
 add_executable(fig06_31 ${MAIN_SOURCE_DIR}/fig06_31.cpp)
+
+add_executable(Ex06_02 ${MAIN_SOURCE_DIR}/Ex06_02.cpp)
