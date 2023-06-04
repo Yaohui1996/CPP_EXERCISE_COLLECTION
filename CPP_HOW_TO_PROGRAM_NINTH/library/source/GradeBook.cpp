@@ -5,7 +5,8 @@
 using namespace std;
 
 GradeBook::GradeBook(const std::string &name)
-    : courseName(name), aCount(0), bCount(0), cCount(0), dCount(0), fCount(0) {}
+    : courseName(name), aCount(0), bCount(0), cCount(0), dCount(0), fCount(0),
+      maximumGrade(0) {}
 
 GradeBook::GradeBook(const std::string &course_name,
                      const std::string &teacher_name)
@@ -101,4 +102,20 @@ void GradeBook::displayGradeReport() const {
   cout << "\n\n各个等级的人数: "
        << "\nA: " << aCount << "\nB: " << bCount << "\nC: " << cCount
        << "\nD: " << dCount << "\nF: " << fCount << endl;
+  cout << "\n最高分数是: " << maximumGrade << endl;
 }
+
+int32_t GradeBook::maximum(int32_t a, int32_t b, int32_t c) const {
+  if (a > b) {
+    return a > c ? a : c;
+  } else {
+    return b > c ? b : c;
+  } // end if
+} // end function
+
+void GradeBook::inputGradesV2() {
+  cout << "请输入成绩分数: ";
+  int32_t grade1, grade2, grade3;
+  cin >> grade1 >> grade2 >> grade3;
+  maximumGrade = this->maximum(grade1, grade2, grade3);
+} // end function

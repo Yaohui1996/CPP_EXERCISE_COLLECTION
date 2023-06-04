@@ -13,6 +13,7 @@ private:
   uint32_t cCount; // count of C grade
   uint32_t dCount; // count of D grade
   uint32_t fCount; // count of F grade
+  int32_t maximumGrade;
 
 public:
   explicit GradeBook(const std::string &name);
@@ -27,7 +28,8 @@ public:
   void determineClassAverageV2() const;
   void inputGrades();
   void displayGradeReport() const;
-
+  int32_t maximum(int32_t, int32_t, int32_t) const;
+  void inputGradesV2();
 };
 
 #endif // CPP_HOW_TO_PROGRAM_NINTH_GRADE_BOOK_H
