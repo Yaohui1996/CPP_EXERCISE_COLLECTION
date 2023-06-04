@@ -18,6 +18,8 @@ public:
   const std::string &getCourseName() const;
   void setTeacherName(const std::string &name);
   const std::string &getTeacherName() const;
+  void determineClassAverage() const;
+  void determineClassAverageV2() const;
 };
 
 #endif // CPP_HOW_TO_PROGRAM_NINTH_GRADE_BOOK_H
