@@ -3,8 +3,12 @@
 
 #include <iostream>
 #include <string>
+#include <array>
 
 class GradeBook {
+public:
+ static const size_t students = 10;
+
 private:
   std::string courseName;
   std::string teacherName;
@@ -14,6 +18,7 @@ private:
   uint32_t dCount; // count of D grade
   uint32_t fCount; // count of F grade
   int32_t maximumGrade;
+  std::array<uint32_t, students> grades;
 
 public:
   explicit GradeBook(const std::string &name);
