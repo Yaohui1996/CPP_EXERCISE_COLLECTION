@@ -23,6 +23,8 @@ private:
 public:
   explicit GradeBook(const std::string &name);
   GradeBook(const std::string &course_name, const std::string &teacher_name);
+  GradeBook(const std::string &course_name,
+            const std::array<uint32_t, students> &grade_arr);
   void displayMessage() const;
   void displayMessage(const std::string &courseName) const;
   void setCourseName(const std::string &name);
@@ -35,6 +37,12 @@ public:
   void displayGradeReport() const;
   int32_t maximum(int32_t, int32_t, int32_t) const;
   void inputGradesV2();
+  void processGrades() const;
+  uint32_t getMinimum() const;
+  uint32_t getMaximum() const;
+  double getAverage() const;
+  void outputBarChart() const;
+  void outputGrades() const;
 };
 
 #endif // CPP_HOW_TO_PROGRAM_NINTH_GRADE_BOOK_H
