@@ -1,4 +1,4 @@
-//* 27.二进制求和.cpp
+//* 67.二进制求和.cpp
 //* https://leetcode.cn/problems/add-binary/
 
 class Solution {
