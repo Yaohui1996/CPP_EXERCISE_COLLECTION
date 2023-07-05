@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 290.单词规律.cpp
 //* https://leetcode.cn/problems/word-pattern/
 

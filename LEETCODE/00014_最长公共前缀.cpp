@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 14.最长公共前缀.cpp
 //* https://leetcode.cn/problems/longest-common-prefix/
 

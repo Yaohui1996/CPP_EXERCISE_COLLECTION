@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 383_赎金信.cpp
 //* https://leetcode.cn/problems/ransom-note/
 class Solution {

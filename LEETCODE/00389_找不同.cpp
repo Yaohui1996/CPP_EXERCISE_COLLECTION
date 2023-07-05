@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 389_找不同.cpp
 //* https://leetcode.cn/problems/find-the-difference/
 

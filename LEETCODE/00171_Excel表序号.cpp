@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 171.Excel表序号.cpp
 //* https://leetcode.cn/problems/excel-sheet-column-number/
 

@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 58.最后一个单词的长度.cpp
 //* https://leetcode.cn/problems/length-of-last-word/
 

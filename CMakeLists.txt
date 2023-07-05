@@ -6,6 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 
 project(CPP_EXERCISE_COLLECTION CXX)
 
+add_subdirectory(LEETCODE)
 add_subdirectory(CPP_HOW_TO_PROGRAM_NINTH)
 add_subdirectory(CPP_PROGRAMMING_LANGUAGE_FOURTH)
 add_subdirectory(CPP_PRIMER_FIFTH)

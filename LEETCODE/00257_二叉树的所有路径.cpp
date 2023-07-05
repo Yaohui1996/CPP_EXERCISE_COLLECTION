@@ -1,6 +1,16 @@
+#include "LC_COMMON_HEADER.h"
 //* 257.二叉树的所有路径.cpp
 //* https://leetcode.cn/problems/binary-tree-paths/
 
+struct TreeNode {
+  int val;
+  TreeNode *left;
+  TreeNode *right;
+  TreeNode() : val(0), left(nullptr), right(nullptr) {}
+  TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+  TreeNode(int x, TreeNode *left, TreeNode *right)
+      : val(x), left(left), right(right) {}
+};
 
 /**
  * Definition for a binary tree node.

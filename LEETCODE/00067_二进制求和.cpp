@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 67.二进制求和.cpp
 //* https://leetcode.cn/problems/add-binary/
 

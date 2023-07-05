@@ -1,3 +1,4 @@
+#include "LC_COMMON_HEADER.h"
 //* 242.有效的字母异位词.cpp
 //* https://leetcode.cn/problems/valid-anagram/
 
