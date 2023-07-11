@@ -28,20 +28,23 @@ private:
     void bianli(TreeNode* node, std::stringstream& ss){
         // std::cout << node->val << std::endl;
         ss << node->val;
-        // if(!node->left && !node->right){
-        //     return;
-        // }
-        // ss << "(";
-        if(node->left){
+        if (node->left && node->right){
+            ss << "(";
             bianli(node->left, ss);
-        }
-        // ss << ")";
-        // ss << "(";
-        if(node->right){
+            ss << ")(";
             bianli(node->right, ss);
+            ss << ")";
+        }else if (node->left && !node->right){
+            ss << "(";
+            bianli(node->left, ss);
+            ss << ")";
+        }else if (!node->left && node->right){
+            ss << "()(";
+            bianli(node->right, ss);
+            ss << ")";
+        }else{
+            // do nothing
         }
-        // ss << ")";
-
     }
 public:
     string tree2str(TreeNode* root) {
