@@ -120,3 +120,5 @@ add_executable(exercise-01-04 ${SOURCE_DIR}/exercise_01_04.cpp)
 add_executable(exercise-01-05 ${SOURCE_DIR}/exercise_01_05.cpp)
 add_executable(exercise-01-06 ${SOURCE_DIR}/exercise_01_06.cpp)
 add_executable(exercise-01-07 ${SOURCE_DIR}/exercise_01_07.cpp)
+
+add_executable(15_01 ${SOURCE_DIR}/15_01.cpp)
