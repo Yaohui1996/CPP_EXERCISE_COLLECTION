@@ -7,5 +7,5 @@ fi
 echo "create build..."
 mkdir build
 echo "create build finished!"
-cmake -S . -B build -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
+cmake -S . -B build -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
 make -C build -j10
