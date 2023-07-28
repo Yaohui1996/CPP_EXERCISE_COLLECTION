@@ -7,6 +7,8 @@
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
+#include <cmath>
+#include <limits>
 
 using namespace std;
 
