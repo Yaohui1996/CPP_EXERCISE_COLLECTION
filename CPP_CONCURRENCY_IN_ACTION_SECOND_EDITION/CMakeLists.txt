@@ -9,3 +9,5 @@ project(CPP_CONCURRENCY_IN_ACTION_SECOND_EDITION CXX)
 
 add_executable(code-1.1 code-1.1.cpp)
 add_executable(code-2.1 code-2.1.cpp)
+add_executable(code-2.2 code-2.2.cpp)
+add_executable(code-2.3 code-2.3.cpp)
