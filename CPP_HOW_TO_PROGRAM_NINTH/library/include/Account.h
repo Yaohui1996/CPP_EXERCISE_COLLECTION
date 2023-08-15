@@ -15,4 +15,4 @@ public:
   int32_t getBalance() const;
 };
 
-#endif  // CPP_HOW_TO_PROGRAM_NINTH_ACCOUNT_H
+#endif // CPP_HOW_TO_PROGRAM_NINTH_ACCOUNT_H

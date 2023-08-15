@@ -13,7 +13,6 @@
 #include <initializer_list>
 #include <iostream>
 
-
 int main() {
   // 比如:
   StrBlob tmp_sb = {"a", "an", "the"};

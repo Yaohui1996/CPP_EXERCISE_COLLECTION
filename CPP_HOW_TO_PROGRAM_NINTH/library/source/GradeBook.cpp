@@ -95,7 +95,7 @@ void GradeBook::inputGrades() {
       break;
     } // end switch
     cout << "请继续输入成绩等级: ";
-  }   // end while
+  } // end while
 } // end function
 
 void GradeBook::displayGradeReport() const {

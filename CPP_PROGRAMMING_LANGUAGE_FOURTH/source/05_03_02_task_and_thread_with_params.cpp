@@ -3,7 +3,7 @@
 #include <thread>
 #include <vector>
 
-void f(const std::vector<double>& v) {
+void f(const std::vector<double> &v) {
   std::cout << "exe function f()!" << std::endl;
   for (size_t i = 0; i != v.size(); ++i) {
     std::cout << i;
@@ -16,7 +16,7 @@ void f(const std::vector<double>& v) {
 
 struct F {
   std::vector<double> v;
-  explicit F(const std::vector<double>& vv) : v(vv) {}
+  explicit F(const std::vector<double> &vv) : v(vv) {}
   void operator()() {
     std::cout << "exe operator F()!" << std::endl;
     for (size_t i = 0; i != v.size(); ++i) {

@@ -1,13 +1,13 @@
 #ifndef CPP_HOW_TO_PROGRAM_NINTH_GRADE_BOOK_H
 #define CPP_HOW_TO_PROGRAM_NINTH_GRADE_BOOK_H
 
+#include <array>
 #include <iostream>
 #include <string>
-#include <array>
 
 class GradeBook {
 public:
- static const size_t students = 10;
+  static const size_t students = 10;
 
 private:
   std::string courseName;

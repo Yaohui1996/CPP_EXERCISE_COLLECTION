@@ -20,15 +20,15 @@ namespace yaohui {
 
 class Window_mgr {
 public:
-    using ScreenIndex = std::vector<Screen>::size_type;
+  using ScreenIndex = std::vector<Screen>::size_type;
 
-    Window_mgr();
-    ~Window_mgr();
+  Window_mgr();
+  ~Window_mgr();
 
 private:
-    std::vector<Screen> screens_{Screen(24, 80, ' ')};
+  std::vector<Screen> screens_{Screen(24, 80, ' ')};
 
-    void clear(ScreenIndex screen_index);
+  void clear(ScreenIndex screen_index);
 };
 
 Window_mgr::Window_mgr(/* args */) {}
@@ -36,10 +36,10 @@ Window_mgr::Window_mgr(/* args */) {}
 Window_mgr::~Window_mgr() {}
 
 void Window_mgr::clear(ScreenIndex screen_index) {
-    Screen& s = screens_[screen_index];
-    s.contents_ = std::string(s.width_ * s.height_, ' ');
+  Screen &s = screens_[screen_index];
+  s.contents_ = std::string(s.width_ * s.height_, ' ');
 }
 
-}  // namespace yaohui
+} // namespace yaohui
 
-#endif  // YAOHUI_WINDOW_MGR_H
+#endif // YAOHUI_WINDOW_MGR_H

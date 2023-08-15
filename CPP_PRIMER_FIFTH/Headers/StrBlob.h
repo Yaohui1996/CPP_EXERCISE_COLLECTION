@@ -1,10 +1,10 @@
 #ifndef STRBLOB_H
 #define STRBLOB_H
 
+#include <iostream>
 #include <memory>
 #include <string>
 #include <vector>
-#include <iostream>
 
 class StrBlob {
 

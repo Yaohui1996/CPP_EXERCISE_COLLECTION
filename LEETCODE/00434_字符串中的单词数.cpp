@@ -4,16 +4,15 @@
 
 class Solution {
 public:
-    int countSegments(string s) {
-        std::stringstream ss(s);
-        std::string word;
-        int ret = 0;
-        while(std::getline(ss,word,' ')){
-            if (word != ""){
-                 ++ret;
-            }
-           
-        }
-        return ret;
+  int countSegments(string s) {
+    std::stringstream ss(s);
+    std::string word;
+    int ret = 0;
+    while (std::getline(ss, word, ' ')) {
+      if (word != "") {
+        ++ret;
+      }
     }
+    return ret;
+  }
 };

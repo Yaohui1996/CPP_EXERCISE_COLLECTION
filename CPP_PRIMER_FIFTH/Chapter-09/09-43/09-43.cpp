@@ -43,7 +43,6 @@ string yh_replace(string s, string oldVal, string newVal) {
       } else {
         ++iter;
       }
-
     } else {
       ++iter;
     }
