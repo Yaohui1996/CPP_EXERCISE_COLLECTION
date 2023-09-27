@@ -6,20 +6,21 @@
 
 #include <iostream>
 
-int main() {
-  // (a) int ival = 1.01;
-  int ival = 1.01;
-  std::cout << "(a) int ival = 1.01;" << std::endl;
-  std::cout << "合法" << std::endl;
-  // (b) int &rval1 = 1.01;
-  std::cout << "(b) int &rval1 = 1.01;" << std::endl;
-  std::cout << "不合法" << std::endl;
-  // (c) int &rval2 = ival;
-  int &rval2 = ival;
-  std::cout << "(c) int &rval2 = ival;" << std::endl;
-  std::cout << "合法" << std::endl;
-  // (d) int &rval3;
-  std::cout << "(d) int &rval3;" << std::endl;
-  std::cout << "不合法" << std::endl;
-  return 0;
+int main()
+{
+    // (a) int ival = 1.01;
+    int ival = 1.01;
+    std::cout << "(a) int ival = 1.01;" << std::endl;
+    std::cout << "合法" << std::endl;
+    // (b) int &rval1 = 1.01;
+    std::cout << "(b) int &rval1 = 1.01;" << std::endl;
+    std::cout << "不合法" << std::endl;
+    // (c) int &rval2 = ival;
+    int &rval2 = ival;
+    std::cout << "(c) int &rval2 = ival;" << std::endl;
+    std::cout << "合法" << std::endl;
+    // (d) int &rval3;
+    std::cout << "(d) int &rval3;" << std::endl;
+    std::cout << "不合法" << std::endl;
+    return 0;
 }

@@ -18,46 +18,51 @@
 
 using namespace std;
 
-void func1(string s) {
-  const string num_target = "0123456789";
-  const string letter_target =
-      "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+void func1(string s)
+{
+    const string num_target = "0123456789";
+    const string letter_target = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  string::size_type i = 0;
-  while ((i = s.find_first_of(num_target, i)) != string::npos) {
-    cout << "位置为: " << i << " 字符为: " << s[i] << endl;
-    ++i;
-  }
+    string::size_type i = 0;
+    while ((i = s.find_first_of(num_target, i)) != string::npos)
+    {
+        cout << "位置为: " << i << " 字符为: " << s[i] << endl;
+        ++i;
+    }
 
-  i = 0;
-  while ((i = s.find_first_of(letter_target, i)) != string::npos) {
-    cout << "位置为: " << i << " 字符为: " << s[i] << endl;
-    ++i;
-  }
+    i = 0;
+    while ((i = s.find_first_of(letter_target, i)) != string::npos)
+    {
+        cout << "位置为: " << i << " 字符为: " << s[i] << endl;
+        ++i;
+    }
 }
 
-void func2(string s) {
-  const string num_target = "0123456789";
-  const string letter_target =
-      "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+void func2(string s)
+{
+    const string num_target = "0123456789";
+    const string letter_target = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  string::size_type i = 0;
-  while ((i = s.find_first_not_of(letter_target, i)) != string::npos) {
-    cout << "位置为: " << i << " 字符为: " << s[i] << endl;
-    ++i;
-  }
+    string::size_type i = 0;
+    while ((i = s.find_first_not_of(letter_target, i)) != string::npos)
+    {
+        cout << "位置为: " << i << " 字符为: " << s[i] << endl;
+        ++i;
+    }
 
-  i = 0;
-  while ((i = s.find_first_not_of(num_target, i)) != string::npos) {
-    cout << "位置为: " << i << " 字符为: " << s[i] << endl;
-    ++i;
-  }
+    i = 0;
+    while ((i = s.find_first_not_of(num_target, i)) != string::npos)
+    {
+        cout << "位置为: " << i << " 字符为: " << s[i] << endl;
+        ++i;
+    }
 }
 
-int main() {
-  const string testcase = "ab2c3d7R4E6";
-  func1(testcase);
-  func2(testcase);
+int main()
+{
+    const string testcase = "ab2c3d7R4E6";
+    func1(testcase);
+    func2(testcase);
 
-  return 0;
+    return 0;
 }

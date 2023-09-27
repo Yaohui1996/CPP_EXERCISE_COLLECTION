@@ -3,24 +3,27 @@
 #include "Sales_item.h"
 #include <iostream>
 
-int main() {
-  Sales_item nowBook;
-  std::cin >> nowBook;
-  int counter = 1;
-  std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录"
-            << std::endl;
-  Sales_item newBook;
-  while (std::cin >> newBook) {
-    if (newBook.isbn() == nowBook.isbn()) {
-      ++counter;
-    } else {
-      nowBook = newBook;
-      counter = 1;
+int main()
+{
+    Sales_item nowBook;
+    std::cin >> nowBook;
+    int counter = 1;
+    std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << std::endl;
+    Sales_item newBook;
+    while (std::cin >> newBook)
+    {
+        if (newBook.isbn() == nowBook.isbn())
+        {
+            ++counter;
+        }
+        else
+        {
+            nowBook = newBook;
+            counter = 1;
+        }
+        std::cout << "书籍： " << nowBook.isbn() << " 有" << counter << " 条销售记录" << std::endl;
     }
-    std::cout << "书籍： " << nowBook.isbn() << " 有" << counter
-              << " 条销售记录" << std::endl;
-  }
-  return 0;
+    return 0;
 }
 
 // input:

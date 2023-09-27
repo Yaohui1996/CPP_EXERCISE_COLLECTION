@@ -18,9 +18,10 @@
 
 using namespace std;
 
-int main() {
-  vector<double> v = {1.0, 2.0, 3.0, 4.0, 5.0};
-  cout << accumulate(v.cbegin(), v.cend(), 0) << endl;
+int main()
+{
+    vector<double> v = {1.0, 2.0, 3.0, 4.0, 5.0};
+    cout << accumulate(v.cbegin(), v.cend(), 0) << endl;
 
-  return 0;
+    return 0;
 }

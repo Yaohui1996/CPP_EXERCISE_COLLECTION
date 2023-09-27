@@ -4,4 +4,7 @@
 
 // Sales_data(std::istream &is = std::cin) { read(is, *this); }
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

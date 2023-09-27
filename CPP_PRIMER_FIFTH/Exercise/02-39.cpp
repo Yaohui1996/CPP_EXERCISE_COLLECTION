@@ -1,5 +1,10 @@
 #include <iostream>
 
-struct Foo {};
+struct Foo
+{
+};
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

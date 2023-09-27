@@ -7,7 +7,8 @@ using namespace std;
 
 int f(int x, int y);
 
-int main() {
-  vector<int (*)(int, int)> v;
-  return 0;
+int main()
+{
+    vector<int (*)(int, int)> v;
+    return 0;
 }

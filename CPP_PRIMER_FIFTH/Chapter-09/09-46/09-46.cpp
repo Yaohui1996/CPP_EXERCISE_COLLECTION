@@ -16,16 +16,18 @@
 
 using namespace std;
 
-string func(string name, string front, string back) {
-  name.insert(0, front);
-  name.insert(name.size(), back);
-  return name;
+string func(string name, string front, string back)
+{
+    name.insert(0, front);
+    name.insert(name.size(), back);
+    return name;
 }
 
-int main() {
-  string name = "Jack";
-  cout << name << endl;
-  name = func(name, "Mr.", "III");
-  cout << name << endl;
-  return 0;
+int main()
+{
+    string name = "Jack";
+    cout << name << endl;
+    name = func(name, "Mr.", "III");
+    cout << name << endl;
+    return 0;
 }

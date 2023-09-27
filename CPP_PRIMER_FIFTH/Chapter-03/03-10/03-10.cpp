@@ -14,17 +14,19 @@
 
 using namespace std;
 
-int main() {
-  string s;
-  cin >> s;
-  string ret;
-  for (const char &x : s) {
-    if (!ispunct(x))
-      ret += x;
-    else
-      continue;
-  }
-  cout << ret << endl;
+int main()
+{
+    string s;
+    cin >> s;
+    string ret;
+    for (const char &x : s)
+    {
+        if (!ispunct(x))
+            ret += x;
+        else
+            continue;
+    }
+    cout << ret << endl;
 
-  return 0;
+    return 0;
 }

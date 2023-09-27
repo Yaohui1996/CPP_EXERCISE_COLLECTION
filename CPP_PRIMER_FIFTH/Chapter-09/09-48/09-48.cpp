@@ -15,4 +15,7 @@
 // name = "r2d2"
 // 因此返回string::npos
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

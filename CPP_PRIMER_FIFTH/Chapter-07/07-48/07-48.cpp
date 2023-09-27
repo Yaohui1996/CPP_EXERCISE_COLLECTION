@@ -2,7 +2,10 @@
 // Created by Yaohui Li on 2021/2/20.
 //
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}
 
 // string null_isbn("9-999-9999-9");
 // 创建一个字符串null_isbn，并用"9-999-9999-9"对其初始化

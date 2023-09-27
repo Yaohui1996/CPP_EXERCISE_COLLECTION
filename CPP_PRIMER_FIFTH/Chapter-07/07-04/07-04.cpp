@@ -6,13 +6,15 @@
 
 using std::string;
 
-struct Person {
-  // 数据成员
-  std::string name;
-  std::string address;
+struct Person
+{
+    // 数据成员
+    std::string name;
+    std::string address;
 };
 
-int main() {
-  Person personOne;
-  return 0;
+int main()
+{
+    Person personOne;
+    return 0;
 }

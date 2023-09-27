@@ -1,6 +1,9 @@
 #include <iostream>
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}
 
 /*
  * 引用是变量的别名，引用不是对象

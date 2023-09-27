@@ -9,17 +9,20 @@ using namespace std;
 
 int calSum(initializer_list<int> li);
 
-int main() {
-  cout << calSum({1, 2, 3, 4}) << endl;
-  cout << calSum({1, 2, 3, 4, 5}) << endl;
+int main()
+{
+    cout << calSum({1, 2, 3, 4}) << endl;
+    cout << calSum({1, 2, 3, 4, 5}) << endl;
 
-  return 0;
+    return 0;
 }
 
-int calSum(initializer_list<int> li) {
-  int ret = 0;
-  for (auto &i : li) {
-    ret += i;
-  }
-  return ret;
+int calSum(initializer_list<int> li)
+{
+    int ret = 0;
+    for (auto &i : li)
+    {
+        ret += i;
+    }
+    return ret;
 }

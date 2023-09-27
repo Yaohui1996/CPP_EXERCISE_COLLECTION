@@ -3,11 +3,13 @@
 #include "Sales_item.h"
 #include <iostream>
 
-int main() {
-  Sales_item book;
-  while (std::cin >> book) {
-    std::cout << book << std::endl;
-  }
-  return 0;
+int main()
+{
+    Sales_item book;
+    while (std::cin >> book)
+    {
+        std::cout << book << std::endl;
+    }
+    return 0;
 }
 // input: 0-201-70353-x 4 24.99

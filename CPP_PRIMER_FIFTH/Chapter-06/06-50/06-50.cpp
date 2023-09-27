@@ -2,7 +2,10 @@
 // Created by Yaohui Li on 2021/2/14.
 //
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}
 
 /*
  * (a) void f(int, int);和void f(double, double = 3.14);是可行函数。

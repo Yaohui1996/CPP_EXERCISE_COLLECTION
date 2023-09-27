@@ -1,6 +1,9 @@
 #include <iostream>
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}
 
 // int、long、long long、short的区别：
 // int：整型｜最小16位

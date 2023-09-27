@@ -5,7 +5,8 @@
 #include "StrBlob.h"
 #include <iostream>
 
-int main() {
-  std::cout << "见StrBlog.h" << std::endl;
-  return 0;
+int main()
+{
+    std::cout << "见StrBlog.h" << std::endl;
+    return 0;
 }

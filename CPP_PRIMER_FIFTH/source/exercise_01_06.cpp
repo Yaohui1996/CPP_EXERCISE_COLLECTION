@@ -7,10 +7,10 @@
 #include <cstdint>
 #include <iostream>
 
-int main() {
-  int32_t v1 = 1;
-  int32_t v2 = 3;
-  std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2
-            << std::endl;
-  return 0;
+int main()
+{
+    int32_t v1 = 1;
+    int32_t v2 = 3;
+    std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << std::endl;
+    return 0;
 }

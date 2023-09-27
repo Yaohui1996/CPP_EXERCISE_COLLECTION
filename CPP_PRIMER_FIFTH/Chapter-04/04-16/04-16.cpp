@@ -1,9 +1,10 @@
 #include <iostream>
 
-int main() {
-  // if ((p = getPtr()) != 0)
+int main()
+{
+    // if ((p = getPtr()) != 0)
 
-  // if (i == 1024)
+    // if (i == 1024)
 
-  return 0;
+    return 0;
 }

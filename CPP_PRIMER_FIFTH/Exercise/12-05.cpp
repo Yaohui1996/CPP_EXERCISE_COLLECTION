@@ -13,10 +13,11 @@
 #include <initializer_list>
 #include <iostream>
 
-int main() {
-  // 比如:
-  StrBlob tmp_sb = {"a", "an", "the"};
-  // 若添加explicit, 则报错
-  tmp_sb.show();
-  return 0;
+int main()
+{
+    // 比如:
+    StrBlob tmp_sb = {"a", "an", "the"};
+    // 若添加explicit, 则报错
+    tmp_sb.show();
+    return 0;
 }

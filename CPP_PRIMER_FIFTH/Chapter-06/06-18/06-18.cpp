@@ -12,4 +12,7 @@ using namespace std;
 vector<int>::iterator change_val(int newVal, vector<int>::iterator it);
 // 把it指向位置的值修改为newVal，然后返回指向该位置的迭代器。
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

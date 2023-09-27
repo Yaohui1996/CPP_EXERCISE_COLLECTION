@@ -2,7 +2,8 @@
 
 #include <iostream>
 
-int main() {
-  std::cout << "略" << std::endl;
-  return 0;
+int main()
+{
+    std::cout << "略" << std::endl;
+    return 0;
 }

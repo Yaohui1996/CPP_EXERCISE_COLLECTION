@@ -8,14 +8,16 @@
 
 using namespace std;
 
-int main() {
-  // list<char *> l1{"haha", "xixi", "hehe"};
-  list<string> l1{"haha", "xixi", "hehe"};
+int main()
+{
+    // list<char *> l1{"haha", "xixi", "hehe"};
+    list<string> l1{"haha", "xixi", "hehe"};
 
-  vector<string> v1(l1.begin(), l1.end());
-  for (const auto &i : v1) {
-    cout << i << endl;
-  }
+    vector<string> v1(l1.begin(), l1.end());
+    for (const auto &i : v1)
+    {
+        cout << i << endl;
+    }
 
-  return 0;
+    return 0;
 }

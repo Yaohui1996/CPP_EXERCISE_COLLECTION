@@ -2,7 +2,10 @@
 // Created by Yaohui Li on 2021/2/19.
 //
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}
 /*
  * 含义：
  * 将类内部分成员设置为外部不可见，而提供部分接口给外面，这样的行为叫做封装

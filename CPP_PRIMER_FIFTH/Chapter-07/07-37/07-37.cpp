@@ -11,4 +11,7 @@
 //     0, revenue = 0.0 Sales_data last("9-999-99999-9");
 // }
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

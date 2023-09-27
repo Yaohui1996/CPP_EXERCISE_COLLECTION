@@ -2,7 +2,10 @@
 // Created by Yaohui Li on 2021/2/20.
 //
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}
 
 /*
  * 不是字面值常量类

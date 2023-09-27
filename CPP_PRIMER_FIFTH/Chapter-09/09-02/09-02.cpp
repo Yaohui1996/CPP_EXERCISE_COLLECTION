@@ -7,7 +7,8 @@
 
 using namespace std;
 
-int main() {
-  list<deque<int>> ld;
-  return 0;
+int main()
+{
+    list<deque<int>> ld;
+    return 0;
 }

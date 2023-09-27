@@ -28,4 +28,7 @@ Type Exercise::setVal(Type parm) {
     return val;
 }
 */
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

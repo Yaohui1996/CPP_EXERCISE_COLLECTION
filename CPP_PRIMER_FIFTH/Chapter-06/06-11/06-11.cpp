@@ -8,13 +8,17 @@ using namespace std;
 
 void reset(int &x);
 
-int main() {
-  int a = 10;
-  cout << "a = " << a << endl;
-  reset(a);
-  cout << "a = " << a << endl;
+int main()
+{
+    int a = 10;
+    cout << "a = " << a << endl;
+    reset(a);
+    cout << "a = " << a << endl;
 
-  return 0;
+    return 0;
 }
 
-void reset(int &x) { x = 0; }
+void reset(int &x)
+{
+    x = 0;
+}

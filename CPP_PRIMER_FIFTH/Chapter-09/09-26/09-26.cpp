@@ -18,47 +18,60 @@
 
 using namespace std;
 
-int main() {
-  int ia[] = {0, 1, 1, 2, 3, 5, 8, 13, 21, 55, 89};
-  vector<int> v(begin(ia), end(ia));
-  list<int> l(begin(ia), end(ia));
+int main()
+{
+    int ia[] = {0, 1, 1, 2, 3, 5, 8, 13, 21, 55, 89};
+    vector<int> v(begin(ia), end(ia));
+    list<int> l(begin(ia), end(ia));
 
-  // print v
-  for (const auto &item : v) {
-    cout << item << " ";
-  }
-  cout << "\n";
-  // print l
-  for (const auto &item : l) {
-    cout << item << " ";
-  }
-  cout << "\n";
-
-  for (auto it = l.begin(); it != l.end();) {
-    if ((*it) % 2 != 0) {
-      it = l.erase(it);
-    } else {
-      ++it;
+    // print v
+    for (const auto &item : v)
+    {
+        cout << item << " ";
     }
-  }
-  for (auto it = v.begin(); it != v.end();) {
-    if ((*it) % 2 == 0) {
-      it = v.erase(it);
-    } else {
-      ++it;
+    cout << "\n";
+    // print l
+    for (const auto &item : l)
+    {
+        cout << item << " ";
     }
-  }
+    cout << "\n";
 
-  // print v
-  for (const auto &item : v) {
-    cout << item << " ";
-  }
-  cout << "\n";
-  // print l
-  for (const auto &item : l) {
-    cout << item << " ";
-  }
-  cout << "\n";
+    for (auto it = l.begin(); it != l.end();)
+    {
+        if ((*it) % 2 != 0)
+        {
+            it = l.erase(it);
+        }
+        else
+        {
+            ++it;
+        }
+    }
+    for (auto it = v.begin(); it != v.end();)
+    {
+        if ((*it) % 2 == 0)
+        {
+            it = v.erase(it);
+        }
+        else
+        {
+            ++it;
+        }
+    }
 
-  return 0;
+    // print v
+    for (const auto &item : v)
+    {
+        cout << item << " ";
+    }
+    cout << "\n";
+    // print l
+    for (const auto &item : l)
+    {
+        cout << item << " ";
+    }
+    cout << "\n";
+
+    return 0;
 }

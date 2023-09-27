@@ -4,4 +4,7 @@
 // front_inserter指向容器的头部，对其赋值调用对应的push_front()函数；
 // inserter则调用对应的insert()函数。
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

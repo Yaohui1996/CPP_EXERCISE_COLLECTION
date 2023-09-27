@@ -10,16 +10,17 @@
 
 #include "PrintUtils.h"
 
-int main() {
-  std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-  std::vector<int> v1, v3;
-  std::deque<int> d2;
-  std::copy(v.cbegin(), v.cend(), std::back_inserter(v1));
-  std::copy(v.cbegin(), v.cend(), std::front_inserter(d2));
-  std::copy(v.cbegin(), v.cend(), std::inserter(v3, v3.begin()));
-  yaohui::utils::print_vector(v);
-  yaohui::utils::print_vector(v1);
-  yaohui::utils::print_deque(d2);
-  yaohui::utils::print_vector(v3);
-  return 0;
+int main()
+{
+    std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    std::vector<int> v1, v3;
+    std::deque<int> d2;
+    std::copy(v.cbegin(), v.cend(), std::back_inserter(v1));
+    std::copy(v.cbegin(), v.cend(), std::front_inserter(d2));
+    std::copy(v.cbegin(), v.cend(), std::inserter(v3, v3.begin()));
+    yaohui::utils::print_vector(v);
+    yaohui::utils::print_vector(v1);
+    yaohui::utils::print_deque(d2);
+    yaohui::utils::print_vector(v3);
+    return 0;
 }

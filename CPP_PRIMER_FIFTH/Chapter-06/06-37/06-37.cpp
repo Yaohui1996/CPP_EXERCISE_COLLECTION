@@ -23,4 +23,7 @@ decltype(arr) &hanshu3();
  * 方法2最直观
  */
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

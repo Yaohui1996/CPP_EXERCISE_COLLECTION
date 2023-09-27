@@ -3,7 +3,8 @@
 
 #include <iostream>
 
-int main() {
-  std::cout << "解答: 因为data->size()必然为非负数" << std::endl;
-  return 0;
+int main()
+{
+    std::cout << "解答: 因为data->size()必然为非负数" << std::endl;
+    return 0;
 }

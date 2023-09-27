@@ -6,4 +6,7 @@ void f(int); // 传值
 
 void f(int &); // 传引用
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

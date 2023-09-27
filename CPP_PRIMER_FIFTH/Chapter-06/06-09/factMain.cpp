@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int main() {
-  cout << fact(5) << endl;
-  return 0;
+int main()
+{
+    cout << fact(5) << endl;
+    return 0;
 }

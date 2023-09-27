@@ -19,41 +19,52 @@
 
 using namespace std;
 
-string yh_replace(string s, string oldVal, string newVal) {
-  auto iter = s.begin();
-  while (iter != s.end()) {
-    if (*iter == oldVal.front()) { // 若第一个字符能匹配上
-      bool can_match = true;
-      auto p1 = iter;
-      auto p2 = oldVal.begin();
-      while (p1 != s.end() && p2 != oldVal.end()) {
-        if (*p1 != *p2) {
-          can_match = false;
-          break;
-        }
-        ++p1;
-        ++p2;
-      }
+string yh_replace(string s, string oldVal, string newVal)
+{
+    auto iter = s.begin();
+    while (iter != s.end())
+    {
+        if (*iter == oldVal.front())
+        { // 若第一个字符能匹配上
+            bool can_match = true;
+            auto p1 = iter;
+            auto p2 = oldVal.begin();
+            while (p1 != s.end() && p2 != oldVal.end())
+            {
+                if (*p1 != *p2)
+                {
+                    can_match = false;
+                    break;
+                }
+                ++p1;
+                ++p2;
+            }
 
-      if (can_match) { // 若每个字符都能匹配上
-        // 字符串替换
-        iter = s.erase(iter, iter + oldVal.size());
-        iter = s.insert(iter, newVal.begin(), newVal.end());
-        iter = iter + newVal.size();
-      } else {
-        ++iter;
-      }
-    } else {
-      ++iter;
+            if (can_match)
+            { // 若每个字符都能匹配上
+                // 字符串替换
+                iter = s.erase(iter, iter + oldVal.size());
+                iter = s.insert(iter, newVal.begin(), newVal.end());
+                iter = iter + newVal.size();
+            }
+            else
+            {
+                ++iter;
+            }
+        }
+        else
+        {
+            ++iter;
+        }
     }
-  }
-  return s;
+    return s;
 }
 
-int main() {
-  string s = "hello tho tho thru tho hhhh";
-  cout << s << endl;
-  s = yh_replace(s, "tho", "though");
-  s = yh_replace(s, "thru", "through");
-  cout << s << endl;
+int main()
+{
+    string s = "hello tho tho thru tho hhhh";
+    cout << s << endl;
+    s = yh_replace(s, "tho", "though");
+    s = yh_replace(s, "thru", "through");
+    cout << s << endl;
 }

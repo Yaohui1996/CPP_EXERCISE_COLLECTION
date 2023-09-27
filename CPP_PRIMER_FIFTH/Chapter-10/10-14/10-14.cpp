@@ -6,8 +6,9 @@
 
 #include <iostream>
 
-int main() {
-  auto f = [](int a, int b) -> int { return a + b; };
-  std::cout << f(6, 20) << std::endl;
-  return 0;
+int main()
+{
+    auto f = [](int a, int b) -> int { return a + b; };
+    std::cout << f(6, 20) << std::endl;
+    return 0;
 }

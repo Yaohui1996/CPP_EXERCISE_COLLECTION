@@ -4,6 +4,12 @@
 #include <string>
 
 using namespace std;
-bool is_empty(const string &s) { return s.empty(); }
+bool is_empty(const string &s)
+{
+    return s.empty();
+}
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

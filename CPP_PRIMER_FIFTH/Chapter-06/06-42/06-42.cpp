@@ -6,8 +6,12 @@
 
 using namespace std;
 
-string make_plural(size_t ctr, const string &ending, const string &word = "s") {
-  return (ctr > 1) ? word + ending : word;
+string make_plural(size_t ctr, const string &ending, const string &word = "s")
+{
+    return (ctr > 1) ? word + ending : word;
 }
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

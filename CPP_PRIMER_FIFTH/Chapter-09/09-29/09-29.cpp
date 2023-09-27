@@ -18,23 +18,24 @@
 
 using namespace std;
 
-int main() {
-  vector<int> v;
-  for (vector<int>::size_type i = 0; i != 25; ++i)
-    v.push_back(i);
-  for (int item : v)
-    cout << item << " "; // print v
-  cout << "\n";
+int main()
+{
+    vector<int> v;
+    for (vector<int>::size_type i = 0; i != 25; ++i)
+        v.push_back(i);
+    for (int item : v)
+        cout << item << " "; // print v
+    cout << "\n";
 
-  v.resize(100);
-  for (int item : v)
-    cout << item << " "; // print v
-  cout << "\n";
+    v.resize(100);
+    for (int item : v)
+        cout << item << " "; // print v
+    cout << "\n";
 
-  v.resize(10);
-  for (int item : v)
-    cout << item << " "; // print v
-  cout << "\n";
+    v.resize(10);
+    for (int item : v)
+        cout << item << " "; // print v
+    cout << "\n";
 
-  return 0;
+    return 0;
 }

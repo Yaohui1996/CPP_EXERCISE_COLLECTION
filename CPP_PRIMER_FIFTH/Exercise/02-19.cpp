@@ -5,10 +5,11 @@
 
 #include <iostream>
 
-int main() {
-  std::cout << "引用是变量的别名，引用不是对象" << std::endl;
-  std::cout << "指针是存储地址的变量，指针是对象" << std::endl;
-  return 0;
+int main()
+{
+    std::cout << "引用是变量的别名，引用不是对象" << std::endl;
+    std::cout << "指针是存储地址的变量，指针是对象" << std::endl;
+    return 0;
 }
 
 /*

@@ -19,21 +19,22 @@
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
-  const string ade = "bdfghjklpqty";
+int main(int argc, char *argv[])
+{
+    const string ade = "bdfghjklpqty";
 
-  string result = "";
+    string result = "";
 
-  ifstream in_file(argv[1], ios::in);
-  string word;
-  while (in_file >> word) {
-    if (word.find_first_of(ade) == string::npos &&
-        word.size() > result.size()) {
-      result = word;
+    ifstream in_file(argv[1], ios::in);
+    string word;
+    while (in_file >> word)
+    {
+        if (word.find_first_of(ade) == string::npos && word.size() > result.size())
+        {
+            result = word;
+        }
     }
-  }
-  cout << "最长的既不包含上出头部分，也不包含下出头部分的单词为: " << result
-       << endl;
-  cout << "其长度为" << result.size() << endl;
-  return 0;
+    cout << "最长的既不包含上出头部分，也不包含下出头部分的单词为: " << result << endl;
+    cout << "其长度为" << result.size() << endl;
+    return 0;
 }

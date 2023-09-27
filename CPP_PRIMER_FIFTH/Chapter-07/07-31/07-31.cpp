@@ -4,15 +4,20 @@
 
 class Y;
 
-class X {
-public:
-  Y *pointToY;
+class X
+{
+  public:
+    Y *pointToY;
 
-private:
+  private:
 };
 
-class Y {
-  X objOfX;
+class Y
+{
+    X objOfX;
 };
 
-int main() { return 0; }
+int main()
+{
+    return 0;
+}

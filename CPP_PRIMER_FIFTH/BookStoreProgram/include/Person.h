@@ -15,46 +15,59 @@
 #include <iostream>
 #include <string>
 
-namespace yaohui {
-class Person {
-  friend std::istream &read(Person &p, std::istream &is);
-  friend std::ostream &print(const Person &p, std::ostream &os);
+namespace yaohui
+{
+class Person
+{
+    friend std::istream &read(Person &p, std::istream &is);
+    friend std::ostream &print(const Person &p, std::ostream &os);
 
-private:
-  std::string name_;
-  std::string address_;
+  private:
+    std::string name_;
+    std::string address_;
 
-public:
-  Person();
-  Person(const std::string &n, const std::string &a);
-  ~Person() = default;
+  public:
+    Person();
+    Person(const std::string &n, const std::string &a);
+    ~Person() = default;
 
-public:
-  std::string name() const;
-  std::string address() const;
+  public:
+    std::string name() const;
+    std::string address() const;
 
-private:
+  private:
 };
 
 std::istream &read(Person &p, std::istream &is);
 std::ostream &print(const Person &p, std::ostream &os);
 
-std::string Person::name() const { return this->name_; }
-std::string Person::address() const { return this->address_; }
-
-std::istream &read(Person &p, std::istream &is) {
-  is >> p.name_ >> p.address_;
-  return is;
+std::string Person::name() const
+{
+    return this->name_;
+}
+std::string Person::address() const
+{
+    return this->address_;
 }
 
-std::ostream &print(const Person &p, std::ostream &os) {
-  os << p.name_ << " " << p.address_;
-  return os;
+std::istream &read(Person &p, std::istream &is)
+{
+    is >> p.name_ >> p.address_;
+    return is;
 }
 
-Person::Person() : name_(""), address_("") {}
-Person::Person(const std::string &n, const std::string &a)
-    : name_(n), address_(a) {}
+std::ostream &print(const Person &p, std::ostream &os)
+{
+    os << p.name_ << " " << p.address_;
+    return os;
+}
+
+Person::Person() : name_(""), address_("")
+{
+}
+Person::Person(const std::string &n, const std::string &a) : name_(n), address_(a)
+{
+}
 
 } // namespace yaohui
 
