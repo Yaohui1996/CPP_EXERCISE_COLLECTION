@@ -45,6 +45,26 @@ int main()
     }
 
     // 三角形
-
+    int h = 0;
+    std::cout << "请输入三角形的直角边长: ";
+    std::cin >> h;
+    for (int r = 0; r != h; ++r)
+    {
+        if (r == 0)
+        {
+            std::cout << "*";
+        }
+        else if (r == h - 1)
+        {
+            std::cout << std::string(r + 2, '*');
+        }
+        else
+        {
+            std::cout << "*";
+            std::cout << std::string(r, ' ');
+            std::cout << "*";
+        }
+        std::cout << std::endl;
+    }
     return 0;
 }
