@@ -30,21 +30,23 @@ int main()
     {
         const std::string::size_type cols = greeting.size() + left + right + 2;
         std::string::size_type c = 0;
-        while (c != cols)
+        if (r == 0 || r == rows - 1)
         {
-            if (r == top + 1 && c == left + 1)
-            {
-                std::cout << greeting;
-                c += greeting.size();
-            }
-            else
-            {
-                if (r == 0 || r == rows - 1 || c == 0 || c == cols - 1)
-                    std::cout << "*";
-                else
-                    std::cout << " ";
-                ++c;
-            }
+            std::cout << std::string(cols, '*');
+        }
+        else if (r < top + 1 || r > rows - 2 - bottom)
+        {
+            std::cout << "*";
+            std::cout << std::string(cols - 2, ' ');
+            std::cout << "*";
+        }
+        else
+        {
+            std::cout << "*";
+            std::cout << std::string(left, ' ');
+            std::cout << greeting;
+            std::cout << std::string(right, ' ');
+            std::cout << "*";
         }
         std::cout << std::endl;
     }
