@@ -23,7 +23,28 @@ int main()
     }
 
     // 长方形
+    int l1 = 0;
+    int l2 = 0;
+    std::cout << "请输入长方形的长: ";
+    std::cin >> l1;
+    std::cout << "请输入长方形的宽: ";
+    std::cin >> l2;
+    for (int r = 0; r != l2; ++r)
+    {
+        if (r == 0 || r == l2 - 1)
+        {
+            std::cout << std::string(l1, '*');
+        }
+        else
+        {
+            std::cout << "*";
+            std::cout << std::string(l1 - 2, ' ');
+            std::cout << "*";
+        }
+        std::cout << std::endl;
+    }
 
     // 三角形
+
     return 0;
 }
