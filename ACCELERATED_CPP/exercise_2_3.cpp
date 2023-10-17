@@ -8,12 +8,20 @@ int main()
     std::string name;
     std::cin >> name;
     const std::string greeting = "Hello, " + name + "!";
-    // std::cout << "Hello, " << name << "!" << std::endl;
 
-    const int32_t left = 2;
-    const int32_t right = 3;
-    const int32_t top = 1;
-    const int32_t bottom = 0;
+    int32_t left = 0;
+    int32_t right = 0;
+    int32_t top = 0;
+    int32_t bottom = 0;
+    std::cout << "请输入上侧空白符数目: ";
+    std::cin >> top;
+    std::cout << "请输入下侧空白符数目: ";
+    std::cin >> bottom;
+    std::cout << "请输入左侧空白符数目: ";
+    std::cin >> left;
+    std::cout << "请输入右侧空白符数目: ";
+    std::cin >> right;
+
     const int32_t rows = top + bottom + 3;
 
     std::cout << std::endl;
