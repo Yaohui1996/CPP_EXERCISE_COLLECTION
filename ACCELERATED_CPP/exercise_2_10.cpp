@@ -9,6 +9,7 @@ int main()
     {
         using std::cout;
         cout << "*";
+        ++k;
     }
     std::cout << std::endl;
     return 0;
