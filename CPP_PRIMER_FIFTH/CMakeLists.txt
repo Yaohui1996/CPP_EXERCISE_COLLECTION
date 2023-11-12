@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.21)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_EXPORT_COMPILE_COMMANDS True)
+
 project(CPP_Primer_5th_Exercise CXX)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 add_library(PrintUtils STATIC ${CMAKE_CURRENT_SOURCE_DIR}/Utils/src/PrintUtils.cpp)
 target_include_directories(PrintUtils PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Utils/include)
