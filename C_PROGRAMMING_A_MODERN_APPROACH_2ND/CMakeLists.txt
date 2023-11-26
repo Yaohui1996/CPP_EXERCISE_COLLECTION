@@ -256,3 +256,6 @@ add_executable(
 )
 target_include_directories(_17_04_ PRIVATE /chapter-17-04/)
 
+
+add_executable(exe_27_01 exe_27_01.c)
+
