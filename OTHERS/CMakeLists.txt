@@ -5,3 +5,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 project(OTHERS CXX)
 
 add_executable(test_std_any test_std_any.cpp)
+add_executable(multi_thread multi_thread.cpp)
