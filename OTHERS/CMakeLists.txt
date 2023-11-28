@@ -6,3 +6,5 @@ project(OTHERS CXX)
 
 add_executable(test_std_any test_std_any.cpp)
 add_executable(multi_thread multi_thread.cpp)
+add_executable(txt2asci txt2asci.cpp)
+add_executable(asci2txt asci2txt.cpp)
