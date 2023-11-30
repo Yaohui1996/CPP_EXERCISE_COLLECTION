@@ -16,3 +16,5 @@ add_executable(max2 ${CMAKE_CURRENT_SOURCE_DIR}/basics/max2.cpp)
 add_executable(max3 ${CMAKE_CURRENT_SOURCE_DIR}/basics/max3.cpp)
 
 add_executable(max3a ${CMAKE_CURRENT_SOURCE_DIR}/basics/max3a.cpp)
+
+add_executable(max4 ${CMAKE_CURRENT_SOURCE_DIR}/basics/max4.cpp)
