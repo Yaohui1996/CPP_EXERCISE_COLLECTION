@@ -6,6 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 
 project(CPP_EXERCISE_COLLECTION CXX)
 
+add_subdirectory(CPP_TEMPLATES)
 add_subdirectory(C_PROGRAMMING_A_MODERN_APPROACH_2ND)
 add_subdirectory(OTHERS)
 add_subdirectory(ACCELERATED_CPP)
