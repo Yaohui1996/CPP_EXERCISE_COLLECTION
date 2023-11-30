@@ -30,12 +30,12 @@ bool make_thread(int n)
 int main(int argc, const char *argv[])
 {
     std::vector<std::thread> threads;
-    for (int i = 0; i != 10; ++i)
+    for (int i = 0; i != 16; ++i)
     {
         threads.emplace_back(make_thread, i);
     }
 
-    for (int i = 0; i != 10; ++i)
+    for (int i = 0; i != 16; ++i)
     {
         threads[i].join();
     }
