@@ -24,3 +24,6 @@ target_include_directories(stack1test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
 
 add_executable(stack3test ${CMAKE_CURRENT_SOURCE_DIR}/basics/stack3test.cpp)
 target_include_directories(stack3test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
+
+add_executable(stack4test ${CMAKE_CURRENT_SOURCE_DIR}/basics/stack4test.cpp)
+target_include_directories(stack4test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
