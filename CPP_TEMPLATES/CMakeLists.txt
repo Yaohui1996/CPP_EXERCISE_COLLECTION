@@ -22,6 +22,10 @@ add_executable(max4 ${CMAKE_CURRENT_SOURCE_DIR}/basics/max4.cpp)
 add_executable(stack1test ${CMAKE_CURRENT_SOURCE_DIR}/basics/stack1test.cpp)
 target_include_directories(stack1test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
 
+
+add_executable(stack2test ${CMAKE_CURRENT_SOURCE_DIR}/basics/stack2test.cpp)
+target_include_directories(stack2test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
+
 add_executable(stack3test ${CMAKE_CURRENT_SOURCE_DIR}/basics/stack3test.cpp)
 target_include_directories(stack3test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
 
