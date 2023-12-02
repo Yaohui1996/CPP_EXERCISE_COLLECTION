@@ -8,6 +8,7 @@
 #include <future>
 #include <iostream>
 #include <memory>
+#include <string>
 #include <thread>
 #include <vector>
 
@@ -29,13 +30,15 @@ bool make_thread(int n)
 
 int main(int argc, const char *argv[])
 {
+    const int thread_cnt = std::stoi(argv[1]);
+    std::cout << "thread cnt: " << thread_cnt << std::endl;
     std::vector<std::thread> threads;
-    for (int i = 0; i != 16; ++i)
+    for (int i = 0; i != thread_cnt; ++i)
     {
         threads.emplace_back(make_thread, i);
     }
 
-    for (int i = 0; i != 16; ++i)
+    for (int i = 0; i != thread_cnt; ++i)
     {
         threads[i].join();
     }
