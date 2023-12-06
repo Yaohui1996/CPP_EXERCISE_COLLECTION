@@ -17,3 +17,21 @@ public:
         return s.size();
     }
 };
+
+class Solution2 {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        auto iter1 = nums.begin();
+        auto iter2 = nums.begin();
+        while(iter2 != nums.end()){
+            if(*iter2 == *iter1){
+                ++iter2;
+            }else{
+                ++iter1;
+                *iter1 = *iter2;
+                ++iter2;
+            }
+        }
+        return iter1 - nums.begin() + 1;
+    }
+};
