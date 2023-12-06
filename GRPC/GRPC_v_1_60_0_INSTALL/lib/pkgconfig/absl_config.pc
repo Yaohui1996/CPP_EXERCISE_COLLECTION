@@ -1,0 +1,12 @@
+prefix=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL
+exec_prefix=${prefix}
+libdir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/lib
+includedir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/include
+
+Name: absl_config
+Description: Abseil config library
+URL: https://abseil.io/
+Version: 20230802
+Requires:
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

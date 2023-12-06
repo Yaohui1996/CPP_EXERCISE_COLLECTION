@@ -1,0 +1,12 @@
+prefix=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL
+exec_prefix=${prefix}
+libdir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/lib
+includedir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/include
+
+Name: absl_log_sink
+Description: Abseil log_sink library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_config = 20230802, absl_log_entry = 20230802
+Libs: -L${libdir}  -labsl_log_sink 
+Cflags: -I${includedir} -DNOMINMAX

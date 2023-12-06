@@ -1,0 +1,11 @@
+prefix=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL
+exec_prefix=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL
+libdir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/lib
+includedir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/include
+
+Name: UTF8 Range
+Description: Google's UTF8 Library
+Version: 1.0
+Requires: absl_strings
+Libs: -L${libdir} -lutf8_validity -lutf8_range 
+Cflags: -I${includedir}

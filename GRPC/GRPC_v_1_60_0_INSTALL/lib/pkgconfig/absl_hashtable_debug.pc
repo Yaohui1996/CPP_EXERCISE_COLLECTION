@@ -1,0 +1,12 @@
+prefix=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL
+exec_prefix=${prefix}
+libdir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/lib
+includedir=/home/ubuntu/yaohui-workspace/GRPC_v_1_60_0_INSTALL/include
+
+Name: absl_hashtable_debug
+Description: Abseil hashtable_debug library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_hashtable_debug_hooks = 20230802
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX
