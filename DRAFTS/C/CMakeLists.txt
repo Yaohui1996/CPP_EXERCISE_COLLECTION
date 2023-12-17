@@ -9,3 +9,4 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(hello-world helloworld.c)
 add_executable(print-format print_format.c)
+add_executable(test_negative_65 test_negative_65.c)
