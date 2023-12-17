@@ -58,6 +58,8 @@ template <typename BuildInType> void print_deque(const std::deque<BuildInType> &
     }
 }
 
+void test();
+
 } // namespace utils
 } // namespace yaohui
 
