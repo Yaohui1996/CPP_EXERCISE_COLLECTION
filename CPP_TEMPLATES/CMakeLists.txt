@@ -9,6 +9,9 @@ project(CPP_TEMPLATES CXX)
 add_executable(max ${CMAKE_CURRENT_SOURCE_DIR}/basics/max.cpp)
 target_include_directories(max PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
 
+add_executable(test-max ${CMAKE_CURRENT_SOURCE_DIR}/basics/test_max.cpp)
+target_include_directories(test-max PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/basics)
+
 add_executable(appendixB appendixB.cpp)
 
 add_executable(max2 ${CMAKE_CURRENT_SOURCE_DIR}/basics/max2.cpp)
