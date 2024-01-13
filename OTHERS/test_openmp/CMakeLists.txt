@@ -4,8 +4,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 project(TEST-OMP CXX)
 
-find_package(OpenMP REQUIRED)
+find_package(OpenMP COMPONENTS REQUIRED)
 
 add_executable(omp_multi_thread test_omp.cpp)
-target_compile_options(omp_multi_thread PUBLIC "-fopenmp")
-target_link_libraries(omp_multi_thread ${OpenMP_CXX_LIBRARIES})
+target_link_libraries(omp_multi_thread PRIVATE OpenMP::OpenMP_CXX)
