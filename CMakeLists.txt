@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.21)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS True)
+set(CMAKE_C_COMPILER "/opt/homebrew/bin/gcc-14")
+set(CMAKE_CXX_COMPILER "/opt/homebrew/bin/g++-14")
 
 project(CPP_EXERCISE_COLLECTION)
 
