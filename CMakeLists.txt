@@ -1,8 +1,21 @@
 cmake_minimum_required(VERSION 3.21)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS True)
-set(CMAKE_C_COMPILER "/opt/homebrew/bin/gcc-14")
-set(CMAKE_CXX_COMPILER "/opt/homebrew/bin/g++-14")
+
+message(STATUS "operating system: ${CMAKE_HOST_SYSTEM_NAME}-${CMAKE_HOST_SYSTEM_VERSION}")
+if(CMAKE_HOST_WIN32)
+    set(CMAKE_C_COMPILER "gcc")
+    set(CMAKE_CXX_COMPILER "g++")
+elseif(CMAKE_HOST_APPLE)
+    set(CMAKE_C_COMPILER "/opt/homebrew/bin/gcc-14")
+    set(CMAKE_CXX_COMPILER "/opt/homebrew/bin/g++-14")
+elseif(CMAKE_HOST_UNIX)
+    set(CMAKE_C_COMPILER "gcc")
+    set(CMAKE_CXX_COMPILER "g++")
+else()
+    message(FATAL_ERROR "the operating system of this host is not supported!")
+endif()
+
 
 project(CPP_EXERCISE_COLLECTION)
 
